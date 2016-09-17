@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StarCitizen - Ship Comparator</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <script
+			  src="https://code.jquery.com/jquery-3.1.0.min.js"
+			  integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+			  crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+    <script src="//cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+    <script src="./assets/app.js" charset="utf-8"></script>
+
+</head>
+<body class="container">
+    <h1><span class="blue">&lt;</span>Star Citizen<span class="blue">&gt;</span> <span class="yellow">Ship Comparator</span></h1>
+
+    <div class="nl-form">
+        Compare the
+        <input id="shipOneSearch" type="text" placeholder="Caterpillar" />
+        to the
+        <input id="shipTwoSearch" type="text" placeholder="Dragonfly Black" />.
+        <div class="nl-overlay"></div>
+    </div>
+
+    <table >
+    	<thead>
+    		<tr>
+    			<th></th>
+    			<th></th>
+    			<th></th>
+    		</tr>
+    	</thead>
+    	<tbody>
+    		<tr>
+    			<td>Manufacturer</td>
+    			<td id="oneManufacturer">-</td>
+    			<td id="twoManufacturer">-</td>
+    		</tr>
+    		<tr>
+    			<td>Focus</td>
+    			<td id="oneFocus">-</td>
+    			<td id="twoFocus">-</td>
+    		</tr>
+            <tr>
+    			<td>Dimension</td>
+    			<td id="oneDimension">-</td>
+    			<td id="twoDimension">-</td>
+    		</tr>
+            <tr>
+    			<td>Null-Cargo Mass</td>
+    			<td id="oneNullCargoMass">-</td>
+    			<td id="twoNullCargoMass">-</td>
+    		</tr>
+            <tr>
+    			<td>Cargo Capacity</td>
+                <td id="oneCargoCapacity">-</td>
+    			<td id="twoCargoCapacity">-</td>
+    		</tr>
+            <tr>
+    			<td>Max crew</td>
+                <td id="oneMaxCrew">-</td>
+    			<td id="twoMaxCrew">-</td>
+    		</tr>
+            <tr>
+    			<td>Engine</td>
+                <td id="oneEngine">-</td>
+    			<td id="twoEngine">-</td>
+    		</tr>
+            <tr>
+    			<td>Thrusters</td>
+                <td id="oneThrusters">-</td>
+    			<td id="twoThrusters">-</td>
+    		</tr>
+            <tr>
+    			<td>Shield</td>
+                <td id="oneShield">-</td>
+    			<td id="twoShield">-</td>
+    		</tr>
+            <tr>
+    			<td>Factory power plant</td>
+                <td id="oneFactoryPowerPlant">-</td>
+    			<td id="twoFactoryPowerPlant">-</td>
+    		</tr>
+    	</tbody>
+    </table>
+</body>
+</html>
