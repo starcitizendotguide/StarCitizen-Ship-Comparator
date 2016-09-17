@@ -97,7 +97,7 @@ function setValues(column, data) {
     );
 
     // Shield
-    var shield = find(data.structure, 'Shield'); // TODO: It's currently empty, but the name should be "Model" or something comparebale...
+    var shield = find(data.structure, 'Shield'); 
     $('#' + column + 'Shield').text(
         shield.multiplier + 'x ' + shield.value
     );
