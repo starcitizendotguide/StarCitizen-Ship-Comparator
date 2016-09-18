@@ -84,7 +84,7 @@ function setValues(column, data) {
     // Dimension
     $('#' + column + 'Dimension').text(
         data.dimension.length + 'm x ' + data.dimension.beam + 'm x ' + data.dimension.height + 'm'
-        + ' (' + (data.dimension.length * data.dimension.beam * data.dimension.height)  + 'm³)'
+        + ' (' + (data.dimension.length * data.dimension.beam * data.dimension.height).toFixed(2)  + 'm³)'
     );
 
     // Null-Cargo Mass
@@ -103,25 +103,25 @@ function setValues(column, data) {
     // Engine
     var engine = find(data.structure, 'Engine');
     $('#' + column + 'Engine').text(
-        engine.multiplier + 'x ' + engine.value.model
+        (engine.value.model == null ? 'N/A' : (engine.multiplier + 'x ' + engine.value.model))
     );
 
     // Thrusters
     var thrusters = find(data.structure, 'Thrusters');
     $('#' + column + 'Thrusters').text(
-        thrusters.multiplier + 'x ' + thrusters.value.model
+        (thrusters.value.model == null ? 'N/A' : (thrusters.multiplier + 'x ' + thrusters.value.model))
     );
 
     // Shield
     var shield = find(data.structure, 'Shield');
     $('#' + column + 'Shield').text(
-        shield.multiplier + 'x ' + shield.value.model
+        (shield.value.model == null ? 'N/A' : (shield.multiplier + 'x ' + shield.value.model))
     );
 
     // Factory power plant
     var factoryPowerPlant = find(data.structure, 'Factory power plant');
     $('#' + column + 'FactoryPowerPlant').text(
-        factoryPowerPlant.multiplier + 'x ' + factoryPowerPlant.value.model
+        (factoryPowerPlant.value.model == null ? 'N/A' : (factoryPowerPlant.multiplier + 'x ' + factoryPowerPlant.value.model))
     );
 }
 
