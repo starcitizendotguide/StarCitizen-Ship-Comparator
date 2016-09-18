@@ -484,7 +484,7 @@ function highlight() {
 
                     $.each(shieldOne.value, function() {
                         value += (
-                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">rating of ' + this.rating + '</span> and <span class="yellow"> a size of ' + this.size + '</span>.<br />'
+                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a  <span class="yellow"> a size of ' + this.size + '</span> and a <span class="yellow">max. size of ' + this.maxSize + '</span>.<br />'
                         );
                     });
 
@@ -499,7 +499,7 @@ function highlight() {
 
                     $.each(shieldTwo.value, function() {
                         value += (
-                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">rating of ' + this.rating + '</span> and <span class="yellow"> a size of ' + this.size + '</span>.<br />'
+                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a  <span class="yellow"> a size of ' + this.size + '</span> and a <span class="yellow">max. size of ' + this.maxSize + '</span>.<br />'
                         );
                     });
 
@@ -545,7 +545,7 @@ function highlight() {
 
                     $.each(factoryPowerPlantOne.value, function() {
                         value += (
-                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">rating of ' + this.rating + '</span> and <span class="yellow"> a size of ' + this.size + '</span>.<br />'
+                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a  <span class="yellow"> a size of ' + this.size + '</span> and a <span class="yellow">max. size of ' + this.maxSize + '</span>.<br />'
                         );
                     });
 
@@ -560,7 +560,7 @@ function highlight() {
 
                     $.each(factoryPowerPlantTwo.value, function() {
                         value += (
-                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">rating of ' + this.rating + '</span> and <span class="yellow"> a size of ' + this.size + '</span>.<br />'
+                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a  <span class="yellow"> a size of ' + this.size + '</span> and a <span class="yellow">max. size of ' + this.maxSize + '</span>.<br />'
                         );
                     });
 
@@ -570,11 +570,6 @@ function highlight() {
                     break;
 
             }
-
-            value += (
-                '<br /><br />'
-                + 'Equation: powerPlantsSize * powerPlantsMultiplier + powerPlantsMaxSize'
-            );
 
             return value;
 
