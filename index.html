@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <title>StarCitizen - Ship Comparator</title>
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/tooltipster.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/themes/tooltipster-punk.min.css" />
+
     <script
 			  src="https://code.jquery.com/jquery-3.1.0.min.js"
 			  integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
 			  crossorigin="anonymous"></script>
     <script src="//cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
     <script src="//cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+
+
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js"></script>
     <script src="./assets/app.js" charset="utf-8"></script>
 
 </head>
 <body class="container">
     <h1><span class="blue">&lt;</span>Star Citizen<span class="blue">&gt;</span> <span class="yellow">Ship Comparator</span></h1>
+    <h2>Search powered by <a href="https://www.algolia.com" target="_blank">Algolia</a></h2>
 
     <div class="nl-form">
         Compare the
@@ -24,7 +31,7 @@
         <div class="nl-overlay"></div>
     </div>
 
-    <table >
+    <table>
     	<thead>
     		<tr>
     			<th></th>
@@ -33,6 +40,11 @@
     		</tr>
     	</thead>
     	<tbody>
+            <tr>
+    			<td>Name</td>
+    			<td id="oneName">-</td>
+    			<td id="twoName">-</td>
+    		</tr>
     		<tr>
     			<td>Manufacturer</td>
     			<td id="oneManufacturer">-</td>
