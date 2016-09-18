@@ -4,8 +4,6 @@ var shipTwo = null;
 
 $(document).ready(function() {
 
-
-
     // Clear boxes
     $('#shipOneSearch').val('');
     $('#shipTwoSearch').val('');
@@ -122,6 +120,14 @@ function setValues(column, data) {
     var factoryPowerPlant = find(data.structure, 'Factory power plant');
     $('#' + column + 'FactoryPowerPlant').text(
         (factoryPowerPlant.value.model == null ? 'N/A' : (factoryPowerPlant.multiplier + 'x ' + factoryPowerPlant.value.model))
+    );
+
+    // Additional
+    var additional = find(misc, 'Additional');
+    $('#' + column + 'Additional').text(
+        (additional.length === 0 ? 'Nothing' : additional.value.map(function(value) {
+            return value.name;
+        }).join(', '))
     );
 }
 
