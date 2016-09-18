@@ -195,10 +195,10 @@ function highlight() {
     );
 
     // Compare Null-Cargo Mass
-    setHighlighting(
+    /*setHighlighting(
         'NullCargoMass',
         shipOne.mass.null_cargo,
-        shipTwo.mass.null_cargo/*,
+        shipTwo.mass.null_cargo,
         function(state) {
 
             if(state == 0) {
@@ -224,8 +224,8 @@ function highlight() {
 
             return value;
 
-        }*/
-    );
+        }
+    );*/
 
     // Compare Cargo Capacity
     var cargoOneValue = find(miscOne, 'Cargo capacity').value;
@@ -503,8 +503,15 @@ function setHighlighting(field, attributeOne, attributeTwo, callback = null) {
 
     if(attributeOne === attributeTwo) {
         state = 0;
+
         $('#one' + field).attr('class', 'yellow');
+        $('#one' + field).removeAttr('title');
+        $('#one' + field).removeClass('tooltip');
+
         $('#two' + field).attr('class', 'yellow');
+        $('#two' + field).removeAttr('title');
+        $('#two' + field).removeClass('tooltip');
+
     } else if(attributeOne > attributeTwo) {
         state = 1;
         $('#one' + field).attr('class', 'green');
@@ -522,7 +529,8 @@ function setHighlighting(field, attributeOne, attributeTwo, callback = null) {
 
         switch(state) {
 
-            case 0: /** TODO Currently no case to test... **/ break;
+            case 0:
+            break;
 
             case 1:
                 $('#one' + field).attr('title', message);
