@@ -554,8 +554,6 @@ function highlight() {
         });
     });
 
-    console.log(ordnanceOneValue + ' - ' + ordnanceTwoValue);
-
     setHighlighting(
         'Ordnance',
         ordnanceOneValue,
@@ -625,7 +623,7 @@ function highlight() {
                     value += '<span class="yellow">-----</span><br/>';
                     value += ordnanceOneValue + '<br /><br />';
 
-                    value += 'This results in a <span class="yellow">' + (ordnanceOneValue / ordnanceTwoValue).toFixed(2) + 'x</span> higher <span class="yellow">score (' + ordnanceOneValue + ')</span> than <span class="yellow">' + shipTwo.name + '\'s score (' + ordnanceTwoValue + ')</span>.';
+                    value += 'This results in a <span class="yellow">' + (ordnanceTwoValue / ordnanceOneValue).toFixed(2) + 'x</span> higher <span class="yellow">score (' + ordnanceTwoValue + ')</span> than <span class="yellow">' + shipTwo.name + '\'s score (' + ordnanceOneValue + ')</span>.';
                     break;
 
             }
