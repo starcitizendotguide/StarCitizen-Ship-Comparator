@@ -47,6 +47,10 @@ h2 a {
     text-decoration: none;
 }
 
+ul, li {
+    list-style: none;
+}
+
 .blue {
     color: #185875;
 }

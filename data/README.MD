@@ -21,48 +21,42 @@ This is an example value JSON string. - This is subject to change, but I will tr
 
 ```json
 {
-  "name": "M50 Interceptor",
-  "focus": "Racing / Interception",
+
+  "name": "Javelin-class Destroyer",
+  "focus": "Capital Ship",
   "manufacturer": {
-    "name": "Origin Jumpworks GmbH",
-    "code": "ORIG"
+    "name": "Aegis Dynamics",
+    "code": "AEGS"
   },
   "dimension": {
-    "length": 11,
-    "beam": 10,
-    "height": 3
+    "length": 345,
+    "beam": 148,
+    "height": 65
   },
-  "mass": { "null_cargo": 12000 },
+  "mass": { "null_cargo": 0 },
   "structure": [
     {
       "name": "Engine",
       "value": [
         {
-          "model": "HM 4.2",
+          "model": "Coming Soon",
           "size": 0,
-          "rating": 2,
-          "multiplier": 2
+          "rating": 7,
+          "multiplier": 16
         }
       ]
     },
     {
       "name": "Thrusters",
-      "value": [
-        {
-          "model": "Scalpel Precision B",
-          "size": 0,
-          "rating": 1,
-          "multiplier": 8
-        }
-      ]
+      "value": [ ]
     },
     {
       "name": "Shield",
       "value": [
         {
-          "model": "AllStop FR",
-          "size": 2,
-          "maxSize": 2,
+          "model": "Coming Soon",
+          "size": 0,
+          "maxSize": 0,
           "multiplier": 1
         }
       ]
@@ -71,10 +65,57 @@ This is an example value JSON string. - This is subject to change, but I will tr
       "name": "Factory power plant",
       "value": [
         {
-          "model": "Starheart II",
-          "size": 1,
-          "maxSize": 2,
+          "model": "Coming Soon",
+          "size": 0,
+          "maxSize": 8,
           "multiplier": 2
+        }
+      ]
+    },
+    {
+      "name": "Ordnance",
+      "value": [
+        {
+          "name": "Class 6",
+          "value": [
+            {
+              "name": "Coming Soon",
+              "value": {
+                "maxSize": 5,
+                "quantity": 1,
+                "size": 0,
+                "multiplier": 13
+              }
+            }
+          ]
+        },
+        {
+          "name": "Class 7",
+          "value": [
+            {
+              "name": "Manned Turret",
+              "value": {
+                "maxSize": 7,
+                "quantity": 1,
+                "size": 0,
+                "multiplier": 2
+              }
+            }
+          ]
+        },
+        {
+          "name": "Class 9",
+          "value": [
+            {
+              "name": "Anti-Capital Torpedo Launcher",
+              "value": {
+                "maxSize": 0,
+                "quantity": 1,
+                "size": 0,
+                "multiplier": 2
+              }
+            }
+          ]
         }
       ]
     },
@@ -83,11 +124,11 @@ This is an example value JSON string. - This is subject to change, but I will tr
       "value": [
         {
           "name": "Cargo capacity",
-          "value": 0
+          "value": 5400
         },
         {
           "name": "Max crew",
-          "value": 1
+          "value": 0
         },
         {
           "name": "Additional",
@@ -98,4 +139,3 @@ This is an example value JSON string. - This is subject to change, but I will tr
   ]
 }
 ```
- 

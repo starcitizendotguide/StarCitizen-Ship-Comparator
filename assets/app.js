@@ -124,6 +124,28 @@ function setValues(column, data) {
         (thrustersValue.length === 0 ? 'N/A' : thrustersValue.join('<br />'))
     );
 
+    // Ordnance
+    var ordnance = find(data.structure, 'Ordnance').value;
+    var ordnanceValue = [];
+
+    $.each(ordnance, function() {
+
+        var tmp = '';
+
+        $.each(this.value, function() {
+            tmp += (
+                '<li>' + this.value.multiplier + 'x '+ this.name + '</li>'
+            );
+        });
+
+        ordnanceValue.push(
+            '<i>' + this.name + '</i><br/><ul>' + tmp + '</ul>'
+        );
+    });
+    $('#' + column + 'Ordnance').html(
+        (ordnanceValue.length == null ? 'N/A' : ordnanceValue)
+    );
+
     // Shield
     var shield = find(data.structure, 'Shield').value;
     var shieldValue = [];
@@ -504,6 +526,106 @@ function highlight() {
                     value += thrustersValueOne + '<br /><br />';
 
                     value += 'This results in a <span class="yellow">' + (thrustersValueTwo / thrustersValueOne).toFixed(2) + 'x</span> higher <span class="yellow">score (' + thrustersValueTwo + ')</span> than <span class="yellow">' + shipTwo.name + '\'s score (' + thrustersValueOne + ')</span>.';
+                    break;
+
+            }
+
+            return value;
+
+        }
+    );
+
+    // Compare Ordnance
+    var ordnanceOne = find(shipOne.structure, 'Ordnance');
+    var ordnanceTwo = find(shipTwo.structure, 'Ordnance');
+
+    var ordnanceOneValue = 0;
+    var ordnanceTwoValue = 0;
+
+    $.each(ordnanceOne.value, function() {
+        $.each(this.value, function() {
+            ordnanceOneValue += (Math.max(this.value.size, 1) * Math.max(this.value.quantity, 1) * this.value.multiplier + this.value.maxSize);
+        });
+    });
+
+    $.each(ordnanceTwo.value, function() {
+        $.each(this.value, function() {
+            ordnanceTwoValue += (Math.max(this.value.size, 1) * Math.max(this.value.quantity, 1) * this.value.multiplier + this.value.maxSize);
+        });
+    });
+
+    console.log(ordnanceOneValue + ' - ' + ordnanceTwoValue);
+
+    setHighlighting(
+        'Ordnance',
+        ordnanceOneValue,
+        ordnanceTwoValue,
+        function(state) {
+
+            if(state == 0) {
+                return null;
+            }
+
+            var value = null;
+
+            switch(state) {
+
+                case 1:
+
+                    // Ship One
+                    value = shipOne.name + '\'s Ordnance:<br/><br />';
+
+                    $.each(ordnanceOne.value, function() {
+                        $.each(this.value, function() {
+                            value += '+ ' + this.name + ' exists <span class="yellow">' + this.value.multiplier + ' time(s)</span> with a <span class="yellow">size of ' + this.value.size + '</span>, a <span class="yellow">max. size of ' + this.value.maxSize + '</span> and a <span class="yellow">quantity of ' + this.value.quantity + '</span>.<br />'
+                        });
+                    });
+
+                    value += '<span class="yellow">-----</span><br/>';
+                    value += ordnanceOneValue + '<br /><br />';
+
+                    // Ship Two
+                    value += shipTwo.name + '\'s Ordnance:<br/><br />';
+
+                    $.each(ordnanceTwo.value, function() {
+                        $.each(this.value, function() {
+                            value += '+ ' + this.name + ' exists <span class="yellow">' + this.value.multiplier + ' time(s)</span> with a <span class="yellow">size of ' + this.value.size + '</span>, a <span class="yellow">max. size of ' + this.value.maxSize + '</span> and a <span class="yellow">quantity of ' + this.value.quantity + '</span>.<br />'
+                        });
+                    });
+
+                    value += '<span class="yellow">-----</span><br/>';
+                    value += ordnanceTwoValue + '<br /><br />';
+
+                    value += 'This results in a <span class="yellow">' + (ordnanceOneValue / ordnanceTwoValue).toFixed(2) + 'x</span> higher <span class="yellow">score (' + ordnanceOneValue + ')</span> than <span class="yellow">' + shipTwo.name + '\'s score (' + ordnanceTwoValue + ')</span>.';
+                    break;
+
+                case 2:
+
+                    // Ship Two
+                    value = shipTwo.name + '\'s Ordnance:<br/><br />';
+
+                    $.each(ordnanceTwo.value, function() {
+                        $.each(this.value, function() {
+                            value += '+ ' + this.name + ' exists <span class="yellow">' + this.value.multiplier + ' time(s)</span> with a <span class="yellow">size of ' + this.value.size + '</span>, a <span class="yellow">max. size of ' + this.value.maxSize + '</span> and a <span class="yellow">quantity of ' + this.value.quantity + '</span>.<br />'
+                        });
+                    });
+
+                    value += '<span class="yellow">-----</span><br/>';
+                    value += ordnanceTwoValue + '<br /><br />';
+
+                    // Ship One
+                    value += shipOne.name + '\'s Ordnance:<br/><br />';
+
+                    $.each(ordnanceOne.value, function() {
+                        $.each(this.value, function() {
+                            value += '+ ' + this.name + ' exists <span class="yellow">' + this.value.multiplier + ' time(s)</span> with a <span class="yellow">size of ' + this.value.size + '</span>, a <span class="yellow">max. size of ' + this.value.maxSize + '</span> and a <span class="yellow">quantity of ' + this.value.quantity + '</span>.<br />'
+                        });
+                    });
+
+                    value += '<span class="yellow">-----</span><br/>';
+                    value += ordnanceOneValue + '<br /><br />';
+
+                    value += 'This results in a <span class="yellow">' + (ordnanceOneValue / ordnanceTwoValue).toFixed(2) + 'x</span> higher <span class="yellow">score (' + ordnanceOneValue + ')</span> than <span class="yellow">' + shipTwo.name + '\'s score (' + ordnanceTwoValue + ')</span>.';
                     break;
 
             }
