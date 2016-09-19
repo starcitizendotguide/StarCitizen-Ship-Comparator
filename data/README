@@ -1,4 +1,5 @@
 ## Data Set
+
 Here you find all data-sets in JSON format that will be fed into an Algolia database. - The syntax of the JSON strucutre is the following:
 ```json
 [
@@ -15,6 +16,7 @@ the ship, and the value field contains another JSON string containing all inform
 is not able to handle JSON constructions with a higher depth than 2 (? - it's not enough for this project).
 
 ### Ship Value JSON Structure
+
 This is an example value JSON string. - This is subject to change, but I will try to stick this format as much as possible.
 
 ```json
