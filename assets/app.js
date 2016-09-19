@@ -134,7 +134,7 @@ function setValues(column, data) {
 
         $.each(this.value, function() {
             tmp += (
-                '<li>' + this.value.multiplier + 'x '+ this.name + '</li>'
+                '<li>' + this.multiplier + 'x '+ this.model + '</li>'
             );
         });
 
@@ -544,13 +544,13 @@ function highlight() {
 
     $.each(ordnanceOne.value, function() {
         $.each(this.value, function() {
-            ordnanceOneValue += (Math.max(this.value.size, 1) * Math.max(this.value.quantity, 1) * this.value.multiplier + this.value.maxSize);
+            ordnanceOneValue += (Math.max(this.size, 1) * Math.max(this.quantity, 1) * this.multiplier + this.maxSize);
         });
     });
 
     $.each(ordnanceTwo.value, function() {
         $.each(this.value, function() {
-            ordnanceTwoValue += (Math.max(this.value.size, 1) * Math.max(this.value.quantity, 1) * this.value.multiplier + this.value.maxSize);
+            ordnanceTwoValue += (Math.max(this.size, 1) * Math.max(this.quantity, 1) * this.multiplier + this.maxSize);
         });
     });
 
@@ -575,7 +575,7 @@ function highlight() {
 
                     $.each(ordnanceOne.value, function() {
                         $.each(this.value, function() {
-                            value += '+ ' + this.name + ' exists <span class="yellow">' + this.value.multiplier + ' time(s)</span> with a <span class="yellow">size of ' + this.value.size + '</span>, a <span class="yellow">max. size of ' + this.value.maxSize + '</span> and a <span class="yellow">quantity of ' + this.value.quantity + '</span>.<br />'
+                            value += '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">size of ' + this.size + '</span>, a <span class="yellow">max. size of ' + this.maxSize + '</span> and a <span class="yellow">quantity of ' + this.quantity + '</span>.<br />'
                         });
                     });
 
@@ -587,7 +587,7 @@ function highlight() {
 
                     $.each(ordnanceTwo.value, function() {
                         $.each(this.value, function() {
-                            value += '+ ' + this.name + ' exists <span class="yellow">' + this.value.multiplier + ' time(s)</span> with a <span class="yellow">size of ' + this.value.size + '</span>, a <span class="yellow">max. size of ' + this.value.maxSize + '</span> and a <span class="yellow">quantity of ' + this.value.quantity + '</span>.<br />'
+                            value += '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">size of ' + this.size + '</span>, a <span class="yellow">max. size of ' + this.maxSize + '</span> and a <span class="yellow">quantity of ' + this.quantity + '</span>.<br />'
                         });
                     });
 
@@ -604,7 +604,7 @@ function highlight() {
 
                     $.each(ordnanceTwo.value, function() {
                         $.each(this.value, function() {
-                            value += '+ ' + this.name + ' exists <span class="yellow">' + this.value.multiplier + ' time(s)</span> with a <span class="yellow">size of ' + this.value.size + '</span>, a <span class="yellow">max. size of ' + this.value.maxSize + '</span> and a <span class="yellow">quantity of ' + this.value.quantity + '</span>.<br />'
+                            value += '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">size of ' + this.size + '</span>, a <span class="yellow">max. size of ' + this.maxSize + '</span> and a <span class="yellow">quantity of ' + this.quantity + '</span>.<br />'
                         });
                     });
 
@@ -616,7 +616,7 @@ function highlight() {
 
                     $.each(ordnanceOne.value, function() {
                         $.each(this.value, function() {
-                            value += '+ ' + this.name + ' exists <span class="yellow">' + this.value.multiplier + ' time(s)</span> with a <span class="yellow">size of ' + this.value.size + '</span>, a <span class="yellow">max. size of ' + this.value.maxSize + '</span> and a <span class="yellow">quantity of ' + this.value.quantity + '</span>.<br />'
+                            value += '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">size of ' + this.size + '</span>, a <span class="yellow">max. size of ' + this.maxSize + '</span> and a <span class="yellow">quantity of ' + this.quantity + '</span>.<br />'
                         });
                     });
 
