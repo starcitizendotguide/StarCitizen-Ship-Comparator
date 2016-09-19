@@ -359,31 +359,61 @@ function highlight() {
 
                 case 1:
 
+                    // Ship One
                     value = shipOne.name + '\'s Engines:<br/><br />';
 
                     $.each(engineOne.value, function() {
                         value += (
-                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">rating of ' + this.rating + '</span> and <span class="yellow"> a size of ' + this.size + '</span>.<br />'
+                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">rating of ' + this.rating + '</span> and a <span class="yellow">size of ' + this.size + '</span>.<br />'
                         );
                     });
 
                     value += '<span class="yellow">-----</span><br/>';
                     value += engineOneValue + '<br /><br />';
-                    value += 'This results in a <span class="yellow">' + (engineOneValue / engineTwoValue).toFixed(2) + 'x</span> higher <span class="yellow">score (' + engineOneValue + ')</span> than <span class="yellow">' + shipTwo.name + '\'s score (' + engineTwoValue + ')</span>.';
-                    break;
 
-                case 2:
-
-                    value = shipTwo.name + '\'s Engines:<br/><br />';
+                    // Ship Two
+                    value += shipTwo.name + '\'s Engines:<br/><br />';
 
                     $.each(engineTwo.value, function() {
                         value += (
-                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">rating of ' + this.rating + '</span> and <span class="yellow"> a size of ' + this.size + '</span>.<br />'
+                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">rating of ' + this.rating + '</span> and a <span class="yellow">size of ' + this.size + '</span>.<br />'
                         );
                     });
 
                     value += '<span class="yellow">-----</span><br/>';
                     value += engineTwoValue + '<br /><br />';
+
+                    value += 'This results in a <span class="yellow">' + (engineOneValue / engineTwoValue).toFixed(2) + 'x</span> higher <span class="yellow">score (' + engineOneValue + ')</span> than <span class="yellow">' + shipTwo.name + '\'s score (' + engineTwoValue + ')</span>.';
+                    break;
+
+                case 2:
+
+                    // Ship Two
+                    value = shipTwo.name + '\'s Engines:<br/><br />';
+
+                    $.each(engineTwo.value, function() {
+                        value += (
+                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">rating of ' + this.rating + '</span> and a <span class="yellow">size of ' + this.size + '</span>.<br />'
+                        );
+                    });
+
+
+                    value += '<span class="yellow">-----</span><br/>';
+                    value += engineTwoValue + '<br /><br />';
+
+                    // Ship one
+                    value += shipOne.name + '\'s Engines:<br/><br />';
+
+                    $.each(engineOne.value, function() {
+                        value += (
+                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">rating of ' + this.rating + '</span> and a <span class="yellow">size of ' + this.size + '</span>.<br />'
+                        );
+                    });
+
+                    value += '<span class="yellow">-----</span><br/>';
+                    value += engineOneValue + '<br /><br />';
+
+
                     value += 'This results in a <span class="yellow">' + (engineTwoValue / engineOneValue).toFixed(2) + 'x</span> higher <span class="yellow">score (' + engineTwoValue + ')</span> than <span class="yellow">' + shipOne.name + '\'s score (' + engineOneValue + ')</span>.';
                     break;
 
@@ -420,31 +450,59 @@ function highlight() {
 
                 case 1:
 
+                    // Ship One
                     value = shipOne.name + '\'s Thrusters:<br/><br />';
 
                     $.each(thrustersOne.value, function() {
                         value += (
-                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">rating of ' + this.rating + '</span> and <span class="yellow"> a size of ' + this.size + '</span>.<br />'
+                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">rating of ' + this.rating + '</span> and a <span class="yellow">size of ' + this.size + '</span>.<br />'
                         );
                     });
 
                     value += '<span class="yellow">-----</span><br/>';
                     value += thrustersValueOne + '<br /><br />';
-                    value += 'This results in a <span class="yellow">' + (thrustersValueOne / thrustersValueTwo).toFixed(2) + 'x</span> higher <span class="yellow">score (' + thrustersValueOne + ')</span> than <span class="yellow">' + shipTwo.name + '\'s score (' + thrustersValueTwo + ')</span>.';
-                    break;
 
-                case 2:
-
-                    value = shipTwo.name + '\'s Thrusters:<br/><br />';
+                    // Ship Two
+                    value += shipTwo.name + '\'s Thrusters:<br/><br />';
 
                     $.each(thrustersTwo.value, function() {
                         value += (
-                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">rating of ' + this.rating + '</span> and <span class="yellow"> a size of ' + this.size + '</span>.<br />'
+                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">rating of ' + this.rating + '</span> and a <span class="yellow">size of ' + this.size + '</span>.<br />'
                         );
                     });
 
                     value += '<span class="yellow">-----</span><br/>';
                     value += thrustersValueTwo + '<br /><br />';
+
+                    value += 'This results in a <span class="yellow">' + (thrustersValueOne / thrustersValueTwo).toFixed(2) + 'x</span> higher <span class="yellow">score (' + thrustersValueOne + ')</span> than <span class="yellow">' + shipTwo.name + '\'s score (' + thrustersValueTwo + ')</span>.';
+                    break;
+
+                case 2:
+
+                    // Ship Two
+                    value = shipTwo.name + '\'s Thrusters:<br/><br />';
+
+                    $.each(thrustersTwo.value, function() {
+                        value += (
+                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">rating of ' + this.rating + '</span> and a <span class="yellow">size of ' + this.size + '</span>.<br />'
+                        );
+                    });
+
+                    value += '<span class="yellow">-----</span><br/>';
+                    value += thrustersValueTwo + '<br /><br />';
+
+                    // Ship One
+                    value += shipOne.name + '\'s Thrusters:<br/><br />';
+
+                    $.each(thrustersOne.value, function() {
+                        value += (
+                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">rating of ' + this.rating + '</span> and a <span class="yellow">size of ' + this.size + '</span>.<br />'
+                        );
+                    });
+
+                    value += '<span class="yellow">-----</span><br/>';
+                    value += thrustersValueOne + '<br /><br />';
+
                     value += 'This results in a <span class="yellow">' + (thrustersValueTwo / thrustersValueOne).toFixed(2) + 'x</span> higher <span class="yellow">score (' + thrustersValueTwo + ')</span> than <span class="yellow">' + shipTwo.name + '\'s score (' + thrustersValueOne + ')</span>.';
                     break;
 
@@ -480,31 +538,60 @@ function highlight() {
             switch(state) {
 
                 case 1:
+
+                    // Ship One
                     value = shipOne.name + '\'s Shields:<br/><br />';
 
                     $.each(shieldOne.value, function() {
                         value += (
-                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a  <span class="yellow"> a size of ' + this.size + '</span> and a <span class="yellow">max. size of ' + this.maxSize + '</span>.<br />'
+                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">size of ' + this.size + '</span> and a <span class="yellow">max. size of ' + this.maxSize + '</span>.<br />'
                         );
                     });
 
                     value += '<span class="yellow">-----</span><br/>';
-                    value += thrustersValueOne + '<br /><br />';
-                    value += 'This results in a <span class="yellow">' + (shieldOneValue / shieldTwoValue).toFixed(2) + 'x</span> higher <span class="yellow">score (' + shieldOneValue + ')</span> than <span class="yellow">' + shipTwo.name + '\'s score (' + shieldTwoValue + ')</span>.';
-                    break;
+                    value += shieldOneValue + '<br /><br />';
 
-                case 2:
-
-                    value = shipTwo.name + '\'s Shields:<br/><br />';
+                    // Ship Two
+                    value += shipTwo.name + '\'s Shields:<br/><br />';
 
                     $.each(shieldTwo.value, function() {
                         value += (
-                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a  <span class="yellow"> a size of ' + this.size + '</span> and a <span class="yellow">max. size of ' + this.maxSize + '</span>.<br />'
+                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">size of ' + this.size + '</span> and a <span class="yellow">max. size of ' + this.maxSize + '</span>.<br />'
                         );
                     });
 
                     value += '<span class="yellow">-----</span><br/>';
                     value += shieldTwoValue + '<br /><br />';
+
+                    value += 'This results in a <span class="yellow">' + (shieldOneValue / shieldTwoValue).toFixed(2) + 'x</span> higher <span class="yellow">score (' + shieldOneValue + ')</span> than <span class="yellow">' + shipTwo.name + '\'s score (' + shieldTwoValue + ')</span>.';
+                    break;
+
+                case 2:
+
+                    // Ship Two
+                    value = shipTwo.name + '\'s Shields:<br/><br />';
+
+                    $.each(shieldTwo.value, function() {
+                        value += (
+                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">size of ' + this.size + '</span> and a <span class="yellow">max. size of ' + this.maxSize + '</span>.<br />'
+                        );
+                    });
+
+                    value += '<span class="yellow">-----</span><br/>';
+                    value += shieldTwoValue + '<br /><br />';
+
+                    // Ship One
+                    value += shipOne.name + '\'s Shields:<br/><br />';
+
+                    $.each(shieldOne.value, function() {
+                        value += (
+                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">size of ' + this.size + '</span> and a <span class="yellow">max. size of ' + this.maxSize + '</span>.<br />'
+                        );
+                    });
+
+                    value += '<span class="yellow">-----</span><br/>';
+                    value += shieldOneValue + '<br /><br />';
+
                     value += 'This results in a <span class="yellow">' + (shieldTwoValue / shieldOneValue).toFixed(2) + 'x</span> higher <span class="yellow">score (' + shieldTwoValue + ')</span> than <span class="yellow">' + shipTwo.name + '\'s score (' + shieldOneValue + ')</span>.';
                     break;
 
@@ -541,31 +628,59 @@ function highlight() {
 
                 case 1:
 
+                    // Ship One
                     value = shipOne.name + '\'s Factory Power Plants:<br/><br />';
 
                     $.each(factoryPowerPlantOne.value, function() {
                         value += (
-                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a  <span class="yellow"> a size of ' + this.size + '</span> and a <span class="yellow">max. size of ' + this.maxSize + '</span>.<br />'
+                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">size of ' + this.size + '</span> and a <span class="yellow">max. size of ' + this.maxSize + '</span>.<br />'
                         );
                     });
 
                     value += '<span class="yellow">-----</span><br/>';
                     value += factoryPowerPlantOneValue + '<br /><br />';
-                    value += 'This results in a <span class="yellow">' + (factoryPowerPlantOneValue / factoryPowerPlantTwoValue).toFixed(2) + 'x</span> higher <span class="yellow">score (' + factoryPowerPlantOneValue + ')</span> than <span class="yellow">' + shipTwo.name + '\'s score (' + factoryPowerPlantTwoValue + ')</span>.';
-                    break;
 
-                case 2:
-
-                    value = shipTwo.name + '\'s Factory Power Plants:<br/><br />';
+                    // Ship Two
+                    value += shipTwo.name + '\'s Factory Power Plants:<br/><br />';
 
                     $.each(factoryPowerPlantTwo.value, function() {
                         value += (
-                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a  <span class="yellow"> a size of ' + this.size + '</span> and a <span class="yellow">max. size of ' + this.maxSize + '</span>.<br />'
+                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">size of ' + this.size + '</span> and a <span class="yellow">max. size of ' + this.maxSize + '</span>.<br />'
                         );
                     });
 
                     value += '<span class="yellow">-----</span><br/>';
                     value += factoryPowerPlantTwoValue + '<br /><br />';
+
+                    value += 'This results in a <span class="yellow">' + (factoryPowerPlantOneValue / factoryPowerPlantTwoValue).toFixed(2) + 'x</span> higher <span class="yellow">score (' + factoryPowerPlantOneValue + ')</span> than <span class="yellow">' + shipTwo.name + '\'s score (' + factoryPowerPlantTwoValue + ')</span>.';
+                    break;
+
+                case 2:
+
+                    // Ship Two
+                    value = shipTwo.name + '\'s Factory Power Plants:<br/><br />';
+
+                    $.each(factoryPowerPlantTwo.value, function() {
+                        value += (
+                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">size of ' + this.size + '</span> and a <span class="yellow">max. size of ' + this.maxSize + '</span>.<br />'
+                        );
+                    });
+
+                    value += '<span class="yellow">-----</span><br/>';
+                    value += factoryPowerPlantTwoValue + '<br /><br />';
+
+                    // Ship One
+                    value += shipOne.name + '\'s Factory Power Plants:<br/><br />';
+
+                    $.each(factoryPowerPlantOne.value, function() {
+                        value += (
+                            '+ ' + this.model + ' exists <span class="yellow">' + this.multiplier + ' time(s)</span> with a <span class="yellow">size of ' + this.size + '</span> and a <span class="yellow">max. size of ' + this.maxSize + '</span>.<br />'
+                        );
+                    });
+
+                    value += '<span class="yellow">-----</span><br/>';
+                    value += factoryPowerPlantOneValue + '<br /><br />';
+
                     value += 'This results in a <span class="yellow">' + (factoryPowerPlantTwoValue / factoryPowerPlantOneValue).toFixed(2) + 'x</span> higher <span class="yellow">score (' + factoryPowerPlantTwoValue + ')</span> than <span class="yellow">' + shipTwo.name + '\'s score (' + factoryPowerPlantOneValue + ')</span>.';
                     break;
 
