@@ -14,19 +14,21 @@ $(document).ready(function() {
     autocomplete(
         '#shipOneSearch',
         {
-            hint: true
+            hint: true,
+            templates: {
+            }
         },
         [
             {
-              source: autocomplete.sources.hits(index, {hitsPerPage: 3}),
-              displayKey: 'name',
-              templates: {
-                suggestion: function(suggestion) {
-                  return suggestion._highlightResult.name.value;
+                source: autocomplete.sources.hits(index, {hitsPerPage: 3}),
+                displayKey: 'name',
+                templates: {
+                    suggestion: function(suggestion) {
+                        return '<img class="preview" src="./assets/images/' + suggestion.name + '.jpg">' + suggestion._highlightResult.name.value;
+                    }
                 }
-              }
             }
-    ]).on('autocomplete:selected', function(event, suggestion, dataset) {
+        ]).on('autocomplete:selected', function(event, suggestion, dataset) {
 
         if(suggestion === undefined) {
             return;
@@ -44,15 +46,15 @@ $(document).ready(function() {
         },
         [
             {
-              source: autocomplete.sources.hits(index, {hitsPerPage: 3}),
-              displayKey: 'name',
-              templates: {
-                suggestion: function(suggestion) {
-                  return suggestion._highlightResult.name.value;
+                source: autocomplete.sources.hits(index, {hitsPerPage: 3}),
+                displayKey: 'name',
+                templates: {
+                    suggestion: function(suggestion) {
+                        return '<img class="preview" src="./assets/images/' + suggestion.name + '.jpg">' + suggestion._highlightResult.name.value;
+                    }
                 }
-              }
             }
-    ]).on('autocomplete:selected', function(event, suggestion, dataset) {
+            ]).on('autocomplete:selected', function(event, suggestion, dataset) {
 
         if(suggestion === undefined) {
             return;
