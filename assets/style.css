@@ -52,15 +52,13 @@ ul, li {
 }
 
 .preview {
-    /*float: left;
-    width: 50px;
-    height: 50px;*/
     position: relative;
     float: left;
 	border: 1px solid #dddddd;
-	width: 50px;
-	height: 50px;
-	background: #0E1119;
+    width: 50px;
+    height: 50px;
+	max-width: 50px;
+	max-height: 50px;
 }
 
 .blue {
@@ -72,6 +70,10 @@ ul, li {
 
 .green {
 	color: #1F8A70;
+}
+
+em {
+    color: #B14943;
 }
 
 .container th h1 {
@@ -210,8 +212,7 @@ input:focus::-ms-input-placeholder {
 .algolia-autocomplete .aa-dropdown-menu {
     width: 100%;
     background-color: #2C3446;
-    border: 1px solid #2C3446;
-    border-top: none;
+    font-size: 0.9em;
 }
 .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
     cursor: pointer;

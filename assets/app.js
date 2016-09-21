@@ -20,11 +20,11 @@ $(document).ready(function() {
         },
         [
             {
-                source: autocomplete.sources.hits(index, {hitsPerPage: 3}),
+                source: autocomplete.sources.hits(index, {hitsPerPage: 5}),
                 displayKey: 'name',
                 templates: {
                     suggestion: function(suggestion) {
-                        return '<img class="preview" src="./assets/images/' + suggestion.name + '.jpg">' + suggestion._highlightResult.name.value;
+                        return '<img class="preview" src="./assets/images/' + suggestion.name + '.jpg"> ' + suggestion._highlightResult.name.value;
                     }
                 }
             }
@@ -46,7 +46,7 @@ $(document).ready(function() {
         },
         [
             {
-                source: autocomplete.sources.hits(index, {hitsPerPage: 3}),
+                source: autocomplete.sources.hits(index, {hitsPerPage: 5}),
                 displayKey: 'name',
                 templates: {
                     suggestion: function(suggestion) {
