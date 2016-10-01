@@ -2,6 +2,62 @@
 var shipOne = null;
 var shipTwo = null;
 
+// Hardpoint Classes
+var classes = [
+    {
+        "identifier": "Class 1",
+        "name": "Fixed Gun"
+    },
+    {
+        "identifier": "Class 2",
+        "name": "Articulated Gun"
+    },
+    {
+        "identifier": "Class 3",
+        "name": "Pylon"
+    },
+    {
+        "identifier": "Class 4",
+        "name": "Turret"
+    },
+    {
+        "identifier": "Class 5",
+        "name": "Manned Point Defense Turrets"
+    },
+    {
+        "identifier": "Class 6",
+        "name": "Heavy Manned Capital Ship Turrets"
+    },
+    {
+        "identifier": "Class 7",
+        "name": "Spinal Mount Lasers"
+    },
+    {
+        "identifier": "Class 8",
+        "name": "Capital Ship Cannons"
+    },
+    {
+        "identifier": "Class 9",
+        "name": "Short Range Automated Defensive Systems"
+    }
+];
+
+function classToName(clazz) {
+
+    var result = null;
+
+    $.each(classes, function() {
+
+        if(this.identifier == clazz) {
+            result = this.name;
+        }
+
+    });
+
+    return result;
+
+}
+
 $(document).ready(function() {
 
     // Clear boxes
@@ -141,7 +197,7 @@ function setValues(column, data) {
         });
 
         ordnanceValue.push(
-            '<i>' + this.name + '</i><br/><ul>' + tmp + '</ul>'
+            '<i>' + classToName(this.name) + '</i><br/><ul>' + tmp + '</ul>'
         );
     });
     $('#' + column + 'Ordnance').html(

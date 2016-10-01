@@ -99,6 +99,7 @@ foreach($ships as $ship) {
     $x++;
 }
 
+file_put_contents('raw.json', json_encode($rawData));
 
 /**
 * HERE IS THE DATA CONVERTER
