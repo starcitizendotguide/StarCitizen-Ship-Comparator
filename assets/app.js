@@ -910,8 +910,7 @@ function setHighlighting(field, attributeOne, attributeTwo, callback = null) {
 
         switch(state) {
 
-            case 0:
-            break;
+            case 0:break;
 
             case 1:
                 $('#one' + field).attr('title', message);
