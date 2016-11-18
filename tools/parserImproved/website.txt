@@ -1,5 +1,5 @@
 <html style="background:url(/rsi/static/images/noisebg.gif) repeat center top #000b11;" class="csstransforms csstransforms3d csstransitions"><!--<![endif]--><head>
-    
+
 
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -8,17 +8,17 @@
 <link href="//fonts.googleapis.com/css?family=Electrolize|Orbitron:400,500,700|Share+Tech+Mono" rel="stylesheet" type="text/css">
 
 
-<link href="/cache/en/rsi-css.css?v=1.5.1.8" media="all" rel="stylesheet">
+<link href="/cache/en/rsi-css.css?v=1.5.1.10" media="all" rel="stylesheet">
 
 
 
 <!--[if lt IE 9]>
-  <script type="text/javascript" src="/cache/en/rsi-ie-js.js?v=1.5.1.8"></script>
+  <script type="text/javascript" src="/cache/en/rsi-ie-js.js?v=1.5.1.10"></script>
 <![endif]-->
-<script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/api2/r20161102163809/recaptcha__de.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="/cache/en/rsi-js.js?v=1.5.1.8"></script>
+<script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/api2/r20161109131337/recaptcha__de.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="/cache/en/rsi-js.js?v=1.5.1.10"></script>
 
 <!--[if IE]>
-  <link href="/cache/en/rsi-ie-css.css?v=1.5.1.8" media="all" rel="stylesheet" type="text/css">
+  <link href="/cache/en/rsi-ie-css.css?v=1.5.1.10" media="all" rel="stylesheet" type="text/css">
   <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <script>
     // JavaScript bind polyfill
@@ -70,9 +70,9 @@
 <![endif]-->
 
 <script>
-  (function(i,s,o,g,r,a,m) { i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ 
+  (function(i,s,o,g,r,a,m) { i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) 
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
   ga('create', 'UA-39586040-1', 'robertsspaceindustries.com');
   ga('send', 'pageview');
@@ -93,15 +93,15 @@ window.on_recaptcha_load_callback = function() {
     <meta property="og:site_name" content="Roberts Space Industries">
     <meta property="og:image" content="https://robertsspaceindustries.com/rsi/static/images/RSI-logo-fb.jpg">
     <meta property="og:description" content="">
-    
+
     <title>
 Ships - Roberts Space Industries
 </title>
-    
+
 <script type="text/javascript" src="/js-codex/externals/jquery/plugins/jquery.history.js"></script>
 
     <script type="text/javascript">
-      
+
             $(document).ready(function() {
         window.Common = new RSI.Common({});
         window.Main = new RSI.Main({
@@ -109,12 +109,12 @@ Ships - Roberts Space Industries
           'probation_cookie' : '',
           'require_captcha': 0
         });
-        window.Mark = new Turbulent.Mark({ 'name' : 'Rsi-XSRF', 'token' : 'itUdWA:kheOexueZl4lIF7rS/LCfg', 'ttl' : 1800 });
+        window.Mark = new Turbulent.Mark({ 'name' : 'Rsi-XSRF', 'token' : '43QvWA:cbOxKW+H/wMNwExjyzx2Gg', 'ttl' : 1800 });
 
         var destinations = [];
 
 window.Main.destinations = destinations;
-        
+
   window.Page = new RSI.StoreListing({
     'store_prefix' : '/pledge',
     'formFilters' : $('.js-filter-form'),
@@ -124,33 +124,32 @@ window.Main.destinations = destinations;
 
       });
       $(window).load(function() {
-        
+
       });
     </script>
       </head>
   <body id="store" class="pledge sku-listing">
 
-    
+
 
     <div class="page-wrapper">
-      
+
 <div id="post-background" style="background-image:url('/media/gblu26a8i3rb2r/source/BG_landing_Pledge-1.png');"></div>
 
 
-      
+
 
 
 
 <div class="nav-header">
-  <div id="mainnav" class="js-mainnav menu " data-default-subnav="">
+  <div id="mainnav" class="js-mainnav menu with-notification" data-default-subnav="">
     <div class="wrapper">
       <a id="logo" href="/">Roberts Space Industries</a>
 
       <div class="oblique-menu line top-line-up">
         <div class="left"></div>
         <div class="middle utilies">
-                      <div class="social-icons"><a href="http://www.facebook.com/RobertsSpaceIndustries" title="Facebook" class="icon fb" target="_blank"></a><a href="https://twitter.com/RobertsSpaceInd" title="Twitter" class="icon tw" target="_blank"></a><a href="http://www.youtube.com/user/RobertsSpaceInd" title="Youtube" class="icon yt" target="_blank"></a><a href="http://www.twitch.tv/StarCitizen" title="Twitch" class="icon tt" target="_blank"></a><a href="https://instagram.com/robertsspaceind" title="Instagram" class="icon ig" target="_blank"></a></div>
-          
+
           <a href="https://cloudimperiumgames.com/jobs" title="Career with Cloud Imperium" class="">Careers</a>
           <a href="/press" title="" class="">Press</a>
           <a href="/help" title="" class="">Help</a>
@@ -168,6 +167,22 @@ window.Main.destinations = destinations;
       <div class="oblique-menu line top-line-down">
         <div class="left"></div>
         <div class="middle">
+                      <div id="global-notification" class=" js-global-notification" style="">
+            <a href="https://robertsspaceindustries.com/live">              <div class="caption"><div>Watch the 4th Anniversary Livestream live here!
+                            </div></div>
+              <div class="left-chevrons">
+                <div class="chevron first"></div>
+                <div class="chevron second"></div>
+                <div class="chevron third"></div>
+              </div>
+              <div class="right-chevrons">
+                <div class="chevron third"></div>
+                <div class="chevron second"></div>
+                <div class="chevron first"></div>
+              </div>
+              <div class="left-line"></div>
+              <div class="right-line"></div>
+              </a>            </div>
                   </div>
         <div class="right"></div>
       </div>
@@ -192,7 +207,7 @@ window.Main.destinations = destinations;
               <div class="account js-my-rsi-tab js-my-rsi-tab-account active">
                             <div class="my-profile contact">
               <a class="avatar-wrapper f-left" href="https://robertsspaceindustries.com/citizens/Yonas">
-                <img src="/media/r0oq406r39wgur/avatar/Tiger_nebula_by_liadn-D4yuwpo.jpg" height="76" width="76">
+                <img src="/media/r0oq406r39wgur/avatar/Tiger_nebula_by_liadn-D4yuwpo.jpg" width="76" height="76">
               </a>
               <div class="info">
                 <a class="monicker trans-02s" href="https://robertsspaceindustries.com/citizens/Yonas">Yonas</a>
@@ -213,7 +228,7 @@ window.Main.destinations = destinations;
               <div class="cboth"></div>
             </div>
             <div class="clear"></div>
-          
+
 
                 <ul class="credits">
                   <li class="credit usd">
@@ -244,7 +259,7 @@ window.Main.destinations = destinations;
               <div class="contacts js-my-rsi-tab js-my-rsi-tab-contacts">
                             <div class="my-profile contact">
               <a class="avatar-wrapper f-left" href="https://robertsspaceindustries.com/citizens/Yonas">
-                <img src="/media/r0oq406r39wgur/avatar/Tiger_nebula_by_liadn-D4yuwpo.jpg" height="76" width="76">
+                <img src="/media/r0oq406r39wgur/avatar/Tiger_nebula_by_liadn-D4yuwpo.jpg" width="76" height="76">
               </a>
               <div class="info">
                 <a class="monicker trans-02s" href="https://robertsspaceindustries.com/citizens/Yonas">Yonas</a>
@@ -265,7 +280,7 @@ window.Main.destinations = destinations;
               <div class="cboth"></div>
             </div>
             <div class="clear"></div>
-          
+
 
                 <div id="contacts-list" class="contacts-list js-contacts-list" data-public-profile-url="https://robertsspaceindustries.com/citizens/">
     <form class="search js-search-field">
@@ -333,7 +348,7 @@ window.Main.destinations = destinations;
       <div class="line-menu little js-line-little"></div>
       <div class="line-menu large"></div>
 
-      <nav><div class="main-nav main-menu js-main-nav"><a href="/about-the-game/spaceflight" class="nav-item js-nav-item js-about" data-sub-nav="about">Star Citizen</a><a href="/squadron42" class="nav-item js-nav-item js-squadron-42" data-sub-nav="squadron-42">Squadron 42</a><a href="/comm-link" class="nav-item js-nav-item js-commlink" data-sub-nav="commlink">Comm-Link</a><a href="/pledge" class="nav-item js-nav-item js-store active" data-sub-nav="store">Store</a><a href="/community" class="nav-item js-nav-item js-community" data-sub-nav="community">Community</a><a class="nav-item my-rsi js-my-rsi loggedin">My RSI</a></div><div class="main-nav mobile-menu js-main-nav"><a class="nav-item open-menu js-mobile-menu mobile-menu">Menu</a><a class="nav-item my-rsi js-my-rsi loggedin">My RSI<span></span></a></div><div class="inside-menu js-inside-menu desktop-menu"><div class="about js-about sub-nav" rel="about"><div class="col"><span class="menu-subtitle">Game</span><a href="/feature-list" class="link ">Game Features</a><a href="/download" class="link ">Download</a><a href="/funding-goals" class="link ">Funding</a><a href="/enlist?jumpto=%2Fpledge%2Fships" class="link ">Enlist</a></div><div class="col"><span class="menu-subtitle">Universe</span><a href="/about-the-game/spaceflight" class="link ">The Vision</a><a href="/starmap" class="link ">Starmap</a><a href="/ship-specs" class="link ">Ship Matrix</a></div><div class="col"><span class="menu-subtitle">Event</span><a href="/events" class="link ">All Events</a></div></div><div class="squadron-42 js-squadron-42 sub-nav" rel="squadron-42"><div class="col"><span class="menu-subtitle">Game</span><a href="/squadron42" class="link ">About the Game</a><a href="/pledge/Packages/Squadron-42-Standalone-Pledge" class="link ">Pledge Now</a></div></div><div class="commlink js-commlink sub-nav" rel="commlink"><div class="col"><span class="menu-subtitle">Latest News</span><a href="/comm-link" class="link with-arrow js-news-commlink-item hover " data-rel="all">All</a><a href="/comm-link/transmission" class="link with-arrow js-news-commlink-item  " data-rel="transmission">Transmissions</a><a href="/comm-link/citizens" class="link with-arrow js-news-commlink-item  " data-rel="citizens">Citizens</a><a href="/comm-link/engineering" class="link with-arrow js-news-commlink-item  " data-rel="engineering">Engineering</a><a href="/comm-link/spectrum-dispatch" class="link with-arrow js-news-commlink-item  " data-rel="spectrum_dispatch">Spectrum Dispatch</a></div><div class="col empty" rel="commlink-content"><div class="news-listing-wrapper"><div class="news-listing js-commlink-items js-commlink-all commlink-all active"><a class="item" href="/comm-link/transmission/15587-Monthly-Studio-Report"><img src="/media/8cqldjpq5bjo0r/subscribers_vault_thumbnail/MROctober2016_ATX.png"><h2 class="item-name">Monthly Studio Report</h2></a><a class="item" href="/comm-link/transmission/15588-Super-Hornet-Super-Sale"><img src="/media/hhclj1na86btar/subscribers_vault_thumbnail/F7c-M_super-Hornet_flight_visual-1.jpg"><h2 class="item-name">Super Hornet Super Sale</h2></a><a class="item" href="/comm-link/transmission/15585-Around-The-Verse"><img src="/media/o48yeeda7tva4r/subscribers_vault_thumbnail/Atv_atx.jpg"><h2 class="item-name">Around the Verse</h2></a><div class="cboth"></div></div><div class="news-listing js-commlink-items js-commlink-transmission commlink-transmission "><a class="item" href="/comm-link/transmission/15587-Monthly-Studio-Report"><img src="/media/8cqldjpq5bjo0r/subscribers_vault_thumbnail/MROctober2016_ATX.png"><h2 class="item-name">Monthly Studio Report</h2></a><a class="item" href="/comm-link/transmission/15588-Super-Hornet-Super-Sale"><img src="/media/hhclj1na86btar/subscribers_vault_thumbnail/F7c-M_super-Hornet_flight_visual-1.jpg"><h2 class="item-name">Super Hornet Super Sale</h2></a><a class="item" href="/comm-link/transmission/15585-Around-The-Verse"><img src="/media/o48yeeda7tva4r/subscribers_vault_thumbnail/Atv_atx.jpg"><h2 class="item-name">Around the Verse</h2></a><div class="cboth"></div></div><div class="news-listing js-commlink-items js-commlink-citizens commlink-citizens "><a class="item" href="/comm-link/citizens/14868-Wonderful-World-Of-Star-Citizen"><img src="/media/rpf9r3jisqq36r/subscribers_vault_thumbnail/WWOSC_EP03_THUMBNAIL_PLAIN.png"><h2 class="item-name">Wonderful World of Star Citizen</h2></a><a class="item" href="/comm-link/citizens/14638-Year-3-Subscriber-Perks-Update"><img src="/media/pe9emuqdxyzrtr/subscribers_vault_thumbnail/GossII_Cassell_Bar_01.jpg"><h2 class="item-name">Year 3 Subscriber Perks Update!</h2></a><a class="item" href="/comm-link/citizens/14616-Community-Choice-FPS"><img src="/media/swdfq39tp0n3jr/subscribers_vault_thumbnail/Fan-Spotlight.jpg"><h2 class="item-name">Community Choice: FPS</h2></a><div class="cboth"></div></div><div class="news-listing js-commlink-items js-commlink-engineering commlink-engineering "><a class="item" href="/comm-link/engineering/15062-Ship-Repair-And-Maintenance"><img src="/media/vxj1ppzl3xmhdr/subscribers_vault_thumbnail/AnvilcrucibleREARMAINTENANCE.jpg"><h2 class="item-name">Ship Repair and Maintenance</h2></a><a class="item" href="/comm-link/engineering/14974-Design-The-Endeavor"><img src="/media/ikzf72nss6tkpr/subscribers_vault_thumbnail/CO_Beauty_Supercollider.jpg"><h2 class="item-name">Design - The Endeavor</h2></a><a class="item" href="/comm-link/engineering/14826-Test-Drive-The-Origin-Jumpworks-300-Series"><img src="/media/eflwrbrty8znfr/subscribers_vault_thumbnail/350R_02.jpg"><h2 class="item-name">Test Drive the Origin Jumpworks 300 Series!</h2></a><div class="cboth"></div></div><div class="news-listing js-commlink-items js-commlink-spectrum_dispatch commlink-spectrum_dispatch "><a class="item" href="/comm-link/spectrum-dispatch/15583-DataCache-Future-Business"><img src="/media/iqkbyhsq9yvpgr/subscribers_vault_thumbnail/DataCache_FI2.jpg"><h2 class="item-name">DataCache: Future Business</h2></a><a class="item" href="/comm-link/spectrum-dispatch/15574-Mining-Rocks-October-2946"><img src="/media/qe92q78rwc3vwr/subscribers_vault_thumbnail/MiningRocks_v2a.jpg"><h2 class="item-name">Mining Rocks: October 2946</h2></a><a class="item" href="/comm-link/spectrum-dispatch/15567-Far-From-Home"><img src="/media/4487txhx0h1djr/subscribers_vault_thumbnail/FarFromHomeFI2.jpg"><h2 class="item-name">Far From Home</h2></a><div class="cboth"></div></div></div></div></div><div class="store js-store sub-nav" rel="store"><div class="col"><span class="menu-subtitle">Store</span><a href="/pledge" class="link ">All Items</a><a href="/pledge/ships" class="link active">Ships</a><a href="/pledge/game-packages" class="link ">Game Packages</a><a href="/pledge/ship-upgrades" class="link ">Ship Upgrades</a></div><div class="col"><span class="menu-subtitle">&nbsp;</span><a href="/pledge/merchandise" class="link ">Merchandise</a><a href="/pledge/subscriptions" class="link ">Subscriptions</a><a href="/pledge/extras" class="link ">Extras</a><a href="/pledge/extras?product_id=67" class="link ">Event Tickets</a></div><div class="col"><span class="menu-subtitle">In Game</span><a href="/voyager-direct" class="link ">Voyager Direct</a><a href="/electronic-access" class="link ">Electronic Access</a><a href="/pledge/extras?product_id=41" class="link ">Game Credits</a></div><div class="col"><span class="menu-subtitle">Promotion</span><a href="/referral-program" class="link ">Referral Program</a><a href="/fly-now" class="link ">Fly now</a></div></div><div class="community js-community sub-nav" rel="community"><div class="col"><span class="menu-subtitle">Content</span><a href="/community" class="link ">Community Hub</a><a href="/community/citizen-spotlight" class="link ">Citizen Spotlight</a><a href="/community/deep-space-radar" class="link ">Deep Space Radar</a><a href="/community/livestreams" class="link ">Livestream</a></div><div class="col"><span class="menu-subtitle">Exchange</span><a href="https://forums.robertsspaceindustries.com" class="link ">Forums</a><a href="/community/chat" class="link ">Chat</a><a href="/community/orgs" class="link ">Organizations</a></div><div class="col"><span class="menu-subtitle">Tools</span><a href="/community/devtracker" class="link ">Dev Tracker</a><a href="/community/arena-commander" class="link ">Leaderboards</a><a href="/community/issue-council" class="link ">Issue Council</a></div></div></div><div class="mobile-menu-inner js-mobile-menu-inner"><div class="sub-nav first-level js-first-level"><a class="sub-nav-item js-nav-mobile-item js-about " data-sub-nav="about">Star Citizen</a><a class="sub-nav-item js-nav-mobile-item js-squadron-42 " data-sub-nav="squadron-42">Squadron 42</a><a class="sub-nav-item js-nav-mobile-item js-commlink " data-sub-nav="commlink">Comm-Link</a><a class="sub-nav-item js-nav-mobile-item js-store active" data-sub-nav="store">Store</a><a class="sub-nav-item js-nav-mobile-item js-community " data-sub-nav="community">Community</a></div><div class="sub-nav second-level js-second-level">  <div class="about js-about sub-nav js-sub-nav-section" rel="about">
+      <nav><div class="main-nav main-menu js-main-nav"><a href="/about-the-game/spaceflight" class="nav-item js-nav-item js-about" data-sub-nav="about">Star Citizen</a><a href="/squadron42" class="nav-item js-nav-item js-squadron-42" data-sub-nav="squadron-42">Squadron 42</a><a href="/comm-link" class="nav-item js-nav-item js-commlink" data-sub-nav="commlink">Comm-Link</a><a href="/pledge" class="nav-item js-nav-item js-store active" data-sub-nav="store">Store</a><a href="/community" class="nav-item js-nav-item js-community" data-sub-nav="community">Community</a><a class="nav-item my-rsi js-my-rsi loggedin">My RSI</a></div><div class="main-nav mobile-menu js-main-nav"><a class="nav-item open-menu js-mobile-menu mobile-menu">Menu</a><a class="nav-item my-rsi js-my-rsi loggedin">My RSI<span></span></a></div><div class="inside-menu js-inside-menu desktop-menu"><div class="about js-about sub-nav" rel="about"><div class="col"><span class="menu-subtitle">Game</span><a href="/feature-list" class="link ">Game Features</a><a href="/download" class="link ">Download</a><a href="/funding-goals" class="link ">Funding</a><a href="/enlist?jumpto=%2Fpledge%2Fships" class="link ">Enlist</a></div><div class="col"><span class="menu-subtitle">Universe</span><a href="/about-the-game/spaceflight" class="link ">The Vision</a><a href="/starmap" class="link ">Starmap</a><a href="/ship-specs" class="link ">Ship Matrix</a></div><div class="col"><span class="menu-subtitle">Event</span><a href="/events" class="link ">All Events</a></div></div><div class="squadron-42 js-squadron-42 sub-nav" rel="squadron-42"><div class="col"><span class="menu-subtitle">Game</span><a href="/squadron42" class="link ">About the Game</a><a href="/pledge/Packages/Squadron-42-Standalone-Pledge" class="link ">Pledge Now</a></div></div><div class="commlink js-commlink sub-nav" rel="commlink"><div class="col"><span class="menu-subtitle">Latest News</span><a href="/comm-link" class="link with-arrow js-news-commlink-item hover " data-rel="all">All</a><a href="/comm-link/transmission" class="link with-arrow js-news-commlink-item  " data-rel="transmission">Transmissions</a><a href="/comm-link/citizens" class="link with-arrow js-news-commlink-item  " data-rel="citizens">Citizens</a><a href="/comm-link/engineering" class="link with-arrow js-news-commlink-item  " data-rel="engineering">Engineering</a><a href="/comm-link/spectrum-dispatch" class="link with-arrow js-news-commlink-item  " data-rel="spectrum_dispatch">Spectrum Dispatch</a></div><div class="col empty" rel="commlink-content"><div class="news-listing-wrapper"><div class="news-listing js-commlink-items js-commlink-all commlink-all active"><a class="item" href="/comm-link/transmission/15600-Loremakers-Guide-To-The-Galaxy"><img src="/media/i26t0y2ih5m0qr/subscribers_vault_thumbnail/KABAL.jpg"><h2 class="item-name">Loremaker's Guide to the Galaxy</h2></a><a class="item" href="/comm-link/spectrum-dispatch/15598-StarWatch-Time-To-Talk-Tevarin"><img src="/media/zh5eg9r27e69yr/subscribers_vault_thumbnail/StarWatch_FI_Crop.jpg"><h2 class="item-name">StarWatch: Time to Talk Tevarin!</h2></a><a class="item" href="/comm-link/transmission/15595-November-Subscriber-Flair"><img src="/media/lhssj80vlw87vr/subscribers_vault_thumbnail/November-Flair.jpg"><h2 class="item-name">November Subscriber Flair!</h2></a><div class="cboth"></div></div><div class="news-listing js-commlink-items js-commlink-transmission commlink-transmission "><a class="item" href="/comm-link/transmission/15600-Loremakers-Guide-To-The-Galaxy"><img src="/media/i26t0y2ih5m0qr/subscribers_vault_thumbnail/KABAL.jpg"><h2 class="item-name">Loremaker's Guide to the Galaxy</h2></a><a class="item" href="/comm-link/transmission/15595-November-Subscriber-Flair"><img src="/media/lhssj80vlw87vr/subscribers_vault_thumbnail/November-Flair.jpg"><h2 class="item-name">November Subscriber Flair!</h2></a><a class="item" href="/comm-link/transmission/15594-Around-The-Verse"><img src="/media/a30to5n20f6dcr/subscribers_vault_thumbnail/Template_thumbnail.jpg"><h2 class="item-name">Around the Verse</h2></a><div class="cboth"></div></div><div class="news-listing js-commlink-items js-commlink-citizens commlink-citizens "><a class="item" href="/comm-link/citizens/14868-Wonderful-World-Of-Star-Citizen"><img src="/media/rpf9r3jisqq36r/subscribers_vault_thumbnail/WWOSC_EP03_THUMBNAIL_PLAIN.png"><h2 class="item-name">Wonderful World of Star Citizen</h2></a><a class="item" href="/comm-link/citizens/14638-Year-3-Subscriber-Perks-Update"><img src="/media/pe9emuqdxyzrtr/subscribers_vault_thumbnail/GossII_Cassell_Bar_01.jpg"><h2 class="item-name">Year 3 Subscriber Perks Update!</h2></a><a class="item" href="/comm-link/citizens/14616-Community-Choice-FPS"><img src="/media/swdfq39tp0n3jr/subscribers_vault_thumbnail/Fan-Spotlight.jpg"><h2 class="item-name">Community Choice: FPS</h2></a><div class="cboth"></div></div><div class="news-listing js-commlink-items js-commlink-engineering commlink-engineering "><a class="item" href="/comm-link/engineering/15062-Ship-Repair-And-Maintenance"><img src="/media/vxj1ppzl3xmhdr/subscribers_vault_thumbnail/AnvilcrucibleREARMAINTENANCE.jpg"><h2 class="item-name">Ship Repair and Maintenance</h2></a><a class="item" href="/comm-link/engineering/14974-Design-The-Endeavor"><img src="/media/ikzf72nss6tkpr/subscribers_vault_thumbnail/CO_Beauty_Supercollider.jpg"><h2 class="item-name">Design - The Endeavor</h2></a><a class="item" href="/comm-link/engineering/14826-Test-Drive-The-Origin-Jumpworks-300-Series"><img src="/media/eflwrbrty8znfr/subscribers_vault_thumbnail/350R_02.jpg"><h2 class="item-name">Test Drive the Origin Jumpworks 300 Series!</h2></a><div class="cboth"></div></div><div class="news-listing js-commlink-items js-commlink-spectrum_dispatch commlink-spectrum_dispatch "><a class="item" href="/comm-link/spectrum-dispatch/15598-StarWatch-Time-To-Talk-Tevarin"><img src="/media/zh5eg9r27e69yr/subscribers_vault_thumbnail/StarWatch_FI_Crop.jpg"><h2 class="item-name">StarWatch: Time to Talk Tevarin!</h2></a><a class="item" href="/comm-link/spectrum-dispatch/15593-TRACKER-Mentorship-Program"><img src="/media/ca4i5nlc92c1yr/subscribers_vault_thumbnail/ThiefTaker_FI_3_Crop.jpg"><h2 class="item-name">TRACKER: Mentorship Program</h2></a><a class="item" href="/comm-link/spectrum-dispatch/15583-DataCache-Future-Business"><img src="/media/iqkbyhsq9yvpgr/subscribers_vault_thumbnail/DataCache_FI2.jpg"><h2 class="item-name">DataCache: Future Business</h2></a><div class="cboth"></div></div></div></div></div><div class="store js-store sub-nav" rel="store"><div class="col"><span class="menu-subtitle">Store</span><a href="/pledge" class="link ">All Items</a><a href="/pledge/ships" class="link active">Ships</a><a href="/pledge/game-packages" class="link ">Game Packages</a><a href="/pledge/ship-upgrades" class="link ">Ship Upgrades</a></div><div class="col"><span class="menu-subtitle">&nbsp;</span><a href="/pledge/merchandise" class="link ">Merchandise</a><a href="/pledge/subscriptions" class="link ">Subscriptions</a><a href="/pledge/extras" class="link ">Extras</a><a href="/pledge/extras?product_id=67" class="link ">Event Tickets</a></div><div class="col"><span class="menu-subtitle">In Game</span><a href="/voyager-direct" class="link ">Voyager Direct</a><a href="/electronic-access" class="link ">Electronic Access</a><a href="/pledge/extras?product_id=41" class="link ">Game Credits</a></div><div class="col"><span class="menu-subtitle">Promotion</span><a href="/referral-program" class="link ">Referral Program</a><a href="/fly-now" class="link ">Fly now</a></div></div><div class="community js-community sub-nav" rel="community"><div class="col"><span class="menu-subtitle">Content</span><a href="/community" class="link ">Community Hub</a><a href="/community/citizen-spotlight" class="link ">Citizen Spotlight</a><a href="/community/deep-space-radar" class="link ">Deep Space Radar</a><a href="/community/livestreams" class="link ">Livestream</a></div><div class="col"><span class="menu-subtitle">Exchange</span><a href="https://forums.robertsspaceindustries.com" class="link ">Forums</a><a href="/community/chat" class="link ">Chat</a><a href="/community/orgs" class="link ">Organizations</a></div><div class="col"><span class="menu-subtitle">Tools</span><a href="/community/devtracker" class="link ">Dev Tracker</a><a href="/community/arena-commander" class="link ">Leaderboards</a><a href="/community/issue-council" class="link ">Issue Council</a></div></div></div><div class="mobile-menu-inner js-mobile-menu-inner"><div class="sub-nav first-level js-first-level"><a class="sub-nav-item js-nav-mobile-item js-about " data-sub-nav="about">Star Citizen</a><a class="sub-nav-item js-nav-mobile-item js-squadron-42 " data-sub-nav="squadron-42">Squadron 42</a><a class="sub-nav-item js-nav-mobile-item js-commlink " data-sub-nav="commlink">Comm-Link</a><a class="sub-nav-item js-nav-mobile-item js-store active" data-sub-nav="store">Store</a><a class="sub-nav-item js-nav-mobile-item js-community " data-sub-nav="community">Community</a></div><div class="sub-nav second-level js-second-level">  <div class="about js-about sub-nav js-sub-nav-section" rel="about">
     <a class="sub-nav-item back active js-back-mobile-menu js-nav-mobile-item" data-sub-nav="about">Star Citizen</a>
 
                   <a href="/feature-list" class="sub-nav-item js-sub-nav-item ">
@@ -559,15 +574,15 @@ window.Main.destinations = destinations;
  </div>
 
       <div id="contentbody" class="" style="">
-        
+
 <div id="store-wrapper" class="front ">
   <div id="store-header">
-    
-        
-    
-    
 
-    
+
+
+
+
+
     <div class="nav-container">
   <div class="nav-wrapper menu js-store-nav-wrapper fixed">
     <div class="nav-inner wrapper">
@@ -687,9 +702,9 @@ window.Main.destinations = destinations;
       </div>
     </div>
   </div>
-  
+
   <input name="currency" class="js-currency ty-js-currency-selector js-form-data" id="currency" value="GBP" type="hidden">
-	
+
 </div>
     </div>
     <div class="exterior-lines">
@@ -703,13 +718,13 @@ window.Main.destinations = destinations;
     </div>
   </div>
 </div>
-    
+
   </div>
 
-  
-    
+
+
 <div class="wcontent clearfix">
-  
+
   <div class="intro-text">Find the ship that fits your style. New ships will become available as they are added to the game. You still need a Game Package to play the game!</div>
   <div class="hr"></div>
   <div class="content-block4">
@@ -721,14 +736,14 @@ window.Main.destinations = destinations;
     </div>
     <div class="bottom"></div>
   </div>
- 
+
   <div class="sort-filter-wrap type-ships">
     <form class="sort-filters clearfix js-filter-form">
       <fieldset class="lfilters">
               <a href="#" class="reset-filter js-reset trans-02s">reset filters</a>
-        
+
       </fieldset>
-      
+
       <fieldset class="sort clearfix">
         <label>Sort by:</label>
         <a href="#size" class="trans-02s sort js-sort " data-sort="name">Name</a><input name="sort" class="js-form-data" value="store" type="hidden">
@@ -739,15 +754,15 @@ window.Main.destinations = destinations;
       </fieldset>
     </form>
     <div class="cboth"></div>
-    
+
         <form class="tags-form js-tags-form visible">
-      <label>Sorting by:</label> 
+      <label>Sorting by:</label>
       <div class="tags"><div class="tag">All ships</div></div>
     </form>
     <div class="cboth"></div>
-      </div>  
+      </div>
 
-  
+
 <form id="search-filters" class="js-filter-form trans-02s ">
   <input name="itemType" value="ships" class="js-form-data js-form-primary-data" type="hidden">
   <input name="storefront" value="pledge" class="js-form-data js-form-primary-data" type="hidden">
@@ -842,7 +857,7 @@ window.Main.destinations = destinations;
   <fieldset class="closed manufacturer">
     <h3 class="title">Manufacturers <span class="arrow trans-02s"></span></h3>
     <div class="inner">
-                            
+
       <label class="checkbox trans-02s  " title="Consolidated Outland known for the Mustang starter ship">
   <input class="js-form-data js-manufacturer_id[]" name="manufacturer_id[]" value="22" type="checkbox">
   <div class="trans-02s text">Consolidated Outland<span class="trans-02s"></span></div>
@@ -850,7 +865,7 @@ window.Main.destinations = destinations;
   <div class="trans-02s right glow"><span class="top"></span><span class="bottom"></span></div>
     <img class="icon" src="/media/khu6mwy8zo5sar/icon/Consolidated_outland.png">
   </label>
-                            
+
       <label class="checkbox trans-02s  " title="Aegis Dynamics known for the Avenger and Idris Frigate">
   <input class="js-form-data js-manufacturer_id[]" name="manufacturer_id[]" value="12" type="checkbox">
   <div class="trans-02s text">Aegis Dynamics<span class="trans-02s"></span></div>
@@ -858,7 +873,7 @@ window.Main.destinations = destinations;
   <div class="trans-02s right glow"><span class="top"></span><span class="bottom"></span></div>
     <img class="icon" src="/media/1apfbr0v0vbnur/icon/Aegis.png">
   </label>
-                            
+
       <label class="checkbox trans-02s  " title="Anvil Aerospace known for the Hornet Fighters">
   <input class="js-form-data js-manufacturer_id[]" name="manufacturer_id[]" value="3" type="checkbox">
   <div class="trans-02s text">Anvil Aerospace<span class="trans-02s"></span></div>
@@ -866,7 +881,7 @@ window.Main.destinations = destinations;
   <div class="trans-02s right glow"><span class="top"></span><span class="bottom"></span></div>
     <img class="icon" src="/media/w0o33qmdai9wpr/icon/Anvil.png">
   </label>
-                            
+
       <label class="checkbox trans-02s  " title="Banu">
   <input class="js-form-data js-manufacturer_id[]" name="manufacturer_id[]" value="21" type="checkbox">
   <div class="trans-02s text">Banu<span class="trans-02s"></span></div>
@@ -874,7 +889,7 @@ window.Main.destinations = destinations;
   <div class="trans-02s right glow"><span class="top"></span><span class="bottom"></span></div>
     <img class="icon" src="/media/3ktltnm6ph4cfr/icon/Banu.png">
   </label>
-                            
+
       <label class="checkbox trans-02s  " title="Crusader Industries known for Genesis Starliner">
   <input class="js-form-data js-manufacturer_id[]" name="manufacturer_id[]" value="68" type="checkbox">
   <div class="trans-02s text">Crusader Industries<span class="trans-02s"></span></div>
@@ -882,7 +897,7 @@ window.Main.destinations = destinations;
   <div class="trans-02s right glow"><span class="top"></span><span class="bottom"></span></div>
     <img class="icon" src="/media/c83tyi4pwogrnr/icon/Crusader.png">
   </label>
-                            
+
       <label class="checkbox trans-02s  " title="Drake Interplanetary known for the Cutlass and the Caterpillar">
   <input class="js-form-data js-manufacturer_id[]" name="manufacturer_id[]" value="5" type="checkbox">
   <div class="trans-02s text">Drake Interplanetary<span class="trans-02s"></span></div>
@@ -890,7 +905,7 @@ window.Main.destinations = destinations;
   <div class="trans-02s right glow"><span class="top"></span><span class="bottom"></span></div>
     <img class="icon" src="/media/bdkpvl2bpxaqar/icon/Drake.png">
   </label>
-                            
+
       <label class="checkbox trans-02s  " title="Esperia">
   <input class="js-form-data js-manufacturer_id[]" name="manufacturer_id[]" value="69" type="checkbox">
   <div class="trans-02s text">Esperia<span class="trans-02s"></span></div>
@@ -898,7 +913,7 @@ window.Main.destinations = destinations;
   <div class="trans-02s right glow"><span class="top"></span><span class="bottom"></span></div>
     <img class="icon" src="/media/ofli1kgpqq5y6r/icon/Vanduul.png">
   </label>
-                            
+
       <label class="checkbox trans-02s  " title="Kruger Intergalactic known for the P-52 Merlin">
   <input class="js-form-data js-manufacturer_id[]" name="manufacturer_id[]" value="19" type="checkbox">
   <div class="trans-02s text">Kruger Intergalactic<span class="trans-02s"></span></div>
@@ -906,7 +921,7 @@ window.Main.destinations = destinations;
   <div class="trans-02s right glow"><span class="top"></span><span class="bottom"></span></div>
     <img class="icon" src="/media/4u3vwg26y1wm3r/icon/Kruger.png">
   </label>
-                            
+
       <label class="checkbox trans-02s  " title="Musashi Industrial &amp;amp; Starflight Concern known for the Freelancer series">
   <input class="js-form-data js-manufacturer_id[]" name="manufacturer_id[]" value="4" type="checkbox">
   <div class="trans-02s text">Musashi Industrial &amp; Starflight Concern<span class="trans-02s"></span></div>
@@ -914,7 +929,7 @@ window.Main.destinations = destinations;
   <div class="trans-02s right glow"><span class="top"></span><span class="bottom"></span></div>
     <img class="icon" src="/media/6irnix69d4a8rr/icon/MISC.png">
   </label>
-                            
+
       <label class="checkbox trans-02s  " title="Origin Jumpworks GmbH known for the 300i series">
   <input class="js-form-data js-manufacturer_id[]" name="manufacturer_id[]" value="6" type="checkbox">
   <div class="trans-02s text">Origin Jumpworks GmbH<span class="trans-02s"></span></div>
@@ -922,7 +937,7 @@ window.Main.destinations = destinations;
   <div class="trans-02s right glow"><span class="top"></span><span class="bottom"></span></div>
     <img class="icon" src="/media/0ffygmebwd3t1r/icon/Origin.png">
   </label>
-                            
+
       <label class="checkbox trans-02s  " title="Roberts Space Industries known for the Aurora and the Constellation">
   <input class="js-form-data js-manufacturer_id[]" name="manufacturer_id[]" value="1" type="checkbox">
   <div class="trans-02s text">Roberts Space Industries<span class="trans-02s"></span></div>
@@ -930,7 +945,7 @@ window.Main.destinations = destinations;
   <div class="trans-02s right glow"><span class="top"></span><span class="bottom"></span></div>
     <img class="icon" src="/media/tb6ui8j38wwscr/icon/RSI.png">
   </label>
-                            
+
       <label class="checkbox trans-02s  " title="Vanduul">
   <input class="js-form-data js-manufacturer_id[]" name="manufacturer_id[]" value="13" type="checkbox">
   <div class="trans-02s text">Vanduul<span class="trans-02s"></span></div>
@@ -938,7 +953,7 @@ window.Main.destinations = destinations;
   <div class="trans-02s right glow"><span class="top"></span><span class="bottom"></span></div>
     <img class="icon" src="/media/ofli1kgpqq5y6r/icon/Vanduul.png">
   </label>
-                            
+
       <label class="checkbox trans-02s  " title="Xi'An">
   <input class="js-form-data js-manufacturer_id[]" name="manufacturer_id[]" value="20" type="checkbox">
   <div class="trans-02s text">Xi'An<span class="trans-02s"></span></div>
@@ -1074,9 +1089,9 @@ window.Main.destinations = destinations;
   <div id="search-results" class="ships-product-type">
     <div class="inner">
                <ul class="ships-listing">
-    
+
 <li class="ship-item" data-ship-id="11">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/anvil-hornet/F7C-Hornet" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -1092,10 +1107,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -1105,19 +1120,19 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>22.500</span></span>
     <span class="mass spec">Mass / Kg : <span>21948</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/w0o33qmdai9wpr/icon/Anvil.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/w0o33qmdai9wpr/icon/Anvil.png" height="31"></span>
   </div>
 
 </li>
-    
-<li class="ship-item check available" data-ship-id="47">
-  
+
+<li class="ship-item" data-ship-id="47">
+
   <div class="top trans-02s">
     <a href="/pledge/ships/rsi-constellation/Constellation-Aquila" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -1127,34 +1142,16 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/rsi-constellation/Constellation-Aquila">
       <span class="name trans-02s">Constellation Aquila<span class="focus trans-02s"> - Exploration</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
-    <div class="ajax-content trans-02s">
-    <div class="suggested-block">
-  <div class="top">
-    <div class="title">Constellation Aquila</div>
-    <div class="type">- Extras</div>
-  </div>
-  <div class="bottom">
-    <div class="price"><strong class="final-price">£212<span class="super">.71 <span class="currency">GBP</span></span></strong><div class="taxes js-taxes">
-  <div class="taxes-details trans-02s">
-    <div class="arrow"></div>
-    Tax Included: <br>
-    <ul>
-        <li>VAT 19%</li>
-        </ul>
-  </div>
-</div></div>
 
-  </div>
-</div>
-</div>
-    
+    <div class="ajax-content trans-02s">
+    </div>
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -1164,19 +1161,19 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>4</span></span>
     <span class="length spec">Length / Meters : <span>60.100</span></span>
     <span class="mass spec">Mass / Kg : <span>80550</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/tb6ui8j38wwscr/icon/RSI.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/tb6ui8j38wwscr/icon/RSI.png" height="31"></span>
   </div>
 
 </li>
-    
+
 <li class="ship-item" data-ship-id="65">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/mustang/Mustang-Alpha" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -1192,10 +1189,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -1205,19 +1202,19 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>18.000</span></span>
     <span class="mass spec">Mass / Kg : <span>13500</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/khu6mwy8zo5sar/icon/Consolidated_outland.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/khu6mwy8zo5sar/icon/Consolidated_outland.png" height="31"></span>
   </div>
 
 </li>
-    
-<li class="ship-item check unavailable" data-ship-id="115">
-  
+
+<li class="ship-item" data-ship-id="115">
+
   <div class="top trans-02s">
     <a href="/pledge/ships/terrapin/Terrapin" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -1227,16 +1224,16 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/terrapin/Terrapin">
       <span class="name trans-02s">Terrapin<span class="focus trans-02s"> - Exploration</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -1246,19 +1243,19 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>2</span></span>
     <span class="length spec">Length / Meters : <span>19.500</span></span>
     <span class="mass spec">Mass / Kg : <span>30000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/w0o33qmdai9wpr/icon/Anvil.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/w0o33qmdai9wpr/icon/Anvil.png" height="31"></span>
   </div>
 
 </li>
-    
+
 <li class="ship-item" data-ship-id="116">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/polaris/Polaris" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -1274,10 +1271,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -1287,19 +1284,19 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>24</span></span>
     <span class="length spec">Length / Meters : <span>155.000</span></span>
     <span class="mass spec">Mass / Kg : <span>220000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/tb6ui8j38wwscr/icon/RSI.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/tb6ui8j38wwscr/icon/RSI.png" height="31"></span>
   </div>
 
 </li>
-    
+
 <li class="ship-item" data-ship-id="35">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/khartu/Khartu-Al" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -1315,10 +1312,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -1328,19 +1325,19 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>10.000</span></span>
     <span class="mass spec">Mass / Kg : <span>15307</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/p8niedyslwh6kr/icon/Xian.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/p8niedyslwh6kr/icon/Xian.png" height="31"></span>
   </div>
 
 </li>
-    
+
 <li class="ship-item" data-ship-id="88">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/misc-starfarer/Starfarer" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -1356,10 +1353,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -1369,19 +1366,19 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>7</span></span>
     <span class="length spec">Length / Meters : <span>100.000</span></span>
     <span class="mass spec">Mass / Kg : <span>350000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>
   </div>
 
 </li>
-    
+
 <li class="ship-item" data-ship-id="100">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/aegis-avenger/Avenger-Stalker" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -1397,10 +1394,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -1410,19 +1407,19 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>19.000</span></span>
     <span class="mass spec">Mass / Kg : <span>18500</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>
   </div>
 
 </li>
-    
-<li class="ship-item check unavailable" data-ship-id="110">
-  
+
+<li class="ship-item" data-ship-id="110">
+
   <div class="top trans-02s">
     <a href="/pledge/ships/drake-buccaneer/Buccaneer" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -1432,16 +1429,16 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/drake-buccaneer/Buccaneer">
       <span class="name trans-02s">Buccaneer<span class="focus trans-02s"> - Interdiction</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -1451,19 +1448,19 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>20.000</span></span>
     <span class="mass spec">Mass / Kg : <span>14000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/bdkpvl2bpxaqar/icon/Drake.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/bdkpvl2bpxaqar/icon/Drake.png" height="31"></span>
   </div>
 
 </li>
-    
+
 <li class="ship-item" data-ship-id="60">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/gladius/Gladius" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -1479,10 +1476,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -1492,22 +1489,22 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>20.000</span></span>
     <span class="mass spec">Mass / Kg : <span>16000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>
   </div>
 
 </li>
-  </ul>  
-      
+  </ul>
+
      <ul class="ships-listing">
-    
+
 <li class="ship-item" data-ship-id="92">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/p52-merlin/P-52-Merlin" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -1523,10 +1520,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -1536,20 +1533,62 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>12.000</span></span>
     <span class="mass spec">Mass / Kg : <span>6000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/4u3vwg26y1wm3r/icon/Kruger.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/4u3vwg26y1wm3r/icon/Kruger.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
+<li class="ship-item" data-ship-id="121">
+
+  <div class="top trans-02s">
+    <a href="/pledge/ships/gladius/Gladius-Valiant" class="trans-02s">View  Specs and options<span></span></a>
+  </div>
+  <div class="center">
+    <img src="/media/mpszlemby5r43r/store_large/Gladius_variant_sale_img.jpg" class="ship trans-02s">
+    <a class="gradient trans-02s" href="/pledge/ships/gladius/Gladius-Valiant"></a>
+    <div class="blue-overlay"></div>
+    <a class="filet" href="/pledge/ships/gladius/Gladius-Valiant">
+      <span class="name trans-02s">Gladius Valiant<span class="focus trans-02s"> - Short-range Patrol Fighter</span></span>
+      <div class="arrows">
+        <span class="arrow arrow1"></span>
+        <span class="arrow arrow2"></span>
+        <span class="arrow arrow3"></span>
+      </div>
+    </a>
+
+    <div class="ajax-content trans-02s">
+    </div>
+
+    <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
+      <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
+      <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
+    </a>
+
+    <a class="holosmallbtn trans-03s unavailable" href="/pledge/ships/gladius/Gladius-Valiant" data-sku="">
+      <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
+      <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
+    </a>
+
+  </div>
+  <div class="bottom trans-02s">
+    <span class="crew spec">Max Crew / Human : <span>1</span></span>
+    <span class="length spec">Length / Meters : <span>20.000</span></span>
+    <span class="mass spec">Mass / Kg : <span>16000</span></span>
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>
+  </div>
+
+</li>
+
+
 <li class="ship-item" data-ship-id="62">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/carrack/Carrack" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -1565,10 +1604,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -1578,20 +1617,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>5</span></span>
     <span class="length spec">Length / Meters : <span>123.000</span></span>
     <span class="mass spec">Mass / Kg : <span>180000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/w0o33qmdai9wpr/icon/Anvil.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/w0o33qmdai9wpr/icon/Anvil.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="59">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/redeemer/Redeemer" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -1607,10 +1646,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -1620,20 +1659,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>5</span></span>
     <span class="length spec">Length / Meters : <span>37.500</span></span>
     <span class="mass spec">Mass / Kg : <span>42000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="61">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/herald/Herald" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -1649,10 +1688,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -1662,20 +1701,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>2</span></span>
     <span class="length spec">Length / Meters : <span>23.000</span></span>
     <span class="mass spec">Mass / Kg : <span>18000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/bdkpvl2bpxaqar/icon/Drake.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/bdkpvl2bpxaqar/icon/Drake.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="63">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/aegis-javelin/Javelin-Class-Destroyer" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -1691,10 +1730,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -1704,20 +1743,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span></span></span>
     <span class="length spec">Length / Meters : <span>345.000</span></span>
     <span class="mass spec">Mass / Kg : <span>0</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="66">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/mustang/Mustang-Beta" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -1733,10 +1772,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -1746,20 +1785,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>18.000</span></span>
     <span class="mass spec">Mass / Kg : <span>17000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/khu6mwy8zo5sar/icon/Consolidated_outland.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/khu6mwy8zo5sar/icon/Consolidated_outland.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="67">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/mustang/Mustang-Gamma" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -1775,10 +1814,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -1788,20 +1827,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>18.000</span></span>
     <span class="mass spec">Mass / Kg : <span>13000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/khu6mwy8zo5sar/icon/Consolidated_outland.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/khu6mwy8zo5sar/icon/Consolidated_outland.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="69">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/mustang/Mustang-Delta" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -1817,10 +1856,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -1830,20 +1869,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>18.000</span></span>
     <span class="mass spec">Mass / Kg : <span>13000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/khu6mwy8zo5sar/icon/Consolidated_outland.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/khu6mwy8zo5sar/icon/Consolidated_outland.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="70">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/mustang/Mustang-Omega" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -1859,10 +1898,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -1872,20 +1911,22 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>18.000</span></span>
     <span class="mass spec">Mass / Kg : <span>13000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/khu6mwy8zo5sar/icon/Consolidated_outland.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/khu6mwy8zo5sar/icon/Consolidated_outland.png" height="31"></span>
   </div>
 
 </li>
 
-    
+  </ul>
+ <ul class="ships-listing">
+
 <li class="ship-item" data-ship-id="87">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/hull/Hull-E" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -1901,10 +1942,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -1914,22 +1955,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>5</span></span>
     <span class="length spec">Length / Meters : <span>372.100</span></span>
     <span class="mass spec">Mass / Kg : <span>3241052</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>
   </div>
 
 </li>
 
-  </ul>  
- <ul class="ships-listing">
-    
+
 <li class="ship-item" data-ship-id="86">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/hull/Hull-D" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -1945,10 +1984,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -1958,20 +1997,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>5</span></span>
     <span class="length spec">Length / Meters : <span>209.100</span></span>
     <span class="mass spec">Mass / Kg : <span>1088057</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="41">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/hull/Hull-C" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -1987,10 +2026,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -2000,20 +2039,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>3</span></span>
     <span class="length spec">Length / Meters : <span>104.500</span></span>
     <span class="mass spec">Mass / Kg : <span>298419</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="85">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/hull/Hull-B" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -2029,10 +2068,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -2042,20 +2081,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>49.200</span></span>
     <span class="mass spec">Mass / Kg : <span>67137</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="84">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/hull/Hull-A" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -2071,10 +2110,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -2084,20 +2123,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>21.700</span></span>
     <span class="mass spec">Mass / Kg : <span>14303</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>
   </div>
 
 </li>
 
-    
-<li class="ship-item check unavailable" data-ship-id="75">
-  
+
+<li class="ship-item" data-ship-id="75">
+
   <div class="top trans-02s">
     <a href="/pledge/ships/vanguard/Vanguard-Warden" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -2107,16 +2146,16 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/vanguard/Vanguard-Warden">
       <span class="name trans-02s">Vanguard Warden<span class="focus trans-02s"> - Long-range fighter</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -2126,20 +2165,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>2</span></span>
     <span class="length spec">Length / Meters : <span>37.000</span></span>
     <span class="mass spec">Mass / Kg : <span>45000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="1">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/rsi-aurora/Aurora-ES" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -2155,10 +2194,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -2168,20 +2207,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>18.500</span></span>
     <span class="mass spec">Mass / Kg : <span>7550</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/tb6ui8j38wwscr/icon/RSI.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/tb6ui8j38wwscr/icon/RSI.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="3">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/rsi-aurora/Aurora-LX" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -2197,10 +2236,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -2210,20 +2249,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>18.500</span></span>
     <span class="mass spec">Mass / Kg : <span>7550</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/tb6ui8j38wwscr/icon/RSI.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/tb6ui8j38wwscr/icon/RSI.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="4">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/rsi-aurora/Aurora-MR" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -2239,10 +2278,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -2252,20 +2291,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>18.500</span></span>
     <span class="mass spec">Mass / Kg : <span>7550</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/tb6ui8j38wwscr/icon/RSI.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/tb6ui8j38wwscr/icon/RSI.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="5">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/rsi-aurora/Aurora-CL" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -2281,10 +2320,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -2294,20 +2333,22 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>18.500</span></span>
     <span class="mass spec">Mass / Kg : <span>7560</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/tb6ui8j38wwscr/icon/RSI.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/tb6ui8j38wwscr/icon/RSI.png" height="31"></span>
   </div>
 
 </li>
 
-    
+  </ul>
+ <ul class="ships-listing">
+
 <li class="ship-item" data-ship-id="6">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/rsi-aurora/Aurora-LN" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -2323,10 +2364,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -2336,22 +2377,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>18.500</span></span>
     <span class="mass spec">Mass / Kg : <span>8300</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/tb6ui8j38wwscr/icon/RSI.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/tb6ui8j38wwscr/icon/RSI.png" height="31"></span>
   </div>
 
 </li>
 
-  </ul>  
- <ul class="ships-listing">
-    
+
 <li class="ship-item" data-ship-id="7">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/origin-300/300i" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -2367,10 +2406,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -2380,20 +2419,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>24.000</span></span>
     <span class="mass spec">Mass / Kg : <span>20085</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/0ffygmebwd3t1r/icon/Origin.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/0ffygmebwd3t1r/icon/Origin.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="8">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/origin-300/315p" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -2409,10 +2448,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -2422,20 +2461,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>24.000</span></span>
     <span class="mass spec">Mass / Kg : <span>20085</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/0ffygmebwd3t1r/icon/Origin.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/0ffygmebwd3t1r/icon/Origin.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="9">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/origin-300/325a" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -2451,10 +2490,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -2464,20 +2503,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>24.000</span></span>
     <span class="mass spec">Mass / Kg : <span>20085</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/0ffygmebwd3t1r/icon/Origin.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/0ffygmebwd3t1r/icon/Origin.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="10">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/origin-300/350r" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -2493,10 +2532,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -2506,20 +2545,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>24.000</span></span>
     <span class="mass spec">Mass / Kg : <span>20085</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/0ffygmebwd3t1r/icon/Origin.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/0ffygmebwd3t1r/icon/Origin.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="13">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/anvil-hornet/F7C-S-Hornet-Ghost" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -2535,10 +2574,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -2548,20 +2587,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>22.500</span></span>
     <span class="mass spec">Mass / Kg : <span>22370</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/w0o33qmdai9wpr/icon/Anvil.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/w0o33qmdai9wpr/icon/Anvil.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="14">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/anvil-hornet/F7C-R-Hornet-Tracker" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -2577,10 +2616,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -2590,20 +2629,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>22.500</span></span>
     <span class="mass spec">Mass / Kg : <span>22370</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/w0o33qmdai9wpr/icon/Anvil.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/w0o33qmdai9wpr/icon/Anvil.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="15">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/anvil-hornet/F7C-M-Super-Hornet" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -2619,10 +2658,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -2632,20 +2671,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>2</span></span>
     <span class="length spec">Length / Meters : <span>24.000</span></span>
     <span class="mass spec">Mass / Kg : <span>23218</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/w0o33qmdai9wpr/icon/Anvil.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/w0o33qmdai9wpr/icon/Anvil.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="16">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/misc-freelancer/Freelancer" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -2661,10 +2700,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -2674,20 +2713,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>2</span></span>
     <span class="length spec">Length / Meters : <span>32.000</span></span>
     <span class="mass spec">Mass / Kg : <span>26000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="22">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/origin-m50/M50-Interceptor" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -2703,10 +2742,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -2716,20 +2755,22 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>11.000</span></span>
     <span class="mass spec">Mass / Kg : <span>12000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/0ffygmebwd3t1r/icon/Origin.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/0ffygmebwd3t1r/icon/Origin.png" height="31"></span>
   </div>
 
 </li>
 
-    
+  </ul>
+ <ul class="ships-listing">
+
 <li class="ship-item" data-ship-id="24">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/drake-caterpillar/Caterpillar" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -2745,10 +2786,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -2758,22 +2799,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>5</span></span>
     <span class="length spec">Length / Meters : <span>66.500</span></span>
     <span class="mass spec">Mass / Kg : <span>84516</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/bdkpvl2bpxaqar/icon/Drake.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/bdkpvl2bpxaqar/icon/Drake.png" height="31"></span>
   </div>
 
 </li>
 
-  </ul>  
- <ul class="ships-listing">
-    
+
 <li class="ship-item" data-ship-id="26">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/scythe/Vanduul-Scythe" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -2789,10 +2828,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -2802,20 +2841,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>30.750</span></span>
     <span class="mass spec">Mass / Kg : <span>29387</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/ofli1kgpqq5y6r/icon/Vanduul.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/ofli1kgpqq5y6r/icon/Vanduul.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="27">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/aegis-idris/Idris-M" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -2831,10 +2870,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -2844,20 +2883,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>10</span></span>
     <span class="length spec">Length / Meters : <span>238.500</span></span>
     <span class="mass spec">Mass / Kg : <span>1610110</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="28">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/aegis-idris/Idris-P" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -2873,10 +2912,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -2886,20 +2925,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>10</span></span>
     <span class="length spec">Length / Meters : <span>238.500</span></span>
     <span class="mass spec">Mass / Kg : <span>1600110</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>
   </div>
 
 </li>
 
-    
-<li class="ship-item check available" data-ship-id="31">
-  
+
+<li class="ship-item" data-ship-id="31">
+
   <div class="top trans-02s">
     <a href="/pledge/ships/misc-freelancer/Freelancer-DUR" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -2909,34 +2948,16 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/misc-freelancer/Freelancer-DUR">
       <span class="name trans-02s">Freelancer DUR<span class="focus trans-02s"> - Exploration</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
-    <div class="ajax-content trans-02s">
-    <div class="suggested-block">
-  <div class="top">
-    <div class="title">Freelancer DUR</div>
-    <div class="type">- Extras</div>
-  </div>
-  <div class="bottom">
-    <div class="price"><strong class="final-price">£96<span class="super">.69 <span class="currency">GBP</span></span></strong><div class="taxes js-taxes">
-  <div class="taxes-details trans-02s">
-    <div class="arrow"></div>
-    Tax Included: <br>
-    <ul>
-        <li>VAT 19%</li>
-        </ul>
-  </div>
-</div></div>
 
-  </div>
-</div>
-</div>
-    
+    <div class="ajax-content trans-02s">
+    </div>
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -2946,20 +2967,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>2</span></span>
     <span class="length spec">Length / Meters : <span>34.000</span></span>
     <span class="mass spec">Mass / Kg : <span>28000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="32">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/misc-freelancer/Freelancer-MAX" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -2975,10 +2996,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -2988,20 +3009,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>2</span></span>
     <span class="length spec">Length / Meters : <span>32.000</span></span>
     <span class="mass spec">Mass / Kg : <span>32000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="33">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/misc-freelancer/Freelancer-MIS" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -3017,10 +3038,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -3030,20 +3051,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>3</span></span>
     <span class="length spec">Length / Meters : <span>34.000</span></span>
     <span class="mass spec">Mass / Kg : <span>30000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="36">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/merchantman/Merchantman" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -3059,10 +3080,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -3072,20 +3093,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>8</span></span>
     <span class="length spec">Length / Meters : <span>100.000</span></span>
     <span class="mass spec">Mass / Kg : <span>811395</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/3ktltnm6ph4cfr/icon/Banu.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/3ktltnm6ph4cfr/icon/Banu.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="37">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/anvil-hornet/F7A-Hornet" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -3101,10 +3122,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -3114,20 +3135,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>22.500</span></span>
     <span class="mass spec">Mass / Kg : <span>22932</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/w0o33qmdai9wpr/icon/Anvil.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/w0o33qmdai9wpr/icon/Anvil.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="45">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/rsi-constellation/Constellation-Andromeda" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -3143,10 +3164,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -3156,20 +3177,22 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>5</span></span>
     <span class="length spec">Length / Meters : <span>61.100</span></span>
     <span class="mass spec">Mass / Kg : <span>80530</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/tb6ui8j38wwscr/icon/RSI.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/tb6ui8j38wwscr/icon/RSI.png" height="31"></span>
   </div>
 
 </li>
 
-    
+  </ul>
+ <ul class="ships-listing">
+
 <li class="ship-item" data-ship-id="46">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/rsi-constellation/Constellation-Taurus" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -3185,10 +3208,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -3198,22 +3221,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>4</span></span>
     <span class="length spec">Length / Meters : <span>58.800</span></span>
     <span class="mass spec">Mass / Kg : <span>80000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/tb6ui8j38wwscr/icon/RSI.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/tb6ui8j38wwscr/icon/RSI.png" height="31"></span>
   </div>
 
 </li>
 
-  </ul>  
- <ul class="ships-listing">
-    
+
 <li class="ship-item" data-ship-id="49">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/rsi-constellation/Constellation-Phoenix" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -3229,10 +3250,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -3242,20 +3263,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>4</span></span>
     <span class="length spec">Length / Meters : <span>61.100</span></span>
     <span class="mass spec">Mass / Kg : <span>81000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/tb6ui8j38wwscr/icon/RSI.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/tb6ui8j38wwscr/icon/RSI.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="51">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/reclaimer/Reclaimer" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -3271,10 +3292,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -3284,20 +3305,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>5</span></span>
     <span class="length spec">Length / Meters : <span>158.000</span></span>
     <span class="mass spec">Mass / Kg : <span>600000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="55">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/890-jump/890-JUMP" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -3313,10 +3334,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -3326,20 +3347,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>5</span></span>
     <span class="length spec">Length / Meters : <span>123.000</span></span>
     <span class="mass spec">Mass / Kg : <span>202500</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/0ffygmebwd3t1r/icon/Origin.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/0ffygmebwd3t1r/icon/Origin.png" height="31"></span>
   </div>
 
 </li>
 
-    
-<li class="ship-item check available" data-ship-id="56">
-  
+
+<li class="ship-item" data-ship-id="56">
+
   <div class="top trans-02s">
     <a href="/pledge/ships/drake-cutlass/Cutlass-Black" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -3349,34 +3370,16 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/drake-cutlass/Cutlass-Black">
       <span class="name trans-02s">Cutlass Black<span class="focus trans-02s"> - Militia/Patrol</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
-    <div class="ajax-content trans-02s">
-    <div class="suggested-block">
-  <div class="top">
-    <div class="title">Cutlass Black</div>
-    <div class="type">- Extras</div>
-  </div>
-  <div class="bottom">
-    <div class="price"><strong class="final-price">£77<span class="super">.35 <span class="currency">GBP</span></span></strong><div class="taxes js-taxes">
-  <div class="taxes-details trans-02s">
-    <div class="arrow"></div>
-    Tax Included: <br>
-    <ul>
-        <li>VAT 19%</li>
-        </ul>
-  </div>
-</div></div>
 
-  </div>
-</div>
-</div>
-    
+    <div class="ajax-content trans-02s">
+    </div>
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -3386,20 +3389,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>3</span></span>
     <span class="length spec">Length / Meters : <span>29.000</span></span>
     <span class="mass spec">Mass / Kg : <span>33000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/bdkpvl2bpxaqar/icon/Drake.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/bdkpvl2bpxaqar/icon/Drake.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="57">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/drake-cutlass/Cutlass-Red" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -3415,10 +3418,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -3428,20 +3431,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>4</span></span>
     <span class="length spec">Length / Meters : <span>29.000</span></span>
     <span class="mass spec">Mass / Kg : <span>36000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/bdkpvl2bpxaqar/icon/Drake.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/bdkpvl2bpxaqar/icon/Drake.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="58">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/drake-cutlass/Cutlass-Blue" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -3457,10 +3460,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -3470,20 +3473,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>3</span></span>
     <span class="length spec">Length / Meters : <span>29.000</span></span>
     <span class="mass spec">Mass / Kg : <span>36000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/bdkpvl2bpxaqar/icon/Drake.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/bdkpvl2bpxaqar/icon/Drake.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="64">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/anvil-gladiator/Gladiator" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -3499,10 +3502,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -3512,20 +3515,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>2</span></span>
     <span class="length spec">Length / Meters : <span>22.000</span></span>
     <span class="mass spec">Mass / Kg : <span>26000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/w0o33qmdai9wpr/icon/Anvil.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/w0o33qmdai9wpr/icon/Anvil.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="71">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/orion/Orion" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -3541,10 +3544,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -3554,20 +3557,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>6</span></span>
     <span class="length spec">Length / Meters : <span>170.000</span></span>
     <span class="mass spec">Mass / Kg : <span>5400000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/tb6ui8j38wwscr/icon/RSI.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/tb6ui8j38wwscr/icon/RSI.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="72">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/aegis-retaliator/Retaliator-Bomber" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -3583,10 +3586,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -3596,20 +3599,22 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>6</span></span>
     <span class="length spec">Length / Meters : <span>71.000</span></span>
     <span class="mass spec">Mass / Kg : <span>188000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>
   </div>
 
 </li>
 
-    
+  </ul>
+ <ul class="ships-listing">
+
 <li class="ship-item" data-ship-id="89">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/misc-starfarer/Starfarer-Gemini" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -3625,10 +3630,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -3638,22 +3643,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>7</span></span>
     <span class="length spec">Length / Meters : <span>100.000</span></span>
     <span class="mass spec">Mass / Kg : <span>350000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>
   </div>
 
 </li>
 
-  </ul>  
- <ul class="ships-listing">
-    
+
 <li class="ship-item" data-ship-id="90">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/reliant/Reliant-Kore-Mini-Hauler" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -3669,10 +3672,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -3682,20 +3685,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>2</span></span>
     <span class="length spec">Length / Meters : <span>13.000</span></span>
     <span class="mass spec">Mass / Kg : <span>18750</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="91">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/starliner/Genesis" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -3711,10 +3714,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -3724,20 +3727,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>8</span></span>
     <span class="length spec">Length / Meters : <span>85.000</span></span>
     <span class="mass spec">Mass / Kg : <span>275625</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/c83tyi4pwogrnr/icon/Crusader.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/c83tyi4pwogrnr/icon/Crusader.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="93">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/esperia-glaive/Esperia-Glaive" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -3753,10 +3756,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -3766,20 +3769,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>31.000</span></span>
     <span class="mass spec">Mass / Kg : <span>29387</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/ofli1kgpqq5y6r/icon/Vanduul.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/ofli1kgpqq5y6r/icon/Vanduul.png" height="31"></span>
   </div>
 
 </li>
 
-    
-<li class="ship-item check unavailable" data-ship-id="95">
-  
+
+<li class="ship-item" data-ship-id="95">
+
   <div class="top trans-02s">
     <a href="/pledge/ships/vanguard/Vanguard-Harbinger" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -3789,16 +3792,16 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/vanguard/Vanguard-Harbinger">
       <span class="name trans-02s">Vanguard Harbinger<span class="focus trans-02s"> - Bomber</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -3808,20 +3811,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>2</span></span>
     <span class="length spec">Length / Meters : <span>37.000</span></span>
     <span class="mass spec">Mass / Kg : <span>52000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="96">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/vanguard/Vanguard-Sentinel" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -3837,10 +3840,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -3850,20 +3853,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>2</span></span>
     <span class="length spec">Length / Meters : <span>37.000</span></span>
     <span class="mass spec">Mass / Kg : <span>40000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="97">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/misc-endeavor/Endeavor" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -3879,10 +3882,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -3892,20 +3895,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>16</span></span>
     <span class="length spec">Length / Meters : <span>200.000</span></span>
     <span class="mass spec">Mass / Kg : <span>1000000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="98">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/sabre/Sabre" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -3921,10 +3924,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -3934,20 +3937,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>26.000</span></span>
     <span class="mass spec">Mass / Kg : <span>18000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="99">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/aegis-retaliator/Retaliator-Base" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -3963,10 +3966,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -3976,20 +3979,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>6</span></span>
     <span class="length spec">Length / Meters : <span>71.000</span></span>
     <span class="mass spec">Mass / Kg : <span>188000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="101">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/aegis-avenger/Avenger-Warlock" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -4005,10 +4008,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -4018,20 +4021,22 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>19.000</span></span>
     <span class="mass spec">Mass / Kg : <span>18500</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>
   </div>
 
 </li>
 
-    
+  </ul>
+ <ul class="ships-listing">
+
 <li class="ship-item" data-ship-id="102">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/aegis-avenger/Avenger-Titan" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -4047,10 +4052,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -4060,22 +4065,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>19.000</span></span>
     <span class="mass spec">Mass / Kg : <span>18500</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>
   </div>
 
 </li>
 
-  </ul>  
- <ul class="ships-listing">
-    
+
 <li class="ship-item" data-ship-id="103">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/crucible/Crucible" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -4091,10 +4094,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -4104,20 +4107,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>4</span></span>
     <span class="length spec">Length / Meters : <span>80.000</span></span>
     <span class="mass spec">Mass / Kg : <span>525500</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/w0o33qmdai9wpr/icon/Anvil.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/w0o33qmdai9wpr/icon/Anvil.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="104">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/p52-merlin/P-72-Archimedes" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -4133,10 +4136,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -4146,20 +4149,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>12.000</span></span>
     <span class="mass spec">Mass / Kg : <span>6000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/4u3vwg26y1wm3r/icon/Kruger.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/4u3vwg26y1wm3r/icon/Kruger.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="105">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/reliant/Reliant-Mako-News-Van" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -4175,10 +4178,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -4188,20 +4191,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>2</span></span>
     <span class="length spec">Length / Meters : <span>13.000</span></span>
     <span class="mass spec">Mass / Kg : <span>18750</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="106">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/reliant/Reliant-Sen-Researcher" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -4217,10 +4220,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -4230,20 +4233,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>2</span></span>
     <span class="length spec">Length / Meters : <span>13.000</span></span>
     <span class="mass spec">Mass / Kg : <span>18750</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>
   </div>
 
 </li>
 
-    
-<li class="ship-item check unavailable" data-ship-id="107">
-  
+
+<li class="ship-item" data-ship-id="107">
+
   <div class="top trans-02s">
     <a href="/pledge/ships/reliant/Reliant-Tana-Skirmisher" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -4253,16 +4256,16 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/reliant/Reliant-Tana-Skirmisher">
       <span class="name trans-02s">Reliant Tana - Skirmisher<span class="focus trans-02s"> - Defense</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -4272,20 +4275,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>2</span></span>
     <span class="length spec">Length / Meters : <span>13.000</span></span>
     <span class="mass spec">Mass / Kg : <span>18750</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="108">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/vanduul-blade/Esperia-Vanduul-Blade" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -4301,10 +4304,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -4314,20 +4317,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>15.500</span></span>
     <span class="mass spec">Mass / Kg : <span>10000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/ofli1kgpqq5y6r/icon/Vanduul.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/ofli1kgpqq5y6r/icon/Vanduul.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="109">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/misc-prospector/Prospector" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -4343,10 +4346,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -4356,20 +4359,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>24.000</span></span>
     <span class="mass spec">Mass / Kg : <span>48956</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="111">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/drake-dragonfly/Dragonfly-Yellowjacket" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -4385,10 +4388,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -4398,20 +4401,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>2</span></span>
     <span class="length spec">Length / Meters : <span>6.500</span></span>
     <span class="mass spec">Mass / Kg : <span>1000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/bdkpvl2bpxaqar/icon/Drake.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/bdkpvl2bpxaqar/icon/Drake.png" height="31"></span>
   </div>
 
 </li>
 
-    
+
 <li class="ship-item" data-ship-id="112">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/drake-dragonfly/Dragonfly-Black" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -4427,10 +4430,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -4440,20 +4443,22 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>2</span></span>
     <span class="length spec">Length / Meters : <span>6.500</span></span>
     <span class="mass spec">Mass / Kg : <span>1000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/bdkpvl2bpxaqar/icon/Drake.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/bdkpvl2bpxaqar/icon/Drake.png" height="31"></span>
   </div>
 
 </li>
 
-    
+  </ul>
+ <ul class="ships-listing">
+
 <li class="ship-item" data-ship-id="113">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/argo/MPUV-Personnel" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -4469,10 +4474,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -4482,22 +4487,20 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>9.250</span></span>
     <span class="mass spec">Mass / Kg : <span>6000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/5koy9xgk02jqer/icon/Argo_Blue.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/5koy9xgk02jqer/icon/Argo_Blue.png" height="31"></span>
   </div>
 
 </li>
 
-  </ul>  
- <ul class="ships-listing">
-    
+
 <li class="ship-item" data-ship-id="114">
-  
+
   <div class="top trans-02s">
     <a href="/pledge/ships/argo/MPUV-Cargo" class="trans-02s">View  Specs and options<span></span></a>
   </div>
@@ -4513,10 +4516,10 @@ window.Main.destinations = destinations;
         <span class="arrow arrow3"></span>
       </div>
     </a>
-    
+
     <div class="ajax-content trans-02s">
     </div>
-    
+
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
@@ -4526,24 +4529,108 @@ window.Main.destinations = destinations;
       <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
       <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
     </a>
-        
+
   </div>
   <div class="bottom trans-02s">
     <span class="crew spec">Max Crew / Human : <span>1</span></span>
     <span class="length spec">Length / Meters : <span>9.250</span></span>
     <span class="mass spec">Mass / Kg : <span>6000</span></span>
-    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/5koy9xgk02jqer/icon/Argo_Blue.png" height="31"></span>  
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/5koy9xgk02jqer/icon/Argo_Blue.png" height="31"></span>
   </div>
 
 </li>
 
-  </ul>  
+
+<li class="ship-item" data-ship-id="117">
+
+  <div class="top trans-02s">
+    <a href="/pledge/ships/prowler/Esperia-Prowler" class="trans-02s">View  Specs and options<span></span></a>
+  </div>
+  <div class="center">
+    <img src="/media/3j9cau4jygwier/store_large/Esperia_Prowler_SHOT_01b.jpg" class="ship trans-02s">
+    <a class="gradient trans-02s" href="/pledge/ships/prowler/Esperia-Prowler"></a>
+    <div class="blue-overlay"></div>
+    <a class="filet" href="/pledge/ships/prowler/Esperia-Prowler">
+      <span class="name trans-02s">Esperia Prowler<span class="focus trans-02s"> - Dropship</span></span>
+      <div class="arrows">
+        <span class="arrow arrow1"></span>
+        <span class="arrow arrow2"></span>
+        <span class="arrow arrow3"></span>
+      </div>
+    </a>
+
+    <div class="ajax-content trans-02s">
+    </div>
+
+    <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
+      <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
+      <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
+    </a>
+
+    <a class="holosmallbtn trans-03s unavailable" href="/pledge/ships/prowler/Esperia-Prowler" data-sku="">
+      <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
+      <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
+    </a>
+
+  </div>
+  <div class="bottom trans-02s">
+    <span class="crew spec">Max Crew / Human : <span>2</span></span>
+    <span class="length spec">Length / Meters : <span>34.000</span></span>
+    <span class="mass spec">Mass / Kg : <span>60000</span></span>
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/ofli1kgpqq5y6r/icon/Vanduul.png" height="31"></span>
+  </div>
+
+</li>
+
+
+<li class="ship-item" data-ship-id="123">
+
+  <div class="top trans-02s">
+    <a href="/pledge/ships/85x/85X" class="trans-02s">View  Specs and options<span></span></a>
+  </div>
+  <div class="center">
+    <img src="/media/4vht65hve2o1cr/store_large/85_X_city_shot.jpg" class="ship trans-02s">
+    <a class="gradient trans-02s" href="/pledge/ships/85x/85X"></a>
+    <div class="blue-overlay"></div>
+    <a class="filet" href="/pledge/ships/85x/85X">
+      <span class="name trans-02s">85X<span class="focus trans-02s"> - Snub Fighter</span></span>
+      <div class="arrows">
+        <span class="arrow arrow1"></span>
+        <span class="arrow arrow2"></span>
+        <span class="arrow arrow3"></span>
+      </div>
+    </a>
+
+    <div class="ajax-content trans-02s">
+    </div>
+
+    <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
+      <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
+      <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
+    </a>
+
+    <a class="holosmallbtn trans-03s unavailable" href="/pledge/ships/85x/85X" data-sku="">
+      <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
+      <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
+    </a>
+
+  </div>
+  <div class="bottom trans-02s">
+    <span class="crew spec">Max Crew / Human : <span>2</span></span>
+    <span class="length spec">Length / Meters : <span>13.000</span></span>
+    <span class="mass spec">Mass / Kg : <span>8000</span></span>
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/0ffygmebwd3t1r/icon/Origin.png" height="31"></span>
+  </div>
+
+</li>
+
+  </ul>
 </div>
     <div class="traj-loader" style="display: none;">
       <div class="fast-blink"></div>
       <span>Searching Ships</span>
     </div>
-    
+
   </div>
 </div>
 
@@ -4553,7 +4640,7 @@ window.Main.destinations = destinations;
 
       </div>
 
-      
+
 <footer class="menu" id="rsi-website-footer">
   <div class="wrapper">
     <div class="oblique-menu line top-line-up">
@@ -4598,45 +4685,45 @@ window.Main.destinations = destinations;
             <div class="col">
         <div class="name">Star Citizen</div>
         <ul class="list-link">
-                    
-                    <li class="item"><a href="/feature-list" class="link">Game Features</a></li>                    <li class="item"><a href="/download" class="link">Download</a></li>                    <li class="item"><a href="/funding-goals" class="link">Funding</a></li>                                                  
-                    <li class="item"><a href="/about-the-game/spaceflight" class="link">The Vision</a></li>                    <li class="item"><a href="/starmap" class="link">Starmap</a></li>                    <li class="item"><a href="/ship-specs" class="link">Ship Matrix</a></li>                              
+
+                    <li class="item"><a href="/feature-list" class="link">Game Features</a></li>                    <li class="item"><a href="/download" class="link">Download</a></li>                    <li class="item"><a href="/funding-goals" class="link">Funding</a></li>
+                    <li class="item"><a href="/about-the-game/spaceflight" class="link">The Vision</a></li>                    <li class="item"><a href="/starmap" class="link">Starmap</a></li>                    <li class="item"><a href="/ship-specs" class="link">Ship Matrix</a></li>
                     <li class="item"><a href="/events" class="link">All Events</a></li>                            </ul>
       </div>
             <div class="col">
         <div class="name">Squadron 42</div>
         <ul class="list-link">
-                    
+
                     <li class="item"><a href="/squadron42" class="link">About the Game</a></li>                    <li class="item"><a href="/pledge/Packages/Squadron-42-Standalone-Pledge" class="link">Pledge Now</a></li>                            </ul>
       </div>
             <div class="col">
         <div class="name">Comm-Link</div>
         <ul class="list-link">
-                    
+
                     <li class="item"><a href="/comm-link" class="link">All</a></li>                    <li class="item"><a href="/comm-link/transmission" class="link">Transmissions</a></li>                    <li class="item"><a href="/comm-link/citizens" class="link">Citizens</a></li>                    <li class="item"><a href="/comm-link/engineering" class="link">Engineering</a></li>                    <li class="item"><a href="/comm-link/spectrum-dispatch" class="link">Spectrum Dispatch</a></li>                            </ul>
       </div>
             <div class="col">
         <div class="name">Store</div>
         <ul class="list-link">
-                    
-                    <li class="item"><a href="/pledge" class="link">All Items</a></li>                    <li class="item"><a href="/pledge/ships" class="link">Ships</a></li>                    <li class="item"><a href="/pledge/game-packages" class="link">Game Packages</a></li>                    <li class="item"><a href="/pledge/ship-upgrades" class="link">Ship Upgrades</a></li>                              
-                                        <li class="item"><a href="/pledge/subscriptions" class="link">Subscriptions</a></li>                                                                      
-                    <li class="item"><a href="/voyager-direct" class="link">Voyager Direct</a></li>                    <li class="item"><a href="/electronic-access" class="link">Electronic Access</a></li>                                                  
+
+                    <li class="item"><a href="/pledge" class="link">All Items</a></li>                    <li class="item"><a href="/pledge/ships" class="link">Ships</a></li>                    <li class="item"><a href="/pledge/game-packages" class="link">Game Packages</a></li>                    <li class="item"><a href="/pledge/ship-upgrades" class="link">Ship Upgrades</a></li>
+                                        <li class="item"><a href="/pledge/subscriptions" class="link">Subscriptions</a></li>
+                    <li class="item"><a href="/voyager-direct" class="link">Voyager Direct</a></li>                    <li class="item"><a href="/electronic-access" class="link">Electronic Access</a></li>
                     <li class="item"><a href="/referral-program" class="link">Referral Program</a></li>                                                </ul>
       </div>
             <div class="col">
         <div class="name">Community</div>
         <ul class="list-link">
-                    
-                    <li class="item"><a href="/community" class="link">Community Hub</a></li>                                                                                          
-                    <li class="item"><a href="https://forums.robertsspaceindustries.com" class="link">Forums</a></li>                    <li class="item"><a href="/community/chat" class="link">Chat</a></li>                    <li class="item"><a href="/community/orgs" class="link">Organizations</a></li>                              
+
+                    <li class="item"><a href="/community" class="link">Community Hub</a></li>
+                    <li class="item"><a href="https://forums.robertsspaceindustries.com" class="link">Forums</a></li>                    <li class="item"><a href="/community/chat" class="link">Chat</a></li>                    <li class="item"><a href="/community/orgs" class="link">Organizations</a></li>
                     <li class="item"><a href="/community/devtracker" class="link">Dev Tracker</a></li>                    <li class="item"><a href="/community/arena-commander" class="link">Leaderboards</a></li>                    <li class="item"><a href="/community/issue-council" class="link">Issue Council</a></li>                            </ul>
       </div>
-      
+
       <div class="col utilites">
         <div class="name">Utilities</div>
         <ul class="list-link">
-          
+
           <li class="item"><a href="/help" class="link">Help</a></li>
           <li class="item"><a href="/press" class="link">Press</a></li>
           <li class="item"><a href="http://cloudimperiumgames.com/jobs" class="link">Careers with us</a></li>
@@ -4658,17 +4745,17 @@ window.Main.destinations = destinations;
     </div>
 
     <div class="line-menu no-content wrapper"></div>
-    
-    
+
+
   <div class="store-country-selector wrapper international-bottom">
-  
+
   <div class="title">Current country selected:</div>
-  
+
   <a class="js-countryselector-list selectlist " rel="country" href="">
     <div class="arrow"></div>
     <span>Germany</span>
-    
-    
+
+
             <div class="scrollable body" style="height: 100px;"><div class="scrollbar disable" style="height: 100px;"><div class="track" style="height: 100px;"><div class="thumb" style="display: none; height: 100px;"><div class="end"></div></div></div></div>
       <div class="viewport" style="height: 100px;">
         <div class="content" style="top: 0px;">
@@ -4677,7 +4764,7 @@ window.Main.destinations = destinations;
             </div>
       </div>
     </div>
-        
+
         <input name="countryselector-list" class="js-countryselector-list js-form-data" id="countryselector-list" value="83" type="hidden">
   </a>
 
@@ -4707,8 +4794,8 @@ window.Main.destinations = destinations;
     </div>
   </div>
 </footer>
-      
-      
+
+
       <script id="tpl_number_counter_digits" type="text/x-jsmart-tmpl">{if !$seperator}{$seperator=','}{/if}
 {if !$first_max}{$first_max=9}{/if}
 {for $digit = 0 to $length-1}
@@ -4752,27 +4839,27 @@ window.Main.destinations = destinations;
   </div>
 </div></script>
 <script id="base_modal_flat" type="text/x-jsmart-tmpl"><div class="modal-wrapper {block name="modal_wrapper_class"}{/block}">
-  
+
   <div class="modal-inner">
     <a class="close js-close trans-03s .trans-opacity" href=""></a>
     {block name="modal_content"}{/block}
     {block name="modal_footer"}{/block}
   </div>
-  
+
 </div></script>
 <script id="tpl_modals_connect" type="text/x-jsmart-tmpl"><div class="modal-wrapper ">
-  
+
   <div class="modal-inner">
     <a class="close js-close trans-03s .trans-opacity" href=""></a>
-    
+
   <div id="signin" class="inner-content">
   <h2>SIGN INTO RSI</h2>
   <form class="signin-form" method="POST">
-    
+
     {if $show_explanation}
     <div class="explanation-message">You need to connect to RSI in order to use the selected resource. If you don't already have an account use the ENLIST link to join the community.</div>
     {/if}
-    
+
     <div class="error-message js-error-message"></div>
     <div class="success-message js-success-message"></div>
     <fieldset>
@@ -4819,18 +4906,18 @@ window.Main.destinations = destinations;
       </div>
       <a href="#" class="js-switch-mode switch-mode f-left">Enter your backup codes</a>
       <div class="clearfix"></div>
-      <label>Name of your device</label>      
+      <label>Name of your device</label>
       <input class="trans-02s trans-color trans-box-shadow" type="hidden" name="device_type" id="device_type" value="" />
       <input class="trans-02s trans-color trans-box-shadow js-form-data" type="text" placeholder="Name your device" name="device_name" maxlength="25" id="device_name" value="" />
       <label>Trust your device for</label>
-            
 
-  
+
+
     <a class="js-selectlist selectlist " rel="" href="">
     <div class="arrow"></div>
     <span>Duration</span>
               <ul class="body">
-              
+
                                                               <li class="js-option option " rel="session" >
                                                                         This session only
                                                     </li>
@@ -4846,7 +4933,7 @@ window.Main.destinations = destinations;
                                                                 <li class="js-option option " rel="year" >
                                                                         1 year
                                                     </li>
-                                          
+
             </ul>
         <input type="hidden" name="duration" class="js-duration js-form-data" id="duration"/>
   </a>
@@ -4880,7 +4967,7 @@ window.Main.destinations = destinations;
         <a class="enlist " rel="enlist" href="/enlist?jumpto=%2Fpledge%2Fships">
           Enlist Now        </a>
         <a href="#" class="js-go-to-signin go-to-signin"></a>
-      </div>      
+      </div>
       <span class="submit-wrapper f-right">
         <span class="submit-hover trans-02s trans-opacity"></span>
         <input type="submit" value="SUBMIT" class="trans-02s trans-color trans-background" />
@@ -4898,8 +4985,8 @@ window.Main.destinations = destinations;
     <div class="clearfix">
       <form name="" action="" method="POST">
         <div class="row clearfix">
-          
-          
+
+
           <fieldset>
             <label for="enlist_input_username">Login ID</label>
             <span class="corner-wrapper">
@@ -4910,7 +4997,7 @@ window.Main.destinations = destinations;
 <div class="corner corner-bottom-right"></div>
             </span>
           </fieldset>
-          
+
           <div class="line-container js-line-username line-username trans-02s trans-opacity">
             <div class="line-wrapper">
               <span class="handle top trans-02s trans-opacity">
@@ -4924,7 +5011,7 @@ window.Main.destinations = destinations;
               </span>
             </div>
           </div>
-          
+
           <div class="message msg-username msg-wrapper">
             <div class="message-wrapper">
               <div class="msg .msg-box trans-02s trans-opacity trans-color trans-text-shadow">
@@ -4938,11 +5025,11 @@ window.Main.destinations = destinations;
               </div>
             </div>
           </div>
-          
+
         </div>
         <div class="row clearfix">
-          
-          
+
+
           <fieldset>
             <label for="enlist_input_password">Password</label>
             <span class="corner-wrapper">
@@ -4957,7 +5044,7 @@ window.Main.destinations = destinations;
 <div class="corner corner-bottom-right"></div>
             </span>
           </fieldset>
-          
+
           <div class="line-container js-line-password line-password trans-02s trans-opacity">
             <div class="line-wrapper">
               <span class="handle top trans-02s trans-opacity">
@@ -4971,7 +5058,7 @@ window.Main.destinations = destinations;
               </span>
             </div>
           </div>
-          
+
           <div class="message msg-password msg-wrapper">
             <div class="message-wrapper">
               <div class="msg .msg-box trans-02s trans-opacity trans-color trans-text-shadow">
@@ -4988,14 +5075,14 @@ window.Main.destinations = destinations;
               <div class="error-level-line js-psw-lvl-2 trans-02s trans-box-shadow trans-background"></div>
               <div class="error-level-line js-psw-lvl-3 trans-02s trans-box-shadow trans-background"></div>
               <div class="error-level-line js-psw-lvl-4 trans-02s trans-box-shadow trans-background"></div>
-              
+
             </div>
           </div>
-          
+
         </div>
         <div class="row clearfix">
-          
-          
+
+
           <fieldset>
             <label for="enlist_input_email">Email Address</label>
             <span class="corner-wrapper">
@@ -5010,7 +5097,7 @@ window.Main.destinations = destinations;
 <div class="corner corner-bottom-right"></div>
             </span>
           </fieldset>
-          
+
           <div class="line-container js-line-email line-email trans-02s trans-opacity">
             <div class="line-wrapper">
               <span class="handle top trans-02s trans-opacity">
@@ -5024,7 +5111,7 @@ window.Main.destinations = destinations;
               </span>
             </div>
           </div>
-          
+
           <div class="message msg-email msg-wrapper">
             <div class="message-wrapper">
               <div class="msg .msg-box trans-02s trans-opacity trans-color trans-text-shadow">
@@ -5038,11 +5125,11 @@ window.Main.destinations = destinations;
               </div>
             </div>
           </div>
-          
+
         </div>
         <div class="row clearfix">
-          
-          
+
+
           <fieldset>
             <label for="enlist_input_displayname">Community Moniker</label>
             <span class="corner-wrapper">
@@ -5053,7 +5140,7 @@ window.Main.destinations = destinations;
 <div class="corner corner-bottom-right"></div>
             </span>
           </fieldset>
-          
+
           <div class="line-container js-line-displayname line-displayname trans-02s trans-opacity">
             <div class="line-wrapper">
               <span class="handle bottom trans-02s trans-opacity">
@@ -5067,7 +5154,7 @@ window.Main.destinations = destinations;
               </span>
             </div>
           </div>
-          
+
           <div class="message msg-handle msg-wrapper">
             <div class="message-wrapper">
               <div class="msg .msg-box trans-02s trans-opacity trans-color trans-text-shadow">
@@ -5081,12 +5168,12 @@ window.Main.destinations = destinations;
               </div>
             </div>
           </div>
-          
+
         </div>
-        
+
         <div class="row clearfix">
-          
-          
+
+
           <fieldset>
             <label for="enlist_input_nickname">Handle</label>
             <span class="corner-wrapper">
@@ -5097,7 +5184,7 @@ window.Main.destinations = destinations;
 <div class="corner corner-bottom-right"></div>
             </span>
           </fieldset>
-          
+
           <div class="line-container js-line-nickname line-nickname trans-02s trans-opacity">
             <div class="line-wrapper">
               <span class="handle bottom trans-02s trans-opacity">
@@ -5111,7 +5198,7 @@ window.Main.destinations = destinations;
               </span>
             </div>
           </div>
-          
+
           <div class="message msg-nickname msg-wrapper">
             <div class="message-wrapper">
               <div class="msg .msg-box trans-02s trans-opacity trans-color trans-text-shadow">
@@ -5125,17 +5212,17 @@ window.Main.destinations = destinations;
               </div>
             </div>
           </div>
-          
+
         </div>
         <div class="row clearfix">
-          
-          
+
+
           <fieldset class="clearfix">
             <label>Birthdate:</label>
-            
-            
 
-  
+
+
+
     <a class="js-selectlist selectlist small" rel="" href="">
     <div class="arrow"></div>
     <span>Month</span>
@@ -5143,7 +5230,7 @@ window.Main.destinations = destinations;
       <div class="viewport">
         <div class="content">
               <ul class="body">
-              
+
                                                               <li class="js-option option " rel="1" >
                                                                         January
                                                     </li>
@@ -5180,17 +5267,17 @@ window.Main.destinations = destinations;
                                                                 <li class="js-option option " rel="12" >
                                                                         December
                                                     </li>
-                                          
+
             </ul>
             </div>
       </div>
     </div>
         <input type="hidden" name="birth_month" class="js-birth_month js-form-data" id="birth_month"/>
   </a>
-              
-            
 
-  
+
+
+
     <a class="js-selectlist selectlist small" rel="" href="">
     <div class="arrow"></div>
     <span>Day</span>
@@ -5198,7 +5285,7 @@ window.Main.destinations = destinations;
       <div class="viewport">
         <div class="content">
               <ul class="body">
-              
+
                                                               <li class="js-option option " rel="1" >
                                                                         1
                                                     </li>
@@ -5292,17 +5379,17 @@ window.Main.destinations = destinations;
                                                                 <li class="js-option option " rel="31" >
                                                                         31
                                                     </li>
-                                          
+
             </ul>
             </div>
       </div>
     </div>
         <input type="hidden" name="birth_day" class="js-birth_day js-form-data" id="birth_day"/>
   </a>
-              
-            
 
-  
+
+
+
     <a class="js-selectlist selectlist small last" rel="" href="">
     <div class="arrow"></div>
     <span>Year</span>
@@ -5310,7 +5397,7 @@ window.Main.destinations = destinations;
       <div class="viewport">
         <div class="content">
               <ul class="body">
-              
+
                                                               <li class="js-option option " rel="2016" >
                                                                         2016
                                                     </li>
@@ -5656,7 +5743,7 @@ window.Main.destinations = destinations;
                                                                 <li class="js-option option " rel="1902" >
                                                                         1902
                                                     </li>
-                                          
+
             </ul>
             </div>
       </div>
@@ -5665,7 +5752,7 @@ window.Main.destinations = destinations;
   </a>
               <input type="hidden" data-line="line-dob" data-msg="msg-dob" name="birthday" />
           </fieldset>
-          
+
           <div class="line-container js-line-dob line-dob trans-02s trans-opacity">
             <div class="line-wrapper">
               <span class="handle bottom trans-02s trans-opacity">
@@ -5679,7 +5766,7 @@ window.Main.destinations = destinations;
               </span>
             </div>
           </div>
-          
+
           <div class="message msg-dob msg-wrapper">
             <div class="message-wrapper">
               <div class="msg .msg-box trans-02s trans-opacity trans-color trans-text-shadow">
@@ -5693,10 +5780,10 @@ window.Main.destinations = destinations;
               </div>
             </div>
           </div>
-          
+
         </div>
         <div class="row clearfix">
-          
+
           <fieldset class="captcha">
                         <label>Enter the number below: </label>
             <div class="captcha_img" style="border: 1px solid #1e2f41;">
@@ -5720,7 +5807,7 @@ window.Main.destinations = destinations;
               <span class="right-section"></span>
             </a>
           </fieldset>
-          
+
           <div class="line-container js-line-captcha line-captcha trans-02s trans-opacity">
             <div class="line-wrapper">
               <span class="handle bottom trans-02s trans-opacity">
@@ -5734,7 +5821,7 @@ window.Main.destinations = destinations;
               </span>
             </div>
           </div>
-          
+
           <div class="message msg-captcha msg-wrapper">
             <div class="message-wrapper">
               <div class="msg .msg-box trans-02s trans-opacity trans-color trans-text-shadow">
@@ -5748,11 +5835,11 @@ window.Main.destinations = destinations;
               </div>
             </div>
           </div>
-          
+
         </div>
         <div class="row clearfix">
-          
-          
+
+
           <fieldset>
                         <label class="checkbox   ">
   <input type="checkbox"   class="js-form-data js-terms" name="terms" value="">
@@ -5760,17 +5847,17 @@ window.Main.destinations = destinations;
 </label>
             <p class="terms">I have read and agree to the <a target='_blank' href='/tos'>Terms of Service</a>.</p>
           </fieldset>
-          
+
         </div>
         <div class="row clearfix">
-          
+
           <fieldset>
             <span class="submit-wrapper disabled">
               <span class="submit-hover trans-02s trans-opacity"></span>
               <input type="submit" value="ENLIST" class="trans-02s trans-color trans-background" />
             </span>
           </fieldset>
-          
+
         </div>
       </form>
     </div>
@@ -5778,9 +5865,9 @@ window.Main.destinations = destinations;
   </div>
 </div>
 
-    
+
   </div>
-  
+
 </div></script>
 <script id="tpl_modals_slideshow" type="text/x-jsmart-tmpl"><img class="top-border" src="/rsi/static/images/modal_top.png">
 <a href="" class="close js-close"></a>
@@ -5826,16 +5913,16 @@ window.Main.destinations = destinations;
 <img class="bottom-border" src="/rsi/static/images/modal_bottom.png"></script>
 <script id="tpl_contact_us" type="text/x-jsmart-tmpl"><div class="modal-wrapper ">
   <div class="top-border">
-    
+
     <img src="/rsi/static/images/modal_blue_line.png" />
-    
+
     <div class="h-border"></div>
     <div class="l-corner"></div>
     <div class="r-corner"></div>
   </div>
   <div class="modal-inner">
     <a class="close js-close trans-03s .trans-opacity" href=""></a>
-    
+
 <div id="contact" class="inner-content on">
   <h2><span class="icon"></span>CONTACT</h2>
   <div class="padder">
@@ -5847,15 +5934,15 @@ window.Main.destinations = destinations;
     <label for="contact_subject">Subject</label>
     <input type="text" name="subject" value="" class="trans-02s trans-color trans-box-shadow" id="contact_subject" />
     <label>Contacting us for:</label>
-    
-    
 
-  
+
+
+
     <a class="js-selectlist selectlist " rel="" href="">
     <div class="arrow"></div>
     <span></span>
               <ul class="body">
-              
+
                                                               <li class="js-option option " rel="tech_support" >
                                                                         Technical Support
                                                     </li>
@@ -5880,7 +5967,7 @@ window.Main.destinations = destinations;
                                                                 <li class="js-option option " rel="customer_support" >
                                                                         Other
                                                     </li>
-                                          
+
             </ul>
         <input type="hidden" name="category" class="js-category js-form-data" id="category"/>
   </a>
@@ -5908,20 +5995,20 @@ window.Main.destinations = destinations;
   </div>
 </div>
 
-    
+
   </div>
   <div class="bottom-border">
     <div class="h-border"></div>
     <div class="l-corner"></div>
     <div class="r-corner"></div>
-    
+
     <img src="/rsi/static/images/modal_blue_line.png" />
-    
+
   </div>
 </div></script>
 <script id="tpl_concierge" type="text/x-jsmart-tmpl"><div class="modal-wrapper ">
   <div class="top-border">
-    
+
 <img src="/rsi/static/images/modal_yellow_line.png" />
 
     <div class="h-border"></div>
@@ -5930,7 +6017,7 @@ window.Main.destinations = destinations;
   </div>
   <div class="modal-inner">
     <a class="close js-close trans-03s .trans-opacity" href=""></a>
-    
+
 <div id="contact" class="inner-content on">
   <h2><span class="icon"></span>CONCIERGE</h2>
   <div class="padder">
@@ -5949,15 +6036,15 @@ window.Main.destinations = destinations;
           <span class="corner corner-bottom-right"></span>
         </span>
         <label>Contacting us for:</label>
-        
-        
 
-  
+
+
+
     <a class="js-selectlist selectlist " rel="" href="">
     <div class="arrow"></div>
     <span></span>
               <ul class="body">
-              
+
                                                               <li class="js-option option " rel="tech_support" >
                                                                         Technical Support
                                                     </li>
@@ -5982,7 +6069,7 @@ window.Main.destinations = destinations;
                                                                 <li class="js-option option " rel="customer_support" >
                                                                         Other
                                                     </li>
-                                          
+
             </ul>
         <input type="hidden" name="category" class="js-category js-form-data" id="category"/>
   </a>
@@ -6008,13 +6095,13 @@ window.Main.destinations = destinations;
   </div>
 </div>
 
-    
+
   </div>
   <div class="bottom-border">
     <div class="h-border"></div>
     <div class="l-corner"></div>
     <div class="r-corner"></div>
-    
+
 <img src="/rsi/static/images/modal_yellow_line.png" />
 
   </div>
@@ -6035,16 +6122,16 @@ window.Main.destinations = destinations;
 </div></script>
 <script id="tpl_outbound" type="text/x-jsmart-tmpl"><div class="modal-wrapper ">
   <div class="top-border">
-    
+
     <img src="/rsi/static/images/modal_blue_line.png" />
-    
+
     <div class="h-border"></div>
     <div class="l-corner"></div>
     <div class="r-corner"></div>
   </div>
   <div class="modal-inner">
     <a class="close js-close trans-03s .trans-opacity" href=""></a>
-    
+
 <div id="outbound" class="inner-content on">
   <h2><span class="icon"></span>OUTBOUND LINK</h2>
   <div class="padder">
@@ -6064,15 +6151,15 @@ window.Main.destinations = destinations;
   </div>
 </div>
 
-    
+
   </div>
   <div class="bottom-border">
     <div class="h-border"></div>
     <div class="l-corner"></div>
     <div class="r-corner"></div>
-    
+
     <img src="/rsi/static/images/modal_blue_line.png" />
-    
+
   </div>
 </div></script>
 
@@ -6110,10 +6197,10 @@ window.Main.destinations = destinations;
 <script id="tpl_video" type="text/x-jsmart-tmpl">{extends file="base_modal"}
 {block name='modal_content'}
 <div id="ship-commercial" class="inner-content">
-  
+
   <div class="hr"></div>
   <div class="content-block4">
-   
+
     <div class="bottom"></div>
   </div>
   {if $distant_source=="vimeo"}
@@ -6124,7 +6211,7 @@ window.Main.destinations = destinations;
 </div>
 {/block}
 </script>
-      
+
   <script id="tpl_ship_package_selector" type="text/x-jsmart-tmpl">Template jsmart/modals/ship-package-selector.tpl does not exist.</script>
   <script id="tpl_sku_detail_zoom" type="text/x-jsmart-tmpl">{extends file="base_modal"}
 {block name='modal_content'}
@@ -6136,11 +6223,11 @@ window.Main.destinations = destinations;
         <span class="trans-02s"></span>
       </span>
     </a>
-    
+
   </div>
   <div class="to-zoom">
     <img id="zoom" src="{$img.smallZoom}" data-zoom-image="{$img.largeZoom}">
-    
+
     <div class="corner corner-top-left"></div>
     <div class="corner corner-top-right"></div>
     <div class="corner corner-bottom-left"></div>
@@ -6154,7 +6241,7 @@ window.Main.destinations = destinations;
     <div class="corner corner-bottom-left"></div>
     <div class="corner corner-bottom-right"></div>
   </div>
-  
+
   <div class="cboth"></div>
 
 </div>
@@ -6163,6 +6250,6 @@ window.Main.destinations = destinations;
 </script>
 
     </div>
-  
+
 
 </body></html>
