@@ -8,17 +8,17 @@
 <link href="//fonts.googleapis.com/css?family=Electrolize|Orbitron:400,500,700|Share+Tech+Mono" rel="stylesheet" type="text/css">
 
 
-<link href="/cache/en/rsi-css.css?v=1.5.1.10" media="all" rel="stylesheet">
+<link href="/cache/en/rsi-css.css?v=1.5.1.13" media="all" rel="stylesheet">
 
 
 
 <!--[if lt IE 9]>
-  <script type="text/javascript" src="/cache/en/rsi-ie-js.js?v=1.5.1.10"></script>
+  <script type="text/javascript" src="/cache/en/rsi-ie-js.js?v=1.5.1.13"></script>
 <![endif]-->
-<script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/api2/r20161123095123/recaptcha__de.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="/cache/en/rsi-js.js?v=1.5.1.10"></script>
+<script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/api2/r20161215161951/recaptcha__de.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="/cache/en/rsi-js.js?v=1.5.1.13"></script>
 
 <!--[if IE]>
-  <link href="/cache/en/rsi-ie-css.css?v=1.5.1.10" media="all" rel="stylesheet" type="text/css">
+  <link href="/cache/en/rsi-ie-css.css?v=1.5.1.13" media="all" rel="stylesheet" type="text/css">
   <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <script>
     // JavaScript bind polyfill
@@ -109,7 +109,7 @@ Ships - Roberts Space Industries
           'probation_cookie' : '',
           'require_captcha': 0
         });
-        window.Mark = new Turbulent.Mark({ 'name' : 'Rsi-XSRF', 'token' : 'sq86WA:przWGMHBBNX2Z4Ydu9ntaw', 'ttl' : 1800 });
+        window.Mark = new Turbulent.Mark({ 'name' : 'Rsi-XSRF', 'token' : 'TJ1VWA:0Ocb5VagS4WIq59RdJauXg', 'ttl' : 1800 });
 
         var destinations = [];
 
@@ -168,7 +168,7 @@ window.Main.destinations = destinations;
         <div class="left"></div>
         <div class="middle">
                       <div id="global-notification" class=" js-global-notification" style="">
-            <a href="https://www.youtube.com/watch?v=6-MF7xYMB0A">              <div class="caption"><div>Missed the Live Stream?    Watch it here! 
+            <a href="https://robertsspaceindustries.com/live">              <div class="caption"><div>Click Here to Watch the Holiday Livestream
                             </div></div>
               <div class="left-chevrons">
                 <div class="chevron first"></div>
@@ -218,7 +218,7 @@ window.Main.destinations = destinations;
                     <img src="/media/b4681au2zr7scr/heap_note/Civilian.png" alt="Civilian" title="Civilian">
                   </div>
                   <div class="subs icon">
-                                      <img src="/rsi/static/images/profile/icon-backer.png" alt="Backer" title="Backer">
+                                      <img src="/rsi/static/images/profile/icon-subscriber.png" alt="Subscriber" title="Subscriber">
                                     </div>
                   <div class="org icon">
                     <a href="/orgs/SMAZING" title="SMAZING"><img src="/rsi/static/images/organization/defaults/thumbnail/generic.png" alt="SMAZING"></a>
@@ -248,7 +248,8 @@ window.Main.destinations = destinations;
                 <ul class="my-rsi-submenu">
                   <li class="submenu-item"><a href="/account/settings">My Account<span class="bordercorner"></span></a></li>
                   <li class="submenu-item"><a href="/account/pledges">My Hangar<span class="bordercorner"></span></a></li>
-                                                                </ul>
+                                                  <li class="submenu-item"><a href="/subscribers/vault">Subscribers<span class="bordercorner"></span></a></li>
+                                                </ul>
 
                 <div class="bottom-cutter-button sing-out-button">
                   <a class="action-link signout js-sign-out" href=""><span class="btn-txt">Sign Out<span class="noise"></span></span></a>
@@ -269,7 +270,7 @@ window.Main.destinations = destinations;
                     <img src="/media/b4681au2zr7scr/heap_note/Civilian.png" alt="Civilian" title="Civilian">
                   </div>
                   <div class="subs icon">
-                                      <img src="/rsi/static/images/profile/icon-backer.png" alt="Backer" title="Backer">
+                                      <img src="/rsi/static/images/profile/icon-subscriber.png" alt="Subscriber" title="Subscriber">
                                     </div>
                   <div class="org icon">
                     <a href="/orgs/SMAZING" title="SMAZING"><img src="/rsi/static/images/organization/defaults/thumbnail/generic.png" alt="SMAZING"></a>
@@ -347,7 +348,7 @@ window.Main.destinations = destinations;
       <div class="line-menu little js-line-little"></div>
       <div class="line-menu large"></div>
 
-      <nav><div class="main-nav main-menu js-main-nav"><a href="/about-the-game/spaceflight" class="nav-item js-nav-item js-about" data-sub-nav="about">Star Citizen</a><a href="/squadron42" class="nav-item js-nav-item js-squadron-42" data-sub-nav="squadron-42">Squadron 42</a><a href="/comm-link" class="nav-item js-nav-item js-commlink" data-sub-nav="commlink">Comm-Link</a><a href="/pledge" class="nav-item js-nav-item js-store active" data-sub-nav="store">Store</a><a href="/community" class="nav-item js-nav-item js-community" data-sub-nav="community">Community</a><a class="nav-item my-rsi js-my-rsi loggedin">My RSI</a></div><div class="main-nav mobile-menu js-main-nav"><a class="nav-item open-menu js-mobile-menu mobile-menu">Menu</a><a class="nav-item my-rsi js-my-rsi loggedin">My RSI<span></span></a></div><div class="inside-menu js-inside-menu desktop-menu"><div class="about js-about sub-nav" rel="about"><div class="col"><span class="menu-subtitle">Game</span><a href="/feature-list" class="link ">Game Features</a><a href="/download" class="link ">Download</a><a href="/funding-goals" class="link ">Funding</a><a href="/enlist?jumpto=%2Fpledge%2Fships" class="link ">Enlist</a></div><div class="col"><span class="menu-subtitle">Universe</span><a href="/about-the-game/spaceflight" class="link ">The Vision</a><a href="/starmap" class="link ">Starmap</a><a href="/ship-specs" class="link ">Ship Matrix</a></div><div class="col"><span class="menu-subtitle">Event</span><a href="/events" class="link ">All Events</a></div></div><div class="squadron-42 js-squadron-42 sub-nav" rel="squadron-42"><div class="col"><span class="menu-subtitle">Game</span><a href="/squadron42" class="link ">About the Game</a><a href="/pledge/Packages/Squadron-42-Standalone-Pledge" class="link ">Pledge Now</a></div></div><div class="commlink js-commlink sub-nav" rel="commlink"><div class="col"><span class="menu-subtitle">Latest News</span><a href="/comm-link" class="link with-arrow js-news-commlink-item hover " data-rel="all">All</a><a href="/comm-link/transmission" class="link with-arrow js-news-commlink-item  " data-rel="transmission">Transmissions</a><a href="/comm-link/citizens" class="link with-arrow js-news-commlink-item  " data-rel="citizens">Citizens</a><a href="/comm-link/engineering" class="link with-arrow js-news-commlink-item  " data-rel="engineering">Engineering</a><a href="/comm-link/spectrum-dispatch" class="link with-arrow js-news-commlink-item  " data-rel="spectrum_dispatch">Spectrum Dispatch</a></div><div class="col empty" rel="commlink-content"><div class="news-listing-wrapper"><div class="news-listing js-commlink-items js-commlink-all commlink-all active"><a class="item" href="/comm-link/transmission/15617-Intergalactic-Aerospace-Expo-Grand-Finale"><img src="/media/yqjj3pwpm1rdwr/subscribers_vault_thumbnail/Esperia-Prowler-Landing-Pad-V08.jpg"><h2 class="item-name">Intergalactic Aerospace Expo: Grand Finale!</h2></a><a class="item" href="/comm-link/transmission/15614-Esperia-Prowler-Q-A-Part-2"><img src="/media/yqjj3pwpm1rdwr/subscribers_vault_thumbnail/Esperia-Prowler-Landing-Pad-V08.jpg"><h2 class="item-name">Esperia Prowler Q&amp;A Part 2</h2></a><a class="item" href="/comm-link/transmission/15616-Intergalactic-Aerospace-Expo-Day-Eight-Aegis-Dynamics"><img src="/media/627hob4lwqt3xr/subscribers_vault_thumbnail/Image002-1.jpg"><h2 class="item-name">Intergalactic Aerospace Expo, Day Eight: Aegis Dynamics</h2></a><div class="cboth"></div></div><div class="news-listing js-commlink-items js-commlink-transmission commlink-transmission "><a class="item" href="/comm-link/transmission/15617-Intergalactic-Aerospace-Expo-Grand-Finale"><img src="/media/yqjj3pwpm1rdwr/subscribers_vault_thumbnail/Esperia-Prowler-Landing-Pad-V08.jpg"><h2 class="item-name">Intergalactic Aerospace Expo: Grand Finale!</h2></a><a class="item" href="/comm-link/transmission/15614-Esperia-Prowler-Q-A-Part-2"><img src="/media/yqjj3pwpm1rdwr/subscribers_vault_thumbnail/Esperia-Prowler-Landing-Pad-V08.jpg"><h2 class="item-name">Esperia Prowler Q&amp;A Part 2</h2></a><a class="item" href="/comm-link/transmission/15616-Intergalactic-Aerospace-Expo-Day-Eight-Aegis-Dynamics"><img src="/media/627hob4lwqt3xr/subscribers_vault_thumbnail/Image002-1.jpg"><h2 class="item-name">Intergalactic Aerospace Expo, Day Eight: Aegis Dynamics</h2></a><div class="cboth"></div></div><div class="news-listing js-commlink-items js-commlink-citizens commlink-citizens "><a class="item" href="/comm-link/citizens/14868-Wonderful-World-Of-Star-Citizen"><img src="/media/rpf9r3jisqq36r/subscribers_vault_thumbnail/WWOSC_EP03_THUMBNAIL_PLAIN.png"><h2 class="item-name">Wonderful World of Star Citizen</h2></a><a class="item" href="/comm-link/citizens/14638-Year-3-Subscriber-Perks-Update"><img src="/media/pe9emuqdxyzrtr/subscribers_vault_thumbnail/GossII_Cassell_Bar_01.jpg"><h2 class="item-name">Year 3 Subscriber Perks Update!</h2></a><a class="item" href="/comm-link/citizens/14616-Community-Choice-FPS"><img src="/media/swdfq39tp0n3jr/subscribers_vault_thumbnail/Fan-Spotlight.jpg"><h2 class="item-name">Community Choice: FPS</h2></a><div class="cboth"></div></div><div class="news-listing js-commlink-items js-commlink-engineering commlink-engineering "><a class="item" href="/comm-link/engineering/15062-Ship-Repair-And-Maintenance"><img src="/media/vxj1ppzl3xmhdr/subscribers_vault_thumbnail/AnvilcrucibleREARMAINTENANCE.jpg"><h2 class="item-name">Ship Repair and Maintenance</h2></a><a class="item" href="/comm-link/engineering/14974-Design-The-Endeavor"><img src="/media/ikzf72nss6tkpr/subscribers_vault_thumbnail/CO_Beauty_Supercollider.jpg"><h2 class="item-name">Design - The Endeavor</h2></a><a class="item" href="/comm-link/engineering/14826-Test-Drive-The-Origin-Jumpworks-300-Series"><img src="/media/eflwrbrty8znfr/subscribers_vault_thumbnail/350R_02.jpg"><h2 class="item-name">Test Drive the Origin Jumpworks 300 Series!</h2></a><div class="cboth"></div></div><div class="news-listing js-commlink-items js-commlink-spectrum_dispatch commlink-spectrum_dispatch "><a class="item" href="/comm-link/spectrum-dispatch/15611-Clean-Shot-IAE-Controversy"><img src="/media/vc54i05npp8aar/subscribers_vault_thumbnail/CleanShotFI2c.jpg"><h2 class="item-name">Clean Shot: IAE Controversy</h2></a><a class="item" href="/comm-link/spectrum-dispatch/15598-StarWatch-Time-To-Talk-Tevarin"><img src="/media/zh5eg9r27e69yr/subscribers_vault_thumbnail/StarWatch_FI_Crop.jpg"><h2 class="item-name">StarWatch: Time to Talk Tevarin!</h2></a><a class="item" href="/comm-link/spectrum-dispatch/15593-TRACKER-Mentorship-Program"><img src="/media/ca4i5nlc92c1yr/subscribers_vault_thumbnail/ThiefTaker_FI_3_Crop.jpg"><h2 class="item-name">TRACKER: Mentorship Program</h2></a><div class="cboth"></div></div></div></div></div><div class="store js-store sub-nav" rel="store"><div class="col"><span class="menu-subtitle">Store</span><a href="/pledge" class="link ">All Items</a><a href="/pledge/ships" class="link active">Ships</a><a href="/pledge/game-packages" class="link ">Game Packages</a><a href="/pledge/ship-upgrades" class="link ">Ship Upgrades</a></div><div class="col"><span class="menu-subtitle">&nbsp;</span><a href="/pledge/merchandise" class="link ">Merchandise</a><a href="/pledge/subscriptions" class="link ">Subscriptions</a><a href="/pledge/extras" class="link ">Extras</a><a href="/pledge/extras?product_id=67" class="link ">Event Tickets</a></div><div class="col"><span class="menu-subtitle">In Game</span><a href="/voyager-direct" class="link ">Voyager Direct</a><a href="/electronic-access" class="link ">Electronic Access</a><a href="/pledge/extras?product_id=41" class="link ">Game Credits</a></div><div class="col"><span class="menu-subtitle">Promotion</span><a href="/referral-program" class="link ">Referral Program</a><a href="/fly-now" class="link ">Fly now</a></div></div><div class="community js-community sub-nav" rel="community"><div class="col"><span class="menu-subtitle">Content</span><a href="/community" class="link ">Community Hub</a><a href="/community/citizen-spotlight" class="link ">Citizen Spotlight</a><a href="/community/deep-space-radar" class="link ">Deep Space Radar</a><a href="/community/livestreams" class="link ">Livestream</a></div><div class="col"><span class="menu-subtitle">Exchange</span><a href="https://forums.robertsspaceindustries.com" class="link ">Forums</a><a href="/community/chat" class="link ">Chat</a><a href="/community/orgs" class="link ">Organizations</a></div><div class="col"><span class="menu-subtitle">Tools</span><a href="/community/devtracker" class="link ">Dev Tracker</a><a href="/community/arena-commander" class="link ">Leaderboards</a><a href="/community/issue-council" class="link ">Issue Council</a></div></div></div><div class="mobile-menu-inner js-mobile-menu-inner"><div class="sub-nav first-level js-first-level"><a class="sub-nav-item js-nav-mobile-item js-about " data-sub-nav="about">Star Citizen</a><a class="sub-nav-item js-nav-mobile-item js-squadron-42 " data-sub-nav="squadron-42">Squadron 42</a><a class="sub-nav-item js-nav-mobile-item js-commlink " data-sub-nav="commlink">Comm-Link</a><a class="sub-nav-item js-nav-mobile-item js-store active" data-sub-nav="store">Store</a><a class="sub-nav-item js-nav-mobile-item js-community " data-sub-nav="community">Community</a></div><div class="sub-nav second-level js-second-level">  <div class="about js-about sub-nav js-sub-nav-section" rel="about">
+      <nav><div class="main-nav main-menu js-main-nav"><a href="/about-the-game/spaceflight" class="nav-item js-nav-item js-about" data-sub-nav="about">Star Citizen</a><a href="/squadron42" class="nav-item js-nav-item js-squadron-42" data-sub-nav="squadron-42">Squadron 42</a><a href="/comm-link" class="nav-item js-nav-item js-commlink" data-sub-nav="commlink">Comm-Link</a><a href="/pledge" class="nav-item js-nav-item js-store active" data-sub-nav="store">Store</a><a href="/community" class="nav-item js-nav-item js-community" data-sub-nav="community">Community</a><a class="nav-item my-rsi js-my-rsi loggedin">My RSI</a></div><div class="main-nav mobile-menu js-main-nav"><a class="nav-item open-menu js-mobile-menu mobile-menu">Menu</a><a class="nav-item my-rsi js-my-rsi loggedin">My RSI<span></span></a></div><div class="inside-menu js-inside-menu desktop-menu"><div class="about js-about sub-nav" rel="about"><div class="col"><span class="menu-subtitle">Game</span><a href="/feature-list" class="link ">Game Features</a><a href="/download" class="link ">Download</a><a href="/funding-goals" class="link ">Funding</a><a href="/enlist?jumpto=%2Fpledge%2Fships" class="link ">Enlist</a></div><div class="col"><span class="menu-subtitle">Universe</span><a href="/about-the-game/spaceflight" class="link ">The Vision</a><a href="/starmap" class="link ">Starmap</a><a href="/ship-specs" class="link ">Ship Matrix</a></div><div class="col"><span class="menu-subtitle">Event</span><a href="/events" class="link ">All Events</a></div></div><div class="squadron-42 js-squadron-42 sub-nav" rel="squadron-42"><div class="col"><span class="menu-subtitle">Game</span><a href="/squadron42" class="link ">About the Game</a><a href="/pledge/Packages/Squadron-42-Standalone-Pledge" class="link ">Pledge Now</a></div></div><div class="commlink js-commlink sub-nav" rel="commlink"><div class="col"><span class="menu-subtitle">Latest News</span><a href="/comm-link" class="link with-arrow js-news-commlink-item hover " data-rel="all">All</a><a href="/comm-link/transmission" class="link with-arrow js-news-commlink-item  " data-rel="transmission">Transmissions</a><a href="/comm-link/citizens" class="link with-arrow js-news-commlink-item  " data-rel="citizens">Citizens</a><a href="/comm-link/engineering" class="link with-arrow js-news-commlink-item  " data-rel="engineering">Engineering</a><a href="/comm-link/spectrum-dispatch" class="link with-arrow js-news-commlink-item  " data-rel="spectrum_dispatch">Spectrum Dispatch</a></div><div class="col empty" rel="commlink-content"><div class="news-listing-wrapper"><div class="news-listing js-commlink-items js-commlink-all commlink-all active"><a class="item" href="/comm-link/transmission/15641-Jump-Point-Now-Available"><img src="/media/27lqqcdl7ew64r/subscribers_vault_thumbnail/JP_Cover_December_2016.jpg"><h2 class="item-name">Jump Point Now Available!</h2></a><a class="item" href="/comm-link/transmission/15637-Monthly-Studio-Report"><img src="/media/qttulfwxt0srur/subscribers_vault_thumbnail/ScreenShot0006.jpg"><h2 class="item-name">Monthly Studio Report</h2></a><a class="item" href="/comm-link/transmission/15639-DRAKE-Caterpillar"><img src="/media/romttj9hz2a6zr/subscribers_vault_thumbnail/Bottom.jpg"><h2 class="item-name">DRAKE Caterpillar</h2></a><div class="cboth"></div></div><div class="news-listing js-commlink-items js-commlink-transmission commlink-transmission "><a class="item" href="/comm-link/transmission/15641-Jump-Point-Now-Available"><img src="/media/27lqqcdl7ew64r/subscribers_vault_thumbnail/JP_Cover_December_2016.jpg"><h2 class="item-name">Jump Point Now Available!</h2></a><a class="item" href="/comm-link/transmission/15637-Monthly-Studio-Report"><img src="/media/qttulfwxt0srur/subscribers_vault_thumbnail/ScreenShot0006.jpg"><h2 class="item-name">Monthly Studio Report</h2></a><a class="item" href="/comm-link/transmission/15639-DRAKE-Caterpillar"><img src="/media/romttj9hz2a6zr/subscribers_vault_thumbnail/Bottom.jpg"><h2 class="item-name">DRAKE Caterpillar</h2></a><div class="cboth"></div></div><div class="news-listing js-commlink-items js-commlink-citizens commlink-citizens "><a class="item" href="/comm-link/citizens/14868-Wonderful-World-Of-Star-Citizen"><img src="/media/rpf9r3jisqq36r/subscribers_vault_thumbnail/WWOSC_EP03_THUMBNAIL_PLAIN.png"><h2 class="item-name">Wonderful World of Star Citizen</h2></a><a class="item" href="/comm-link/citizens/14638-Year-3-Subscriber-Perks-Update"><img src="/media/pe9emuqdxyzrtr/subscribers_vault_thumbnail/GossII_Cassell_Bar_01.jpg"><h2 class="item-name">Year 3 Subscriber Perks Update!</h2></a><a class="item" href="/comm-link/citizens/14616-Community-Choice-FPS"><img src="/media/swdfq39tp0n3jr/subscribers_vault_thumbnail/Fan-Spotlight.jpg"><h2 class="item-name">Community Choice: FPS</h2></a><div class="cboth"></div></div><div class="news-listing js-commlink-items js-commlink-engineering commlink-engineering "><a class="item" href="/comm-link/engineering/15062-Ship-Repair-And-Maintenance"><img src="/media/vxj1ppzl3xmhdr/subscribers_vault_thumbnail/AnvilcrucibleREARMAINTENANCE.jpg"><h2 class="item-name">Ship Repair and Maintenance</h2></a><a class="item" href="/comm-link/engineering/14974-Design-The-Endeavor"><img src="/media/ikzf72nss6tkpr/subscribers_vault_thumbnail/CO_Beauty_Supercollider.jpg"><h2 class="item-name">Design - The Endeavor</h2></a><a class="item" href="/comm-link/engineering/14826-Test-Drive-The-Origin-Jumpworks-300-Series"><img src="/media/eflwrbrty8znfr/subscribers_vault_thumbnail/350R_02.jpg"><h2 class="item-name">Test Drive the Origin Jumpworks 300 Series!</h2></a><div class="cboth"></div></div><div class="news-listing js-commlink-items js-commlink-spectrum_dispatch commlink-spectrum_dispatch "><a class="item" href="/comm-link/spectrum-dispatch/15632-Empire-Report-Hyperion-Rally"><img src="/media/922o8log1il1tr/subscribers_vault_thumbnail/EmpireReportLogo.jpg"><h2 class="item-name">Empire Report: Hyperion Rally</h2></a><a class="item" href="/comm-link/spectrum-dispatch/15624-AREMIS-POST-DAY-256-A-DAY-OF-CANDIDACY"><img src="/media/2dpnsyp8vn75qr/subscribers_vault_thumbnail/AremisPost_DayOfCandidacy_2.jpg"><h2 class="item-name">AREMIS POST: DAY 256: A DAY OF CANDIDACY</h2></a><a class="item" href="/comm-link/spectrum-dispatch/15621-Plain-Truth-Tevarin-Trouble"><img src="/media/hccb8c32g3bcgr/subscribers_vault_thumbnail/PlainTruth.jpg"><h2 class="item-name">Plain Truth: Tevarin Trouble</h2></a><div class="cboth"></div></div></div></div></div><div class="store js-store sub-nav" rel="store"><div class="col"><span class="menu-subtitle">Store</span><a href="/pledge" class="link ">All Items</a><a href="/pledge/ships" class="link active">Ships</a><a href="/pledge/game-packages" class="link ">Game Packages</a><a href="/pledge/ship-upgrades" class="link ">Ship Upgrades</a></div><div class="col"><span class="menu-subtitle">&nbsp;</span><a href="/pledge/merchandise" class="link ">Merchandise</a><a href="/pledge/subscriptions" class="link ">Subscriptions</a><a href="/pledge/extras" class="link ">Extras</a><a href="/pledge/extras?product_id=67" class="link ">Event Tickets</a></div><div class="col"><span class="menu-subtitle">In Game</span><a href="/voyager-direct" class="link ">Voyager Direct</a><a href="/electronic-access" class="link ">Electronic Access</a><a href="/pledge/extras?product_id=41" class="link ">Game Credits</a></div><div class="col"><span class="menu-subtitle">Promotion</span><a href="/referral-program" class="link ">Referral Program</a><a href="/fly-now" class="link ">Fly now</a></div></div><div class="community js-community sub-nav" rel="community"><div class="col"><span class="menu-subtitle">Content</span><a href="/community" class="link ">Community Hub</a><a href="/community/citizen-spotlight" class="link ">Citizen Spotlight</a><a href="/community/deep-space-radar" class="link ">Deep Space Radar</a><a href="/community/livestreams" class="link ">Livestream</a></div><div class="col"><span class="menu-subtitle">Exchange</span><a href="https://forums.robertsspaceindustries.com" class="link ">Forums</a><a href="/community/chat" class="link ">Chat</a><a href="/community/orgs" class="link ">Organizations</a></div><div class="col"><span class="menu-subtitle">Tools</span><a href="/community/devtracker" class="link ">Dev Tracker</a><a href="/community/arena-commander" class="link ">Leaderboards</a><a href="/community/issue-council" class="link ">Issue Council</a></div></div></div><div class="mobile-menu-inner js-mobile-menu-inner"><div class="sub-nav first-level js-first-level"><a class="sub-nav-item js-nav-mobile-item js-about " data-sub-nav="about">Star Citizen</a><a class="sub-nav-item js-nav-mobile-item js-squadron-42 " data-sub-nav="squadron-42">Squadron 42</a><a class="sub-nav-item js-nav-mobile-item js-commlink " data-sub-nav="commlink">Comm-Link</a><a class="sub-nav-item js-nav-mobile-item js-store active" data-sub-nav="store">Store</a><a class="sub-nav-item js-nav-mobile-item js-community " data-sub-nav="community">Community</a></div><div class="sub-nav second-level js-second-level">  <div class="about js-about sub-nav js-sub-nav-section" rel="about">
     <a class="sub-nav-item back active js-back-mobile-menu js-nav-mobile-item" data-sub-nav="about">Star Citizen</a>
 
                   <a href="/feature-list" class="sub-nav-item js-sub-nav-item ">
@@ -669,6 +670,9 @@ window.Main.destinations = destinations;
                       <a href="/pledge/extras?product_id=41" class="link">United Earth Credits</a>
                     </li>
                                       <li class="extra item">
+                      <a href="/pledge/extras?product_id=65" class="link">Subscribers Exclusive</a>
+                    </li>
+                                      <li class="extra item">
                       <a href="/pledge/extras?product_id=67" class="link">Event Tickets</a>
                     </li>
                                     <li class="clear"></li>
@@ -680,7 +684,7 @@ window.Main.destinations = destinations;
       <div class="js-selectlist selectlist currency-selector">
   <div class="arrow"></div>
   <span>
-              EUR            </span>
+              GBP            </span>
 
   <div class="scrollable body white" style="height: 67px;"><div class="scrollbar disable" style="height: 67px;"><div class="track" style="height: 67px;"><div class="thumb" style="display: none; height: 67px;"><div class="end"></div></div></div></div>
     <div class="viewport" style="height: 67px;">
@@ -689,9 +693,9 @@ window.Main.destinations = destinations;
         <ul class="body">
                     	                        <li class="js-option option " rel="USD">
               USD            </li>
-                                	                        <li class="js-option option selected" rel="EUR">
+                                	                        <li class="js-option option " rel="EUR">
               EUR            </li>
-                                	                        <li class="js-option option " rel="GBP">
+                                	                        <li class="js-option option selected" rel="GBP">
               GBP            </li>
                               </ul>
 
@@ -699,7 +703,7 @@ window.Main.destinations = destinations;
     </div>
   </div>
   
-  <input name="currency" class="js-currency ty-js-currency-selector js-form-data" id="currency" value="EUR" type="hidden">
+  <input name="currency" class="js-currency ty-js-currency-selector js-form-data" id="currency" value="GBP" type="hidden">
 	
 </div>
     </div>
@@ -1086,7 +1090,7 @@ window.Main.destinations = destinations;
     <div class="inner">
                <ul class="ships-listing">
     
-<li class="ship-item check available" data-ship-id="11">
+<li class="ship-item" data-ship-id="11">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/anvil-hornet/F7C-Hornet" class="trans-02s">View  Specs and options<span></span></a>
@@ -1097,7 +1101,7 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/anvil-hornet/F7C-Hornet">
       <span class="name trans-02s">F7C Hornet<span class="focus trans-02s"> - Civilian Close Support</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
@@ -1105,25 +1109,7 @@ window.Main.destinations = destinations;
     </a>
     
     <div class="ajax-content trans-02s">
-    <div class="suggested-block">
-  <div class="top">
-    <div class="title">Anvil Hornet</div>
-    <div class="type">- Extras</div>
-  </div>
-  <div class="bottom">
-    <div class="price"><strong class="final-price">€119<span class="super">.12 <span class="currency">EUR</span></span></strong><div class="taxes js-taxes">
-  <div class="taxes-details trans-02s">
-    <div class="arrow"></div>
-    Tax Included: <br>
-    <ul>
-        <li>VAT 19%</li>
-        </ul>
-  </div>
-</div></div>
-
-  </div>
-</div>
-</div>
+    </div>
     
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
@@ -1643,7 +1629,7 @@ window.Main.destinations = destinations;
 </li>
 
     
-<li class="ship-item check available" data-ship-id="121">
+<li class="ship-item" data-ship-id="121">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/gladius/Gladius-Valiant" class="trans-02s">View  Specs and options<span></span></a>
@@ -1654,7 +1640,7 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/gladius/Gladius-Valiant">
       <span class="name trans-02s">Gladius Valiant<span class="focus trans-02s"> - Short-range Patrol Fighter</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
@@ -1662,25 +1648,7 @@ window.Main.destinations = destinations;
     </a>
     
     <div class="ajax-content trans-02s">
-    <div class="suggested-block">
-  <div class="top">
-    <div class="title">Aegis Gladius Valiant - LTI - UEE Warbond Version</div>
-    <div class="type">- Extras</div>
-  </div>
-  <div class="bottom">
-    <div class="price"><strong class="final-price">€108<span class="super">.29 <span class="currency">EUR</span></span></strong><div class="taxes js-taxes">
-  <div class="taxes-details trans-02s">
-    <div class="arrow"></div>
-    Tax Included: <br>
-    <ul>
-        <li>VAT 19%</li>
-        </ul>
-  </div>
-</div></div>
-
-  </div>
-</div>
-</div>
+    </div>
     
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
@@ -1703,7 +1671,7 @@ window.Main.destinations = destinations;
 </li>
 
     
-<li class="ship-item check available" data-ship-id="62">
+<li class="ship-item" data-ship-id="62">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/carrack/Carrack" class="trans-02s">View  Specs and options<span></span></a>
@@ -1714,7 +1682,7 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/carrack/Carrack">
       <span class="name trans-02s">Carrack<span class="focus trans-02s"> - Exploration</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
@@ -1722,25 +1690,7 @@ window.Main.destinations = destinations;
     </a>
     
     <div class="ajax-content trans-02s">
-    <div class="suggested-block">
-  <div class="top">
-    <div class="title">Anvil Carrack - Anniversary 2016</div>
-    <div class="type">- Extras</div>
-  </div>
-  <div class="bottom">
-    <div class="price"><strong class="final-price">€379<span class="super">.02 <span class="currency">EUR</span></span></strong><div class="taxes js-taxes">
-  <div class="taxes-details trans-02s">
-    <div class="arrow"></div>
-    Tax Included: <br>
-    <ul>
-        <li>VAT 19%</li>
-        </ul>
-  </div>
-</div></div>
-
-  </div>
-</div>
-</div>
+    </div>
     
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
@@ -1763,7 +1713,7 @@ window.Main.destinations = destinations;
 </li>
 
     
-<li class="ship-item check available" data-ship-id="59">
+<li class="ship-item" data-ship-id="59">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/redeemer/Redeemer" class="trans-02s">View  Specs and options<span></span></a>
@@ -1774,7 +1724,7 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/redeemer/Redeemer">
       <span class="name trans-02s">Redeemer<span class="focus trans-02s"> - Gunship</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
@@ -1782,25 +1732,7 @@ window.Main.destinations = destinations;
     </a>
     
     <div class="ajax-content trans-02s">
-    <div class="suggested-block">
-  <div class="top">
-    <div class="title">Aegis Redeemer</div>
-    <div class="type">- Extras</div>
-  </div>
-  <div class="bottom">
-    <div class="price"><strong class="final-price">€270<span class="super">.73 <span class="currency">EUR</span></span></strong><div class="taxes js-taxes">
-  <div class="taxes-details trans-02s">
-    <div class="arrow"></div>
-    Tax Included: <br>
-    <ul>
-        <li>VAT 19%</li>
-        </ul>
-  </div>
-</div></div>
-
-  </div>
-</div>
-</div>
+    </div>
     
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
@@ -2072,6 +2004,48 @@ window.Main.destinations = destinations;
     <span class="length spec">Length / Meters : <span>18.000</span></span>
     <span class="mass spec">Mass / Kg : <span>13000</span></span>
     <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/khu6mwy8zo5sar/icon/Consolidated_outland.png" height="31"></span>  
+  </div>
+
+</li>
+
+    
+<li class="ship-item" data-ship-id="127">
+  
+  <div class="top trans-02s">
+    <a href="/pledge/ships/vanguard/Vanguard-Hoplite" class="trans-02s">View  Specs and options<span></span></a>
+  </div>
+  <div class="center">
+    <img src="/media/zwyyyap3aa7wwr/store_large/Aegis_Vanguard_Hoplite_01.jpg" class="ship trans-02s">
+    <a class="gradient trans-02s" href="/pledge/ships/vanguard/Vanguard-Hoplite"></a>
+    <div class="blue-overlay"></div>
+    <a class="filet" href="/pledge/ships/vanguard/Vanguard-Hoplite">
+      <span class="name trans-02s">Vanguard Hoplite<span class="focus trans-02s"> - Dropship</span></span>
+      <div class="arrows">
+        <span class="arrow arrow1"></span>
+        <span class="arrow arrow2"></span>
+        <span class="arrow arrow3"></span>
+      </div>
+    </a>
+    
+    <div class="ajax-content trans-02s">
+    </div>
+    
+    <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
+      <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
+      <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
+    </a>
+
+    <a class="holosmallbtn trans-03s unavailable" href="/pledge/ships/vanguard/Vanguard-Hoplite" data-sku="">
+      <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
+      <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
+    </a>
+        
+  </div>
+  <div class="bottom trans-02s">
+    <span class="crew spec">Max Crew / Human : <span>2</span></span>
+    <span class="length spec">Length / Meters : <span>37.000</span></span>
+    <span class="mass spec">Mass / Kg : <span>45000</span></span>
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/1apfbr0v0vbnur/icon/Aegis.png" height="31"></span>  
   </div>
 
 </li>
@@ -2370,6 +2344,8 @@ window.Main.destinations = destinations;
 
 </li>
 
+  </ul>  
+ <ul class="ships-listing">
     
 <li class="ship-item" data-ship-id="3">
   
@@ -2412,8 +2388,6 @@ window.Main.destinations = destinations;
 
 </li>
 
-  </ul>  
- <ul class="ships-listing">
     
 <li class="ship-item" data-ship-id="4">
   
@@ -2792,6 +2766,8 @@ window.Main.destinations = destinations;
 
 </li>
 
+  </ul>  
+ <ul class="ships-listing">
     
 <li class="ship-item" data-ship-id="15">
   
@@ -2834,8 +2810,6 @@ window.Main.destinations = destinations;
 
 </li>
 
-  </ul>  
- <ul class="ships-listing">
     
 <li class="ship-item" data-ship-id="16">
   
@@ -3214,6 +3188,8 @@ window.Main.destinations = destinations;
 
 </li>
 
+  </ul>  
+ <ul class="ships-listing">
     
 <li class="ship-item" data-ship-id="36">
   
@@ -3256,8 +3232,6 @@ window.Main.destinations = destinations;
 
 </li>
 
-  </ul>  
- <ul class="ships-listing">
     
 <li class="ship-item" data-ship-id="37">
   
@@ -3636,8 +3610,10 @@ window.Main.destinations = destinations;
 
 </li>
 
+  </ul>  
+ <ul class="ships-listing">
     
-<li class="ship-item check available" data-ship-id="64">
+<li class="ship-item" data-ship-id="64">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/anvil-gladiator/Gladiator" class="trans-02s">View  Specs and options<span></span></a>
@@ -3648,7 +3624,7 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/anvil-gladiator/Gladiator">
       <span class="name trans-02s">Gladiator<span class="focus trans-02s"> - Carrier-based Bomber</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
@@ -3656,25 +3632,7 @@ window.Main.destinations = destinations;
     </a>
     
     <div class="ajax-content trans-02s">
-    <div class="suggested-block">
-  <div class="top">
-    <div class="title">Anvil Gladiator - Anniversary 2016</div>
-    <div class="type">- Extras</div>
-  </div>
-  <div class="bottom">
-    <div class="price"><strong class="final-price">€178<span class="super">.68 <span class="currency">EUR</span></span></strong><div class="taxes js-taxes">
-  <div class="taxes-details trans-02s">
-    <div class="arrow"></div>
-    Tax Included: <br>
-    <ul>
-        <li>VAT 19%</li>
-        </ul>
-  </div>
-</div></div>
-
-  </div>
-</div>
-</div>
+    </div>
     
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
@@ -3696,8 +3654,6 @@ window.Main.destinations = destinations;
 
 </li>
 
-  </ul>  
- <ul class="ships-listing">
     
 <li class="ship-item" data-ship-id="71">
   
@@ -3783,7 +3739,7 @@ window.Main.destinations = destinations;
 </li>
 
     
-<li class="ship-item check available" data-ship-id="89">
+<li class="ship-item" data-ship-id="89">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/misc-starfarer/Starfarer-Gemini" class="trans-02s">View  Specs and options<span></span></a>
@@ -3794,7 +3750,7 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/misc-starfarer/Starfarer-Gemini">
       <span class="name trans-02s">Starfarer Gemini<span class="focus trans-02s"> - Military Transport</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
@@ -3802,25 +3758,7 @@ window.Main.destinations = destinations;
     </a>
     
     <div class="ajax-content trans-02s">
-    <div class="suggested-block">
-  <div class="top">
-    <div class="title">Starfarer Gemini - Anniversary 2016</div>
-    <div class="type">- Extras</div>
-  </div>
-  <div class="bottom">
-    <div class="price"><strong class="final-price">€368<span class="super">.19 <span class="currency">EUR</span></span></strong><div class="taxes js-taxes">
-  <div class="taxes-details trans-02s">
-    <div class="arrow"></div>
-    Tax Included: <br>
-    <ul>
-        <li>VAT 19%</li>
-        </ul>
-  </div>
-</div></div>
-
-  </div>
-</div>
-</div>
+    </div>
     
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
@@ -3843,7 +3781,7 @@ window.Main.destinations = destinations;
 </li>
 
     
-<li class="ship-item check available" data-ship-id="90">
+<li class="ship-item" data-ship-id="90">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/reliant/Reliant-Kore-Mini-Hauler" class="trans-02s">View  Specs and options<span></span></a>
@@ -3854,7 +3792,7 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/reliant/Reliant-Kore-Mini-Hauler">
       <span class="name trans-02s">Reliant Kore - Mini Hauler<span class="focus trans-02s"> - Light Cargo</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
@@ -3862,25 +3800,7 @@ window.Main.destinations = destinations;
     </a>
     
     <div class="ajax-content trans-02s">
-    <div class="suggested-block">
-  <div class="top">
-    <div class="title">Reliant Kore - Anniversary 2016</div>
-    <div class="type">- Extras</div>
-  </div>
-  <div class="bottom">
-    <div class="price"><strong class="final-price">€70<span class="super">.39 <span class="currency">EUR</span></span></strong><div class="taxes js-taxes">
-  <div class="taxes-details trans-02s">
-    <div class="arrow"></div>
-    Tax Included: <br>
-    <ul>
-        <li>VAT 19%</li>
-        </ul>
-  </div>
-</div></div>
-
-  </div>
-</div>
-</div>
+    </div>
     
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
@@ -3903,7 +3823,7 @@ window.Main.destinations = destinations;
 </li>
 
     
-<li class="ship-item check available" data-ship-id="91">
+<li class="ship-item" data-ship-id="91">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/starliner/Genesis" class="trans-02s">View  Specs and options<span></span></a>
@@ -3914,7 +3834,7 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/starliner/Genesis">
       <span class="name trans-02s">Genesis<span class="focus trans-02s"> - Passenger Transit</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
@@ -3922,25 +3842,7 @@ window.Main.destinations = destinations;
     </a>
     
     <div class="ajax-content trans-02s">
-    <div class="suggested-block">
-  <div class="top">
-    <div class="title">Genesis Starliner - Anniversary 2016</div>
-    <div class="type">- Extras</div>
-  </div>
-  <div class="bottom">
-    <div class="price"><strong class="final-price">€433<span class="super">.16 <span class="currency">EUR</span></span></strong><div class="taxes js-taxes">
-  <div class="taxes-details trans-02s">
-    <div class="arrow"></div>
-    Tax Included: <br>
-    <ul>
-        <li>VAT 19%</li>
-        </ul>
-  </div>
-</div></div>
-
-  </div>
-</div>
-</div>
+    </div>
     
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
@@ -3963,7 +3865,7 @@ window.Main.destinations = destinations;
 </li>
 
     
-<li class="ship-item check unavailable" data-ship-id="93">
+<li class="ship-item" data-ship-id="93">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/esperia-glaive/Esperia-Glaive" class="trans-02s">View  Specs and options<span></span></a>
@@ -3974,7 +3876,7 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/esperia-glaive/Esperia-Glaive">
       <span class="name trans-02s">Esperia Glaive<span class="focus trans-02s"> - Medium Fighter</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
@@ -4005,7 +3907,7 @@ window.Main.destinations = destinations;
 </li>
 
     
-<li class="ship-item check available" data-ship-id="95">
+<li class="ship-item check unavailable" data-ship-id="95">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/vanguard/Vanguard-Harbinger" class="trans-02s">View  Specs and options<span></span></a>
@@ -4024,25 +3926,7 @@ window.Main.destinations = destinations;
     </a>
     
     <div class="ajax-content trans-02s">
-    <div class="suggested-block">
-  <div class="top">
-    <div class="title">Vanguard Harbinger - Anniversary 2016</div>
-    <div class="type">- Extras</div>
-  </div>
-  <div class="bottom">
-    <div class="price"><strong class="final-price">€303<span class="super">.21 <span class="currency">EUR</span></span></strong><div class="taxes js-taxes">
-  <div class="taxes-details trans-02s">
-    <div class="arrow"></div>
-    Tax Included: <br>
-    <ul>
-        <li>VAT 19%</li>
-        </ul>
-  </div>
-</div></div>
-
-  </div>
-</div>
-</div>
+    </div>
     
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
@@ -4065,7 +3949,7 @@ window.Main.destinations = destinations;
 </li>
 
     
-<li class="ship-item check available" data-ship-id="96">
+<li class="ship-item" data-ship-id="96">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/vanguard/Vanguard-Sentinel" class="trans-02s">View  Specs and options<span></span></a>
@@ -4076,7 +3960,7 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/vanguard/Vanguard-Sentinel">
       <span class="name trans-02s">Vanguard Sentinel<span class="focus trans-02s"> - E-Warfare</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
@@ -4084,25 +3968,7 @@ window.Main.destinations = destinations;
     </a>
     
     <div class="ajax-content trans-02s">
-    <div class="suggested-block">
-  <div class="top">
-    <div class="title">Vanguard Sentinel - Anniversary 2016</div>
-    <div class="type">- Extras</div>
-  </div>
-  <div class="bottom">
-    <div class="price"><strong class="final-price">€286<span class="super">.97 <span class="currency">EUR</span></span></strong><div class="taxes js-taxes">
-  <div class="taxes-details trans-02s">
-    <div class="arrow"></div>
-    Tax Included: <br>
-    <ul>
-        <li>VAT 19%</li>
-        </ul>
-  </div>
-</div></div>
-
-  </div>
-</div>
-</div>
+    </div>
     
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
@@ -4125,7 +3991,7 @@ window.Main.destinations = destinations;
 </li>
 
     
-<li class="ship-item check available" data-ship-id="97">
+<li class="ship-item" data-ship-id="97">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/misc-endeavor/Endeavor" class="trans-02s">View  Specs and options<span></span></a>
@@ -4136,7 +4002,7 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/misc-endeavor/Endeavor">
       <span class="name trans-02s">Endeavor<span class="focus trans-02s"> - Research Platform</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
@@ -4144,25 +4010,7 @@ window.Main.destinations = destinations;
     </a>
     
     <div class="ajax-content trans-02s">
-    <div class="suggested-block">
-  <div class="top">
-    <div class="title">Endeavor Base - Anniversary 2016</div>
-    <div class="type">- Extras</div>
-  </div>
-  <div class="bottom">
-    <div class="price"><strong class="final-price">€379<span class="super">.02 <span class="currency">EUR</span></span></strong><div class="taxes js-taxes">
-  <div class="taxes-details trans-02s">
-    <div class="arrow"></div>
-    Tax Included: <br>
-    <ul>
-        <li>VAT 19%</li>
-        </ul>
-  </div>
-</div></div>
-
-  </div>
-</div>
-</div>
+    </div>
     
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
@@ -4184,8 +4032,10 @@ window.Main.destinations = destinations;
 
 </li>
 
+  </ul>  
+ <ul class="ships-listing">
     
-<li class="ship-item check available" data-ship-id="98">
+<li class="ship-item" data-ship-id="98">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/sabre/Sabre" class="trans-02s">View  Specs and options<span></span></a>
@@ -4196,7 +4046,7 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/sabre/Sabre">
       <span class="name trans-02s">Sabre<span class="focus trans-02s"> - Fighter</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
@@ -4204,25 +4054,7 @@ window.Main.destinations = destinations;
     </a>
     
     <div class="ajax-content trans-02s">
-    <div class="suggested-block">
-  <div class="top">
-    <div class="title">Sabre - Anniversary 2016</div>
-    <div class="type">- Extras</div>
-  </div>
-  <div class="bottom">
-    <div class="price"><strong class="final-price">€184<span class="super">.09 <span class="currency">EUR</span></span></strong><div class="taxes js-taxes">
-  <div class="taxes-details trans-02s">
-    <div class="arrow"></div>
-    Tax Included: <br>
-    <ul>
-        <li>VAT 19%</li>
-        </ul>
-  </div>
-</div></div>
-
-  </div>
-</div>
-</div>
+    </div>
     
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
@@ -4244,10 +4076,8 @@ window.Main.destinations = destinations;
 
 </li>
 
-  </ul>  
- <ul class="ships-listing">
     
-<li class="ship-item check available" data-ship-id="99">
+<li class="ship-item" data-ship-id="99">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/aegis-retaliator/Retaliator-Base" class="trans-02s">View  Specs and options<span></span></a>
@@ -4258,7 +4088,7 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/aegis-retaliator/Retaliator-Base">
       <span class="name trans-02s">Retaliator Base<span class="focus trans-02s"> - Versatile Fighter</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
@@ -4266,25 +4096,7 @@ window.Main.destinations = destinations;
     </a>
     
     <div class="ajax-content trans-02s">
-    <div class="suggested-block">
-  <div class="top">
-    <div class="title">Aegis Retaliator Base - Anniversary 2016</div>
-    <div class="type">- Extras</div>
-  </div>
-  <div class="bottom">
-    <div class="price"><strong class="final-price">€162<span class="super">.44 <span class="currency">EUR</span></span></strong><div class="taxes js-taxes">
-  <div class="taxes-details trans-02s">
-    <div class="arrow"></div>
-    Tax Included: <br>
-    <ul>
-        <li>VAT 19%</li>
-        </ul>
-  </div>
-</div></div>
-
-  </div>
-</div>
-</div>
+    </div>
     
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
@@ -4349,7 +4161,7 @@ window.Main.destinations = destinations;
 </li>
 
     
-<li class="ship-item check available" data-ship-id="102">
+<li class="ship-item" data-ship-id="102">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/aegis-avenger/Avenger-Titan" class="trans-02s">View  Specs and options<span></span></a>
@@ -4360,7 +4172,7 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/aegis-avenger/Avenger-Titan">
       <span class="name trans-02s">Avenger Titan<span class="focus trans-02s"> - Light Cargo Hauler</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
@@ -4368,25 +4180,7 @@ window.Main.destinations = destinations;
     </a>
     
     <div class="ajax-content trans-02s">
-    <div class="suggested-block">
-  <div class="top">
-    <div class="title">Aegis Avenger Titan</div>
-    <div class="type">- Extras</div>
-  </div>
-  <div class="bottom">
-    <div class="price"><strong class="final-price">€54<span class="super">.15 <span class="currency">EUR</span></span></strong><div class="taxes js-taxes">
-  <div class="taxes-details trans-02s">
-    <div class="arrow"></div>
-    Tax Included: <br>
-    <ul>
-        <li>VAT 19%</li>
-        </ul>
-  </div>
-</div></div>
-
-  </div>
-</div>
-</div>
+    </div>
     
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
@@ -4409,7 +4203,7 @@ window.Main.destinations = destinations;
 </li>
 
     
-<li class="ship-item check available" data-ship-id="103">
+<li class="ship-item" data-ship-id="103">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/crucible/Crucible" class="trans-02s">View  Specs and options<span></span></a>
@@ -4420,7 +4214,7 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/crucible/Crucible">
       <span class="name trans-02s">Crucible<span class="focus trans-02s"> - Repair</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
@@ -4428,25 +4222,7 @@ window.Main.destinations = destinations;
     </a>
     
     <div class="ajax-content trans-02s">
-    <div class="suggested-block">
-  <div class="top">
-    <div class="title">Anvil Crucible - Anniversary 2016</div>
-    <div class="type">- Extras</div>
-  </div>
-  <div class="bottom">
-    <div class="price"><strong class="final-price">€379<span class="super">.02 <span class="currency">EUR</span></span></strong><div class="taxes js-taxes">
-  <div class="taxes-details trans-02s">
-    <div class="arrow"></div>
-    Tax Included: <br>
-    <ul>
-        <li>VAT 19%</li>
-        </ul>
-  </div>
-</div></div>
-
-  </div>
-</div>
-</div>
+    </div>
     
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
@@ -4469,7 +4245,7 @@ window.Main.destinations = destinations;
 </li>
 
     
-<li class="ship-item check available" data-ship-id="104">
+<li class="ship-item" data-ship-id="104">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/p52-merlin/P-72-Archimedes" class="trans-02s">View  Specs and options<span></span></a>
@@ -4480,7 +4256,7 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/p52-merlin/P-72-Archimedes">
       <span class="name trans-02s">P-72 Archimedes<span class="focus trans-02s"> - Versatile</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
@@ -4488,25 +4264,7 @@ window.Main.destinations = destinations;
     </a>
     
     <div class="ajax-content trans-02s">
-    <div class="suggested-block">
-  <div class="top">
-    <div class="title">Kruger P-72 Archimedes - Anniversary 2016</div>
-    <div class="type">- Extras</div>
-  </div>
-  <div class="bottom">
-    <div class="price"><strong class="final-price">€32<span class="super">.49 <span class="currency">EUR</span></span></strong><div class="taxes js-taxes">
-  <div class="taxes-details trans-02s">
-    <div class="arrow"></div>
-    Tax Included: <br>
-    <ul>
-        <li>VAT 19%</li>
-        </ul>
-  </div>
-</div></div>
-
-  </div>
-</div>
-</div>
+    </div>
     
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
@@ -4571,7 +4329,7 @@ window.Main.destinations = destinations;
 </li>
 
     
-<li class="ship-item" data-ship-id="106">
+<li class="ship-item check unavailable" data-ship-id="106">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/reliant/Reliant-Sen-Researcher" class="trans-02s">View  Specs and options<span></span></a>
@@ -4582,7 +4340,7 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/reliant/Reliant-Sen-Researcher">
       <span class="name trans-02s">Reliant Sen - Researcher<span class="focus trans-02s"> - Exploration</span></span>
-      <div class="arrows">
+      <div class="arrows" style="display: none;">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
@@ -4655,7 +4413,7 @@ window.Main.destinations = destinations;
 </li>
 
     
-<li class="ship-item check unavailable" data-ship-id="108">
+<li class="ship-item" data-ship-id="108">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/vanduul-blade/Esperia-Vanduul-Blade" class="trans-02s">View  Specs and options<span></span></a>
@@ -4666,7 +4424,7 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/vanduul-blade/Esperia-Vanduul-Blade">
       <span class="name trans-02s">Esperia Vanduul Blade<span class="focus trans-02s"> - Light Fighter</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
@@ -4696,8 +4454,10 @@ window.Main.destinations = destinations;
 
 </li>
 
+  </ul>  
+ <ul class="ships-listing">
     
-<li class="ship-item check available" data-ship-id="109">
+<li class="ship-item" data-ship-id="109">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/misc-prospector/Prospector" class="trans-02s">View  Specs and options<span></span></a>
@@ -4708,7 +4468,7 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/misc-prospector/Prospector">
       <span class="name trans-02s">Prospector<span class="focus trans-02s"> - Prospecting &amp; Mining</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
@@ -4716,25 +4476,7 @@ window.Main.destinations = destinations;
     </a>
     
     <div class="ajax-content trans-02s">
-    <div class="suggested-block">
-  <div class="top">
-    <div class="title">MISC Prospector - Anniversary 2016</div>
-    <div class="type">- Extras</div>
-  </div>
-  <div class="bottom">
-    <div class="price"><strong class="final-price">€151<span class="super">.61 <span class="currency">EUR</span></span></strong><div class="taxes js-taxes">
-  <div class="taxes-details trans-02s">
-    <div class="arrow"></div>
-    Tax Included: <br>
-    <ul>
-        <li>VAT 19%</li>
-        </ul>
-  </div>
-</div></div>
-
-  </div>
-</div>
-</div>
+    </div>
     
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
@@ -4756,8 +4498,6 @@ window.Main.destinations = destinations;
 
 </li>
 
-  </ul>  
- <ul class="ships-listing">
     
 <li class="ship-item" data-ship-id="111">
   
@@ -4843,7 +4583,7 @@ window.Main.destinations = destinations;
 </li>
 
     
-<li class="ship-item check available" data-ship-id="113">
+<li class="ship-item" data-ship-id="113">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/argo/MPUV-Personnel" class="trans-02s">View  Specs and options<span></span></a>
@@ -4854,7 +4594,7 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/argo/MPUV-Personnel">
       <span class="name trans-02s">MPUV Personnel<span class="focus trans-02s"> - Transport</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
@@ -4862,25 +4602,7 @@ window.Main.destinations = destinations;
     </a>
     
     <div class="ajax-content trans-02s">
-    <div class="suggested-block">
-  <div class="top">
-    <div class="title">MPUV Personnel - Anniversary 2016</div>
-    <div class="type">- Extras</div>
-  </div>
-  <div class="bottom">
-    <div class="price"><strong class="final-price">€43<span class="super">.32 <span class="currency">EUR</span></span></strong><div class="taxes js-taxes">
-  <div class="taxes-details trans-02s">
-    <div class="arrow"></div>
-    Tax Included: <br>
-    <ul>
-        <li>VAT 19%</li>
-        </ul>
-  </div>
-</div></div>
-
-  </div>
-</div>
-</div>
+    </div>
     
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
@@ -4903,7 +4625,7 @@ window.Main.destinations = destinations;
 </li>
 
     
-<li class="ship-item check available" data-ship-id="114">
+<li class="ship-item" data-ship-id="114">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/argo/MPUV-Cargo" class="trans-02s">View  Specs and options<span></span></a>
@@ -4914,7 +4636,7 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/argo/MPUV-Cargo">
       <span class="name trans-02s">MPUV Cargo<span class="focus trans-02s"> - Utility</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
@@ -4922,25 +4644,7 @@ window.Main.destinations = destinations;
     </a>
     
     <div class="ajax-content trans-02s">
-    <div class="suggested-block">
-  <div class="top">
-    <div class="title">MPUV Cargo - Anniversary 2016</div>
-    <div class="type">- Extras</div>
-  </div>
-  <div class="bottom">
-    <div class="price"><strong class="final-price">€37<span class="super">.90 <span class="currency">EUR</span></span></strong><div class="taxes js-taxes">
-  <div class="taxes-details trans-02s">
-    <div class="arrow"></div>
-    Tax Included: <br>
-    <ul>
-        <li>VAT 19%</li>
-        </ul>
-  </div>
-</div></div>
-
-  </div>
-</div>
-</div>
+    </div>
     
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
@@ -5005,7 +4709,7 @@ window.Main.destinations = destinations;
 </li>
 
     
-<li class="ship-item" data-ship-id="120">
+<li class="ship-item check available" data-ship-id="120">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/sabre/Sabre-Comet" class="trans-02s">View  Specs and options<span></span></a>
@@ -5016,7 +4720,7 @@ window.Main.destinations = destinations;
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/sabre/Sabre-Comet">
       <span class="name trans-02s">Sabre Comet<span class="focus trans-02s"> - Fighter</span></span>
-      <div class="arrows">
+      <div class="arrows" style="display: none;">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
@@ -5024,7 +4728,25 @@ window.Main.destinations = destinations;
     </a>
     
     <div class="ajax-content trans-02s">
-    </div>
+    <div class="suggested-block">
+  <div class="top">
+    <div class="title">Sabre Comet - Holiday 2016</div>
+    <div class="type">- Extras</div>
+  </div>
+  <div class="bottom">
+    <div class="price"><strong class="final-price">£176<span class="super">.12 <span class="currency">GBP</span></span></strong><div class="taxes js-taxes">
+  <div class="taxes-details trans-02s">
+    <div class="arrow"></div>
+    Tax Included: <br>
+    <ul>
+        <li>VAT 19%</li>
+        </ul>
+  </div>
+</div></div>
+
+  </div>
+</div>
+</div>
     
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
@@ -5084,6 +4806,48 @@ window.Main.destinations = destinations;
     <span class="length spec">Length / Meters : <span>13.000</span></span>
     <span class="mass spec">Mass / Kg : <span>8000</span></span>
     <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/0ffygmebwd3t1r/icon/Origin.png" height="31"></span>  
+  </div>
+
+</li>
+
+    
+<li class="ship-item" data-ship-id="126">
+  
+  <div class="top trans-02s">
+    <a href="/pledge/ships/razor/MISC-Razor" class="trans-02s">View  Specs and options<span></span></a>
+  </div>
+  <div class="center">
+    <img src="/media/18235dq8cydhur/store_large/Misc-Razer-Murray-Ringz-Paint-V5.jpg" class="ship trans-02s">
+    <a class="gradient trans-02s" href="/pledge/ships/razor/MISC-Razor"></a>
+    <div class="blue-overlay"></div>
+    <a class="filet" href="/pledge/ships/razor/MISC-Razor">
+      <span class="name trans-02s">MISC Razor<span class="focus trans-02s"> - Racing</span></span>
+      <div class="arrows">
+        <span class="arrow arrow1"></span>
+        <span class="arrow arrow2"></span>
+        <span class="arrow arrow3"></span>
+      </div>
+    </a>
+    
+    <div class="ajax-content trans-02s">
+    </div>
+    
+    <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
+      <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
+      <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
+    </a>
+
+    <a class="holosmallbtn trans-03s unavailable" href="/pledge/ships/razor/MISC-Razor" data-sku="">
+      <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
+      <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
+    </a>
+        
+  </div>
+  <div class="bottom trans-02s">
+    <span class="crew spec">Max Crew / Human : <span>1</span></span>
+    <span class="length spec">Length / Meters : <span>11.000</span></span>
+    <span class="mass spec">Mass / Kg : <span>6900</span></span>
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/6irnix69d4a8rr/icon/MISC.png" height="31"></span>  
   </div>
 
 </li>
@@ -6416,14 +6180,20 @@ window.Main.destinations = destinations;
                                                                 <li class="js-option option " rel="account_billing" >
                                                                         Account and Billing
                                                     </li>
+                                                                <li class="js-option option " rel="melt_request" >
+                                                                        Pledge Reclaim Request
+                                                    </li>
                                                                 <li class="js-option option " rel="merchandise" >
                                                                         Physical Merchandise
                                                     </li>
-                                                                <li class="js-option option " rel="probation" >
-                                                                        Forum Probation or Ban
-                                                    </li>
                                                                 <li class="js-option option " rel="hacked" >
                                                                         Hacked Account
+                                                    </li>
+                                                                <li class="js-option option " rel="account_recovery" >
+                                                                        Account Recovery
+                                                    </li>
+                                                                <li class="js-option option " rel="probation" >
+                                                                        Forum Probation or Ban
                                                     </li>
                                                                 <li class="js-option option " rel="refund_request" >
                                                                         Refunds
@@ -6439,9 +6209,11 @@ window.Main.destinations = destinations;
             <li id="tech_support_info">Questions about download, installation, networking, or in-game client problems</li>
             <li id="subscription_info">Questions about monthly and yearly subscription plans</li>
             <li id="account_billing_info">Issues related to your account, such as incorrect information or ability to access account, or Billing with regards to payments and payment methods</li>
+            <li id="melt_request_info">To reclaim a pledge over $1,000 for store credit (please note - this is a permanent action)</li>
             <li id="merchandise_info">Questions about physical and/or shipped merchandise</li>
-            <li id="probation_info">Issues related to forums probation or ban</li>
             <li id="hacked_info">Issues related to compromised account or missing pledge.</li>
+            <li id="account_recovery_info">For issues with account authentication, lost passwords and related queries</li>
+            <li id="probation_info">Issues related to forums probation or ban</li>
             <li id="refund_request_info">Refund requests and related inquiries</li>
             <li id="customer_support_info">For general questions and queries regarding Star Citizen</li>
           </ul>
@@ -6518,14 +6290,20 @@ window.Main.destinations = destinations;
                                                                 <li class="js-option option " rel="account_billing" >
                                                                         Account and Billing
                                                     </li>
+                                                                <li class="js-option option " rel="melt_request" >
+                                                                        Pledge Reclaim Request
+                                                    </li>
                                                                 <li class="js-option option " rel="merchandise" >
                                                                         Physical Merchandise
                                                     </li>
-                                                                <li class="js-option option " rel="probation" >
-                                                                        Forum Probation or Ban
-                                                    </li>
                                                                 <li class="js-option option " rel="hacked" >
                                                                         Hacked Account
+                                                    </li>
+                                                                <li class="js-option option " rel="account_recovery" >
+                                                                        Account Recovery
+                                                    </li>
+                                                                <li class="js-option option " rel="probation" >
+                                                                        Forum Probation or Ban
                                                     </li>
                                                                 <li class="js-option option " rel="refund_request" >
                                                                         Refunds
