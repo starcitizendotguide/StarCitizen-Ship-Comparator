@@ -1,4 +1,136 @@
-﻿<body id="store" class="pledge sku-listing">
+﻿<html style="background:url(/rsi/static/images/noisebg.gif) repeat center top #000b11;" class="csstransforms csstransforms3d csstransitions"><!--<![endif]--><head>
+    
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+
+<link href="//fonts.googleapis.com/css?family=Electrolize|Orbitron:400,500,700|Share+Tech+Mono" rel="stylesheet" type="text/css">
+
+
+<link href="/cache/en/rsi-css.css?v=1.5.3.2" media="all" rel="stylesheet">
+
+
+
+<!--[if lt IE 9]>
+  <script type="text/javascript" src="/cache/en/rsi-ie-js.js?v=1.5.3.2"></script>
+<![endif]-->
+<script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/api2/r20170411114922/recaptcha__en.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="/cache/en/rsi-js.js?v=1.5.3.2"></script>
+
+<!--[if IE]>
+  <link href="/cache/en/rsi-ie-css.css?v=1.5.3.2" media="all" rel="stylesheet" type="text/css">
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <script>
+    // JavaScript bind polyfill
+    if (!Function.prototype.bind) {
+      Function.prototype.bind = function (oThis) {
+        if (typeof this !== "function") {
+          // closest thing possible to the ECMAScript 5 internal IsCallable function
+          throw new TypeError("Function.prototype.bind - what is trying to be bound is not callable");
+        }
+
+        var aArgs = Array.prototype.slice.call(arguments, 1),
+            fToBind = this,
+            fNOP = function () {},
+            fBound = function () { return fToBind.apply(this instanceof fNOP && oThis ? this : oThis, aArgs.concat(Array.prototype.slice.call(arguments))); };
+
+        fNOP.prototype = this.prototype;
+        fBound.prototype = new fNOP();
+
+        return fBound;
+      };
+    }
+
+    // Request Animation Frame Polyfill
+    (function() {
+      var lastTime = 0;
+      var vendors = ['webkit', 'moz'];
+      for(var x = 0; x < vendors.length && !window.requestAnimationFrame; ++x) {
+        window.requestAnimationFrame = window[vendors[x]+'RequestAnimationFrame'];
+        window.cancelAnimationFrame = window[vendors[x]+'CancelAnimationFrame'] || window[vendors[x]+'CancelRequestAnimationFrame'];
+      }
+
+      if (!window.requestAnimationFrame) {
+        window.requestAnimationFrame = function(callback, element) {
+          var currTime = new Date().getTime();
+          var timeToCall = Math.max(0, 16 - (currTime - lastTime));
+          var id = window.setTimeout(function() { callback(currTime + timeToCall); }, timeToCall);
+          lastTime = currTime + timeToCall;
+            return id;
+        };
+      }
+
+      if (!window.cancelAnimationFrame) {
+        window.cancelAnimationFrame = function(id) {
+          clearTimeout(id);
+        };
+      }
+    }());
+  </script>
+<![endif]-->
+
+<script>
+  (function(i,s,o,g,r,a,m) { i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ 
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) 
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-39586040-1', 'robertsspaceindustries.com');
+  ga('send', 'pageview');
+</script>
+
+
+
+<script>
+window.recaptcha_is_loaded = false;
+window.on_recaptcha_load_callback = function() {
+  window.recaptcha_is_loaded = true;
+};
+</script>
+<script src="https://www.google.com/recaptcha/api.js?onload=on_recaptcha_load_callback&amp;render=explicit" async="" defer=""></script>
+
+
+    <meta name="description" content="">
+    <meta property="og:site_name" content="Roberts Space Industries">
+    <meta property="og:image" content="https://robertsspaceindustries.com/rsi/static/images/RSI-logo-fb.jpg">
+    <meta property="og:description" content="">
+
+    <title>
+Ships - Roberts Space Industries
+</title>
+    
+<script type="text/javascript" src="/js-codex/externals/jquery/plugins/jquery.history.js"></script>
+
+    <script type="text/javascript">
+      
+            $(document).ready(function() {
+        window.Common = new RSI.Common({});
+        window.Main = new RSI.Main({
+          'is_mobile':0,
+          'probation_cookie' : '',
+          'require_captcha': 0
+        });
+        window.Mark = new Turbulent.Mark({ 'name' : 'Rsi-XSRF', 'token' : 'irL9WA:UCm7HP6h6dShzVSoMMYsUQ', 'ttl' : 1800 });
+        
+        window.BottomNotifBar = new RSI.BottomNotifBar({});
+
+        var destinations = [];
+
+window.Main.destinations = destinations;
+        
+  window.Page = new RSI.StoreListing({
+    'store_prefix' : '/pledge',
+    'formFilters' : $('.js-filter-form'),
+    'storefront_name': 'pledge',
+    'innerResults': $('#search-results .inner')
+  });
+
+      });
+      $(window).load(function() {
+        
+      });
+    </script>
+      </head>
+  <body id="store" class="pledge sku-listing">
 
     
 
@@ -37,8 +169,8 @@
       <div class="oblique-menu line top-line-down">
         <div class="left"></div>
         <div class="middle">
-                      <div id="global-notification" class="good js-global-notification" style="">
-            <a href="https://robertsspaceindustries.com/spectrum/community/SC/forum/1/thread/star-citizen-alpha-2-6-1-to-live">              <div class="caption"><div>Alpha 2.6.1 Publish to Live!
+                      <div id="global-notification" class=" js-global-notification" style="">
+            <a href="https://robertsspaceindustries.com/getting-started">              <div class="caption"><div>New to Star Citizen? Click here to get started!
                             </div></div>
               <div class="left-chevrons">
                 <div class="chevron first"></div>
@@ -88,7 +220,7 @@
                     <img src="/media/b4681au2zr7scr/heap_note/Civilian.png" alt="Civilian" title="Civilian">
                   </div>
                   <div class="subs icon">
-                                      <img src="/rsi/static/images/profile/icon-backer.png" alt="Backer" title="Backer">
+                                      <img src="/rsi/static/images/profile/icon-subscriber.png" alt="Subscriber" title="Subscriber">
                                     </div>
                   <div class="org icon">
                     <a href="/orgs/SMAZING" title="SMAZING"><img src="/rsi/static/images/organization/defaults/thumbnail/generic.png" alt="SMAZING"></a>
@@ -111,14 +243,15 @@
                   </li>
                   <li class="credit rec">
                     REC
-                                        <span class="amount">¤40,000 REC</span>
+                                        <span class="amount">¤60,000 REC</span>
                   </li>
                 </ul>
 
                 <ul class="my-rsi-submenu">
                   <li class="submenu-item"><a href="/account/settings">My Account<span class="bordercorner"></span></a></li>
                   <li class="submenu-item"><a href="/account/pledges">My Hangar<span class="bordercorner"></span></a></li>
-                                                                </ul>
+                                                  <li class="submenu-item"><a href="/subscribers/vault">Subscribers<span class="bordercorner"></span></a></li>
+                                                </ul>
 
                 <div class="bottom-cutter-button sing-out-button">
                   <a class="action-link signout js-sign-out" href=""><span class="btn-txt">Sign Out<span class="noise"></span></span></a>
@@ -139,7 +272,7 @@
                     <img src="/media/b4681au2zr7scr/heap_note/Civilian.png" alt="Civilian" title="Civilian">
                   </div>
                   <div class="subs icon">
-                                      <img src="/rsi/static/images/profile/icon-backer.png" alt="Backer" title="Backer">
+                                      <img src="/rsi/static/images/profile/icon-subscriber.png" alt="Subscriber" title="Subscriber">
                                     </div>
                   <div class="org icon">
                     <a href="/orgs/SMAZING" title="SMAZING"><img src="/rsi/static/images/organization/defaults/thumbnail/generic.png" alt="SMAZING"></a>
@@ -217,11 +350,11 @@
       <div class="line-menu little js-line-little"></div>
       <div class="line-menu large"></div>
 
-      <nav><div class="main-nav main-menu js-main-nav"><a href="/about-the-game/spaceflight" class="nav-item js-nav-item js-about" data-sub-nav="about">Star Citizen</a><a href="/squadron42" class="nav-item js-nav-item js-squadron-42" data-sub-nav="squadron-42">Squadron 42</a><a href="/comm-link" class="nav-item js-nav-item js-commlink" data-sub-nav="commlink">Comm-Link</a><a href="/pledge" class="nav-item js-nav-item js-store active" data-sub-nav="store">Store</a><a href="/community" class="nav-item js-nav-item js-community" data-sub-nav="community">Community</a><a class="nav-item my-rsi js-my-rsi loggedin">My RSI</a></div><div class="main-nav mobile-menu js-main-nav"><a class="nav-item open-menu js-mobile-menu mobile-menu">Menu</a><a class="nav-item my-rsi js-my-rsi loggedin">My RSI<span></span></a></div><div class="inside-menu js-inside-menu desktop-menu"><div class="about js-about sub-nav" rel="about"><div class="col"><span class="menu-subtitle">Game</span><a href="/feature-list" class="link ">Game Features</a><a href="/download" class="link ">Download</a><a href="/funding-goals" class="link ">Funding</a><a href="/enlist?jumpto=%2Fpledge%2Fships" class="link ">Enlist</a></div><div class="col"><span class="menu-subtitle">Universe</span><a href="/about-the-game/spaceflight" class="link ">The Vision</a><a href="/starmap" class="link ">Starmap</a><a href="/ship-specs" class="link ">Ship Matrix</a></div><div class="col"><span class="menu-subtitle">Event</span><a href="/events" class="link ">All Events</a></div></div><div class="squadron-42 js-squadron-42 sub-nav" rel="squadron-42"><div class="col"><span class="menu-subtitle">Game</span><a href="/squadron42" class="link ">About the Game</a><a href="/pledge/Packages/Squadron-42-Standalone-Pledge" class="link ">Pledge Now</a></div></div><div class="commlink js-commlink sub-nav" rel="commlink"><div class="col"><span class="menu-subtitle">Latest News</span><a href="/comm-link" class="link with-arrow js-news-commlink-item hover " data-rel="all">All</a><a href="/comm-link/transmission" class="link with-arrow js-news-commlink-item  " data-rel="transmission">Transmissions</a><a href="/comm-link/citizens" class="link with-arrow js-news-commlink-item  " data-rel="citizens">Citizens</a><a href="/comm-link/engineering" class="link with-arrow js-news-commlink-item  " data-rel="engineering">Engineering</a><a href="/comm-link/spectrum-dispatch" class="link with-arrow js-news-commlink-item  " data-rel="spectrum_dispatch">Spectrum Dispatch</a></div><div class="col empty" rel="commlink-content"><div class="news-listing-wrapper"><div class="news-listing js-commlink-items js-commlink-all commlink-all active"><a class="item" href="/comm-link/transmission/15753-The-Anvil-Hurricane"><img src="/media/vgco9hcmodm8or/subscribers_vault_thumbnail/Flight-Copy.jpg"><h2 class="item-name">The Anvil Hurricane</h2></a><a class="item" href="/comm-link/transmission/15757-Around-The-Verse"><img src="/media/rwzhcko0sw46ur/subscribers_vault_thumbnail/Atv2.jpg"><h2 class="item-name">Around the Verse</h2></a><a class="item" href="/comm-link/transmission/15756-Loremakers-Guide-To-The-Galaxy"><img src="/media/kojrbu6qkhywpr/subscribers_vault_thumbnail/Magnus.jpg"><h2 class="item-name">Loremaker's Guide to the Galaxy</h2></a><div class="cboth"></div></div><div class="news-listing js-commlink-items js-commlink-transmission commlink-transmission "><a class="item" href="/comm-link/transmission/15753-The-Anvil-Hurricane"><img src="/media/vgco9hcmodm8or/subscribers_vault_thumbnail/Flight-Copy.jpg"><h2 class="item-name">The Anvil Hurricane</h2></a><a class="item" href="/comm-link/transmission/15757-Around-The-Verse"><img src="/media/rwzhcko0sw46ur/subscribers_vault_thumbnail/Atv2.jpg"><h2 class="item-name">Around the Verse</h2></a><a class="item" href="/comm-link/transmission/15756-Loremakers-Guide-To-The-Galaxy"><img src="/media/kojrbu6qkhywpr/subscribers_vault_thumbnail/Magnus.jpg"><h2 class="item-name">Loremaker's Guide to the Galaxy</h2></a><div class="cboth"></div></div><div class="news-listing js-commlink-items js-commlink-citizens commlink-citizens "><a class="item" href="/comm-link/citizens/15752-This-Week-In-Star-Citizen"><img src="/media/fki70iibfbo6zr/subscribers_vault_thumbnail/StarMarine8.jpg"><h2 class="item-name">This Week in Star Citizen</h2></a><a class="item" href="/comm-link/citizens/15710-This-Week-In-Star-Citizen"><img src="/media/lwbdtpd11xzrtr/subscribers_vault_thumbnail/Planet.jpg"><h2 class="item-name">This Week in Star Citizen</h2></a><a class="item" href="/comm-link/citizens/15698-This-Week-In-Star-Citizen"><img src="/media/lwbdtpd11xzrtr/subscribers_vault_thumbnail/Planet.jpg"><h2 class="item-name">This Week in Star Citizen</h2></a><div class="cboth"></div></div><div class="news-listing js-commlink-items js-commlink-engineering commlink-engineering "><a class="item" href="/comm-link/engineering/15062-Ship-Repair-And-Maintenance"><img src="/media/vxj1ppzl3xmhdr/subscribers_vault_thumbnail/AnvilcrucibleREARMAINTENANCE.jpg"><h2 class="item-name">Ship Repair and Maintenance</h2></a><a class="item" href="/comm-link/engineering/14974-Design-The-Endeavor"><img src="/media/ikzf72nss6tkpr/subscribers_vault_thumbnail/CO_Beauty_Supercollider.jpg"><h2 class="item-name">Design - The Endeavor</h2></a><a class="item" href="/comm-link/engineering/14826-Test-Drive-The-Origin-Jumpworks-300-Series"><img src="/media/eflwrbrty8znfr/subscribers_vault_thumbnail/350R_02.jpg"><h2 class="item-name">Test Drive the Origin Jumpworks 300 Series!</h2></a><div class="cboth"></div></div><div class="news-listing js-commlink-items js-commlink-spectrum_dispatch commlink-spectrum_dispatch "><a class="item" href="/comm-link/spectrum-dispatch/15754-Something-Every-Tuesday-Finding-Fiona"><img src="/media/cyzg5jr6n2ei5r/subscribers_vault_thumbnail/SET_FI1Clean.jpg"><h2 class="item-name">Something Every Tuesday: Finding Fiona</h2></a><a class="item" href="/comm-link/spectrum-dispatch/15713-Stoddard-Research-Center"><img src="/media/2cbls6qw6yokdr/subscribers_vault_thumbnail/StoddardResearchCenter.jpg"><h2 class="item-name">Stoddard Research Center</h2></a><a class="item" href="/comm-link/spectrum-dispatch/15700-Congress-Now-The-Kossi-Amendment"><img src="/media/mazl8yu1i7tn2r/subscribers_vault_thumbnail/CongressNowGraphic.jpg"><h2 class="item-name">Congress Now: The Kossi Amendment</h2></a><div class="cboth"></div></div></div></div></div><div class="store js-store sub-nav" rel="store"><div class="col"><span class="menu-subtitle">Store</span><a href="/pledge" class="link ">All Items</a><a href="/pledge/ships" class="link active">Ships</a><a href="/pledge/game-packages" class="link ">Game Packages</a><a href="/pledge/ship-upgrades" class="link ">Ship Upgrades</a></div><div class="col"><span class="menu-subtitle">&nbsp;</span><a href="/pledge/merchandise" class="link ">Merchandise</a><a href="/pledge/subscriptions" class="link ">Subscriptions</a><a href="/pledge/extras" class="link ">Extras</a><a href="/pledge/extras?product_id=67" class="link ">Event Tickets</a></div><div class="col"><span class="menu-subtitle">In Game</span><a href="/voyager-direct" class="link ">Voyager Direct</a><a href="/electronic-access" class="link ">Electronic Access</a><a href="/pledge/extras?product_id=41" class="link ">Game Credits</a></div><div class="col"><span class="menu-subtitle">Promotion</span><a href="/referral-program" class="link ">Referral Program</a><a href="/fly-now" class="link ">Fly now</a></div></div><div class="community js-community sub-nav" rel="community"><div class="col"><span class="menu-subtitle">Content</span><a href="/community" class="link ">Community Hub</a><a href="/community/citizen-spotlight" class="link ">Citizen Spotlight</a><a href="/community/deep-space-radar" class="link ">Deep Space Radar</a><a href="/community/livestreams" class="link ">Livestream</a></div><div class="col"><span class="menu-subtitle">Exchange</span><a href="/spectrum/community/SC" class="link ">Spectrum<span class="new">NEW</span></a><a href="https://forums.robertsspaceindustries.com" class="link ">Forums</a><a href="/community/chat" class="link ">Chat</a><a href="/community/orgs" class="link ">Organizations</a></div><div class="col"><span class="menu-subtitle">Tools</span><a href="/community/devtracker" class="link ">Dev Tracker</a><a href="/community/leaderboards/top" class="link ">Leaderboards</a><a href="/community/issue-council" class="link ">Issue Council</a></div></div></div><div class="mobile-menu-inner js-mobile-menu-inner"><div class="sub-nav first-level js-first-level"><a class="sub-nav-item js-nav-mobile-item js-about " data-sub-nav="about">Star Citizen</a><a class="sub-nav-item js-nav-mobile-item js-squadron-42 " data-sub-nav="squadron-42">Squadron 42</a><a class="sub-nav-item js-nav-mobile-item js-commlink " data-sub-nav="commlink">Comm-Link</a><a class="sub-nav-item js-nav-mobile-item js-store active" data-sub-nav="store">Store</a><a class="sub-nav-item js-nav-mobile-item js-community " data-sub-nav="community">Community</a></div><div class="sub-nav second-level js-second-level">  <div class="about js-about sub-nav js-sub-nav-section" rel="about">
+      <nav><div class="main-nav main-menu js-main-nav"><a href="/about-the-game/spaceflight" class="nav-item js-nav-item js-about" data-sub-nav="about">Star Citizen</a><a href="/squadron42" class="nav-item js-nav-item js-squadron-42" data-sub-nav="squadron-42">Squadron 42</a><a href="/comm-link" class="nav-item js-nav-item js-commlink" data-sub-nav="commlink">Comm-Link</a><a href="/pledge" class="nav-item js-nav-item js-store active" data-sub-nav="store">Store</a><a href="/community" class="nav-item js-nav-item js-community" data-sub-nav="community">Community</a><a class="nav-item my-rsi js-my-rsi loggedin">My RSI</a></div><div class="main-nav mobile-menu js-main-nav"><a class="nav-item open-menu js-mobile-menu mobile-menu">Menu</a><a class="nav-item my-rsi js-my-rsi loggedin">My RSI<span></span></a></div><div class="inside-menu js-inside-menu desktop-menu"><div class="about js-about sub-nav" rel="about"><div class="col"><span class="menu-subtitle">Game</span><a href="/getting-started" class="link ">Getting Started</a><a href="/download" class="link ">Download</a><a href="/funding-goals" class="link ">Funding</a><a href="/enlist?jumpto=%2Fpledge%2Fships" class="link ">Enlist</a></div><div class="col"><span class="menu-subtitle">Universe</span><a href="/about-the-game/spaceflight" class="link ">The Vision</a><a href="/starmap" class="link ">Starmap</a><a href="/ship-specs" class="link ">Ship Matrix</a></div><div class="col"><span class="menu-subtitle">Event</span><a href="/events" class="link ">All Events</a></div></div><div class="squadron-42 js-squadron-42 sub-nav" rel="squadron-42"><div class="col"><span class="menu-subtitle">Game</span><a href="/squadron42" class="link ">About the Game</a><a href="/pledge/Packages/Squadron-42-Standalone-Pledge" class="link ">Pledge Now</a></div></div><div class="commlink js-commlink sub-nav" rel="commlink"><div class="col"><span class="menu-subtitle">Latest News</span><a href="/comm-link" class="link with-arrow js-news-commlink-item hover " data-rel="all">All</a><a href="/comm-link/transmission" class="link with-arrow js-news-commlink-item  " data-rel="transmission">Transmissions</a><a href="/comm-link/citizens" class="link with-arrow js-news-commlink-item  " data-rel="citizens">Citizens</a><a href="/comm-link/engineering" class="link with-arrow js-news-commlink-item  " data-rel="engineering">Engineering</a><a href="/comm-link/spectrum-dispatch" class="link with-arrow js-news-commlink-item  " data-rel="spectrum_dispatch">Spectrum Dispatch</a></div><div class="col empty" rel="commlink-content"><div class="news-listing-wrapper"><div class="news-listing js-commlink-items js-commlink-all commlink-all active"><a class="item" href="/comm-link/transmission/15866-Jump-Point-Now-Available"><img src="/media/tkqjpcdxgs8ufr/subscribers_vault_thumbnail/Jp_cover_april_2017.jpg"><h2 class="item-name">Jump Point Now Available!</h2></a><a class="item" href="/comm-link/transmission/15862-Banu-Defender"><img src="/media/hh9wc0m0r6y5nr/subscribers_vault_thumbnail/20170407c-reduced.jpg"><h2 class="item-name">Banu Defender</h2></a><a class="item" href="/comm-link/transmission/15860-Around-The-Verse"><img src="/media/jfh72yhouutf8r/subscribers_vault_thumbnail/Banu.jpg"><h2 class="item-name">Around the Verse</h2></a><div class="cboth"></div></div><div class="news-listing js-commlink-items js-commlink-transmission commlink-transmission "><a class="item" href="/comm-link/transmission/15866-Jump-Point-Now-Available"><img src="/media/tkqjpcdxgs8ufr/subscribers_vault_thumbnail/Jp_cover_april_2017.jpg"><h2 class="item-name">Jump Point Now Available!</h2></a><a class="item" href="/comm-link/transmission/15862-Banu-Defender"><img src="/media/hh9wc0m0r6y5nr/subscribers_vault_thumbnail/20170407c-reduced.jpg"><h2 class="item-name">Banu Defender</h2></a><a class="item" href="/comm-link/transmission/15860-Around-The-Verse"><img src="/media/jfh72yhouutf8r/subscribers_vault_thumbnail/Banu.jpg"><h2 class="item-name">Around the Verse</h2></a><div class="cboth"></div></div><div class="news-listing js-commlink-items js-commlink-citizens commlink-citizens "><a class="item" href="/comm-link/citizens/15844-This-Week-In-Star-Citizen"><img src="/media/v0ijwfli7o5kor/subscribers_vault_thumbnail/Javelin_interior_5.jpg"><h2 class="item-name">This Week in Star Citizen</h2></a><a class="item" href="/comm-link/citizens/15825-This-Week-In-Star-Citizen"><img src="/media/vlz43yv9sou84r/subscribers_vault_thumbnail/ArcCorp.jpg"><h2 class="item-name">This Week in Star Citizen</h2></a><a class="item" href="/comm-link/citizens/15815-This-Week-In-Star-Citizen"><img src="/media/dqmqnwc85f0v3r/subscribers_vault_thumbnail/Javelin_Interior.jpg"><h2 class="item-name">This Week in Star Citizen</h2></a><div class="cboth"></div></div><div class="news-listing js-commlink-items js-commlink-engineering commlink-engineering "><a class="item" href="/comm-link/engineering/15062-Ship-Repair-And-Maintenance"><img src="/media/vxj1ppzl3xmhdr/subscribers_vault_thumbnail/AnvilcrucibleREARMAINTENANCE.jpg"><h2 class="item-name">Ship Repair and Maintenance</h2></a><a class="item" href="/comm-link/engineering/14974-Design-The-Endeavor"><img src="/media/ikzf72nss6tkpr/subscribers_vault_thumbnail/CO_Beauty_Supercollider.jpg"><h2 class="item-name">Design - The Endeavor</h2></a><a class="item" href="/comm-link/engineering/14826-Test-Drive-The-Origin-Jumpworks-300-Series"><img src="/media/eflwrbrty8znfr/subscribers_vault_thumbnail/350R_02.jpg"><h2 class="item-name">Test Drive the Origin Jumpworks 300 Series!</h2></a><div class="cboth"></div></div><div class="news-listing js-commlink-items js-commlink-spectrum_dispatch commlink-spectrum_dispatch "><a class="item" href="/comm-link/spectrum-dispatch/15850-DataCache-Nemesis"><img src="/media/iqkbyhsq9yvpgr/subscribers_vault_thumbnail/DataCache_FI2.jpg"><h2 class="item-name">DataCache: Nemesis</h2></a><a class="item" href="/comm-link/spectrum-dispatch/15827-Advocacy-Archive"><img src="/media/xduqto93d3twpr/subscribers_vault_thumbnail/Advocacy-Archive-Clean.jpg"><h2 class="item-name">Advocacy Archive</h2></a><a class="item" href="/comm-link/spectrum-dispatch/15819-Spectrum-Spectator-Strange-And-Stranger"><img src="/media/6r14ogp6otdosr/subscribers_vault_thumbnail/SpecSpec_FI1.jpg"><h2 class="item-name">Spectrum Spectator: Strange and Stranger</h2></a><div class="cboth"></div></div></div></div></div><div class="store js-store sub-nav" rel="store"><div class="col"><span class="menu-subtitle">Store</span><a href="/pledge" class="link ">All Items</a><a href="/pledge/ships" class="link active">Ships</a><a href="/pledge/game-packages" class="link ">Game Packages</a><a href="/pledge/ship-upgrades" class="link ">Ship Upgrades</a></div><div class="col"><span class="menu-subtitle">&nbsp;</span><a href="/pledge/merchandise" class="link ">Merchandise</a><a href="/pledge/subscriptions" class="link ">Subscriptions</a><a href="/pledge/extras" class="link ">Extras</a><a href="/pledge/extras?product_id=67" class="link ">Event Tickets</a></div><div class="col"><span class="menu-subtitle">In Game</span><a href="/voyager-direct" class="link ">Voyager Direct</a><a href="/electronic-access" class="link ">Electronic Access</a><a href="/pledge/extras?product_id=41" class="link ">Game Credits</a></div><div class="col"><span class="menu-subtitle">Promotion</span><a href="/referral-program" class="link ">Referral Program</a><a href="/fly-now" class="link ">Fly now</a></div></div><div class="community js-community sub-nav" rel="community"><div class="col"><span class="menu-subtitle">Content</span><a href="/community" class="link ">Community Hub</a><a href="/community/citizen-spotlight" class="link ">Citizen Spotlight</a><a href="/community/deep-space-radar" class="link ">Deep Space Radar</a><a href="/community/livestreams" class="link ">Livestream</a></div><div class="col"><span class="menu-subtitle">Exchange</span><a href="/spectrum/community/SC" class="link ">Spectrum</a><a href="/spectrum/community/SC#forum-channels" class="link ">Forums</a><a href="/spectrum/community/SC#chat-lobbies" class="link ">Chat</a><a href="/community/orgs" class="link ">Organizations</a></div><div class="col"><span class="menu-subtitle">Tools</span><a href="/community/devtracker" class="link ">Dev Tracker</a><a href="/community/leaderboards/top" class="link ">Leaderboards</a><a href="/community/issue-council" class="link ">Issue Council</a><a href="https://forums.robertsspaceindustries.com" class="link ">Forums Archive<span class="new">new</span></a></div></div></div><div class="mobile-menu-inner js-mobile-menu-inner"><div class="sub-nav first-level js-first-level"><a class="sub-nav-item js-nav-mobile-item js-about " data-sub-nav="about">Star Citizen</a><a class="sub-nav-item js-nav-mobile-item js-squadron-42 " data-sub-nav="squadron-42">Squadron 42</a><a class="sub-nav-item js-nav-mobile-item js-commlink " data-sub-nav="commlink">Comm-Link</a><a class="sub-nav-item js-nav-mobile-item js-store active" data-sub-nav="store">Store</a><a class="sub-nav-item js-nav-mobile-item js-community " data-sub-nav="community">Community</a></div><div class="sub-nav second-level js-second-level">  <div class="about js-about sub-nav js-sub-nav-section" rel="about">
     <a class="sub-nav-item back active js-back-mobile-menu js-nav-mobile-item" data-sub-nav="about">Star Citizen</a>
 
-                  <a href="/feature-list" class="sub-nav-item js-sub-nav-item ">
-          Game Features
+                  <a href="/getting-started" class="sub-nav-item js-sub-nav-item ">
+          Getting Started
         </a>
               <a href="/download" class="sub-nav-item js-sub-nav-item ">
           Download
@@ -338,10 +471,10 @@
                         <a href="/spectrum/community/SC" class="sub-nav-item js-sub-nav-item ">
           Spectrum
         </a>
-              <a href="https://forums.robertsspaceindustries.com" class="sub-nav-item js-sub-nav-item ">
+              <a href="/spectrum/community/SC#forum-channels" class="sub-nav-item js-sub-nav-item ">
           Forums
         </a>
-              <a href="/community/chat" class="sub-nav-item js-sub-nav-item ">
+              <a href="/spectrum/community/SC#chat-lobbies" class="sub-nav-item js-sub-nav-item ">
           Chat
         </a>
               <a href="/community/orgs" class="sub-nav-item js-sub-nav-item ">
@@ -355,6 +488,9 @@
         </a>
               <a href="/community/issue-council" class="sub-nav-item js-sub-nav-item ">
           Issue Council
+        </a>
+              <a href="https://forums.robertsspaceindustries.com" class="sub-nav-item js-sub-nav-item ">
+          Forums Archive
         </a>
             </div>
 </div></div></nav>
@@ -545,6 +681,9 @@
                       <a href="/pledge/extras?product_id=41" class="link">United Earth Credits</a>
                     </li>
                                       <li class="extra item">
+                      <a href="/pledge/extras?product_id=65" class="link">Subscribers Exclusive</a>
+                    </li>
+                                      <li class="extra item">
                       <a href="/pledge/extras?product_id=67" class="link">Event Tickets</a>
                     </li>
                                     <li class="clear"></li>
@@ -556,7 +695,7 @@
       <div class="js-selectlist selectlist currency-selector">
   <div class="arrow"></div>
   <span>
-              GBP            </span>
+              EUR            </span>
 
   <div class="scrollable body white" style="height: 67px;"><div class="scrollbar disable" style="height: 67px;"><div class="track" style="height: 67px;"><div class="thumb" style="display: none; height: 67px;"><div class="end"></div></div></div></div>
     <div class="viewport" style="height: 67px;">
@@ -565,9 +704,9 @@
         <ul class="body">
                     	                        <li class="js-option option " rel="USD">
               USD            </li>
-                                	                        <li class="js-option option " rel="EUR">
+                                	                        <li class="js-option option selected" rel="EUR">
               EUR            </li>
-                                	                        <li class="js-option option selected" rel="GBP">
+                                	                        <li class="js-option option " rel="GBP">
               GBP            </li>
                               </ul>
 
@@ -575,7 +714,7 @@
     </div>
   </div>
   
-  <input name="currency" class="js-currency ty-js-currency-selector js-form-data" id="currency" value="GBP" type="hidden">
+  <input name="currency" class="js-currency ty-js-currency-selector js-form-data" id="currency" value="EUR" type="hidden">
 	
 </div>
     </div>
@@ -1208,7 +1347,7 @@
 
 </li>
     
-<li class="ship-item check available" data-ship-id="128">
+<li class="ship-item" data-ship-id="128">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/hurricane/Hurricane" class="trans-02s">View  Specs and options<span></span></a>
@@ -1219,7 +1358,7 @@
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/hurricane/Hurricane">
       <span class="name trans-02s">Hurricane<span class="focus trans-02s"> - Heavy Fighter</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
@@ -1227,25 +1366,7 @@
     </a>
     
     <div class="ajax-content trans-02s">
-    <div class="suggested-block">
-  <div class="top">
-    <div class="title">Anvil Hurricane LTI - Warbond Edition</div>
-    <div class="type">- Extras</div>
-  </div>
-  <div class="bottom">
-    <div class="price"><strong class="final-price">£152<span class="super">.32 <span class="currency">GBP</span></span></strong><div class="taxes js-taxes">
-  <div class="taxes-details trans-02s">
-    <div class="arrow"></div>
-    Tax Included: <br>
-    <ul>
-        <li>VAT 19%</li>
-        </ul>
-  </div>
-</div></div>
-
-  </div>
-</div>
-</div>
+    </div>
     
     <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
       <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
@@ -1267,7 +1388,7 @@
 
 </li>
     
-<li class="ship-item check unavailable" data-ship-id="35">
+<li class="ship-item" data-ship-id="35">
   
   <div class="top trans-02s">
     <a href="/pledge/ships/khartu/Khartu-Al" class="trans-02s">View  Specs and options<span></span></a>
@@ -1278,7 +1399,7 @@
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/khartu/Khartu-Al">
       <span class="name trans-02s">Khartu-Al<span class="focus trans-02s"> - Light Fighter</span></span>
-      <div class="arrows" style="display: none;">
+      <div class="arrows">
         <span class="arrow arrow1"></span>
         <span class="arrow arrow2"></span>
         <span class="arrow arrow3"></span>
@@ -1941,6 +2062,66 @@
 </li>
 
     
+<li class="ship-item check available" data-ship-id="129">
+  
+  <div class="top trans-02s">
+    <a href="/pledge/ships/defender/Banu-Defender" class="trans-02s">View  Specs and options<span></span></a>
+  </div>
+  <div class="center">
+    <img src="/media/hh9wc0m0r6y5nr/store_large/20170407c-reduced.jpg" class="ship trans-02s">
+    <a class="gradient trans-02s" href="/pledge/ships/defender/Banu-Defender"></a>
+    <div class="blue-overlay"></div>
+    <a class="filet" href="/pledge/ships/defender/Banu-Defender">
+      <span class="name trans-02s">Banu Defender</span>
+      <div class="arrows" style="display: none;">
+        <span class="arrow arrow1"></span>
+        <span class="arrow arrow2"></span>
+        <span class="arrow arrow3"></span>
+      </div>
+    </a>
+    
+    <div class="ajax-content trans-02s">
+    <div class="suggested-block">
+  <div class="top">
+    <div class="title">Banu Defender - Warbond Edition</div>
+    <div class="type">- Extras</div>
+  </div>
+  <div class="bottom">
+    <div class="price"><strong class="final-price">€184<span class="super">.09 <span class="currency">EUR</span></span></strong><div class="taxes js-taxes">
+  <div class="taxes-details trans-02s">
+    <div class="arrow"></div>
+    Tax Included: <br>
+    <ul>
+        <li>VAT 19%</li>
+        </ul>
+  </div>
+</div></div>
+
+  </div>
+</div>
+</div>
+    
+    <a class="holosmallbtn trans-03s ty-js-add-to-cart available" href="/pledge" data-sku="">
+      <span class="holosmallbtn-top abs-overlay trans-02s">add to cart</span>
+      <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
+    </a>
+
+    <a class="holosmallbtn trans-03s unavailable" href="/pledge/ships/defender/Banu-Defender" data-sku="">
+      <span class="holosmallbtn-top abs-overlay trans-02s">view specs</span>
+      <span class="holosmallbtn-bottom abs-overlay trans-02s"></span>
+    </a>
+        
+  </div>
+  <div class="bottom trans-02s">
+    <span class="crew spec">Max Crew / Human : <span>2</span></span>
+    <span class="length spec">Length / Meters : <span>28.000</span></span>
+    <span class="mass spec">Mass / Kg : <span>18000</span></span>
+    <span class="manufacturer spec">Manufacturer : <img class="logo trans-03s" src="/media/3ktltnm6ph4cfr/icon/Banu.png" height="31"></span>  
+  </div>
+
+</li>
+
+    
 <li class="ship-item" data-ship-id="127">
   
   <div class="top trans-02s">
@@ -2192,6 +2373,8 @@
 
 </li>
 
+  </ul>  
+ <ul class="ships-listing">
     
 <li class="ship-item" data-ship-id="75">
   
@@ -2234,8 +2417,6 @@
 
 </li>
 
-  </ul>  
- <ul class="ships-listing">
     
 <li class="ship-item" data-ship-id="1">
   
@@ -2614,6 +2795,8 @@
 
 </li>
 
+  </ul>  
+ <ul class="ships-listing">
     
 <li class="ship-item" data-ship-id="13">
   
@@ -2656,8 +2839,6 @@
 
 </li>
 
-  </ul>  
- <ul class="ships-listing">
     
 <li class="ship-item" data-ship-id="14">
   
@@ -2833,7 +3014,7 @@
     <a href="/pledge/ships/drake-caterpillar/Caterpillar" class="trans-02s">View  Specs and options<span></span></a>
   </div>
   <div class="center">
-    <img src="/media/wde7ozthdqjnxr/store_large/Cat-Model-Render4.jpg" class="ship trans-02s">
+    <img src="/media/dal310l6yvw87r/store_large/Top.jpg" class="ship trans-02s">
     <a class="gradient trans-02s" href="/pledge/ships/drake-caterpillar/Caterpillar"></a>
     <div class="blue-overlay"></div>
     <a class="filet" href="/pledge/ships/drake-caterpillar/Caterpillar">
@@ -3036,6 +3217,8 @@
 
 </li>
 
+  </ul>  
+ <ul class="ships-listing">
     
 <li class="ship-item" data-ship-id="32">
   
@@ -3078,8 +3261,6 @@
 
 </li>
 
-  </ul>  
- <ul class="ships-listing">
     
 <li class="ship-item" data-ship-id="33">
   
@@ -3458,6 +3639,8 @@
 
 </li>
 
+  </ul>  
+ <ul class="ships-listing">
     
 <li class="ship-item" data-ship-id="57">
   
@@ -3500,8 +3683,6 @@
 
 </li>
 
-  </ul>  
- <ul class="ships-listing">
     
 <li class="ship-item" data-ship-id="58">
   
@@ -3880,6 +4061,8 @@
 
 </li>
 
+  </ul>  
+ <ul class="ships-listing">
     
 <li class="ship-item" data-ship-id="96">
   
@@ -3922,8 +4105,6 @@
 
 </li>
 
-  </ul>  
- <ul class="ships-listing">
     
 <li class="ship-item" data-ship-id="97">
   
@@ -4302,6 +4483,8 @@
 
 </li>
 
+  </ul>  
+ <ul class="ships-listing">
     
 <li class="ship-item" data-ship-id="107">
   
@@ -4344,8 +4527,6 @@
 
 </li>
 
-  </ul>  
- <ul class="ships-listing">
     
 <li class="ship-item" data-ship-id="108">
   
@@ -4724,6 +4905,8 @@
 
 </li>
 
+  </ul>  
+ <ul class="ships-listing">
     
 <li class="ship-item" data-ship-id="125">
   
@@ -4766,8 +4949,6 @@
 
 </li>
 
-  </ul>  
- <ul class="ships-listing">
     
 <li class="ship-item" data-ship-id="126">
   
@@ -4872,7 +5053,7 @@
         <div class="name">Star Citizen</div>
         <ul class="list-link">
                     
-                    <li class="item"><a href="/feature-list" class="link">Game Features</a></li>                    <li class="item"><a href="/download" class="link">Download</a></li>                    <li class="item"><a href="/funding-goals" class="link">Funding</a></li>                                                  
+                    <li class="item"><a href="/getting-started" class="link">Getting Started</a></li>                    <li class="item"><a href="/download" class="link">Download</a></li>                    <li class="item"><a href="/funding-goals" class="link">Funding</a></li>                                                  
                     <li class="item"><a href="/about-the-game/spaceflight" class="link">The Vision</a></li>                    <li class="item"><a href="/starmap" class="link">Starmap</a></li>                    <li class="item"><a href="/ship-specs" class="link">Ship Matrix</a></li>                              
                     <li class="item"><a href="/events" class="link">All Events</a></li>                            </ul>
       </div>
@@ -4902,8 +5083,8 @@
         <ul class="list-link">
                     
                     <li class="item"><a href="/community" class="link">Community Hub</a></li>                                                                                          
-                    <li class="item"><a href="/spectrum/community/SC" class="link">Spectrum</a></li>                    <li class="item"><a href="https://forums.robertsspaceindustries.com" class="link">Forums</a></li>                    <li class="item"><a href="/community/chat" class="link">Chat</a></li>                    <li class="item"><a href="/community/orgs" class="link">Organizations</a></li>                              
-                    <li class="item"><a href="/community/devtracker" class="link">Dev Tracker</a></li>                    <li class="item"><a href="/community/leaderboards/top" class="link">Leaderboards</a></li>                    <li class="item"><a href="/community/issue-council" class="link">Issue Council</a></li>                            </ul>
+                    <li class="item"><a href="/spectrum/community/SC" class="link">Spectrum</a></li>                    <li class="item"><a href="/spectrum/community/SC#forum-channels" class="link">Forums</a></li>                    <li class="item"><a href="/spectrum/community/SC#chat-lobbies" class="link">Chat</a></li>                    <li class="item"><a href="/community/orgs" class="link">Organizations</a></li>                              
+                    <li class="item"><a href="/community/devtracker" class="link">Dev Tracker</a></li>                    <li class="item"><a href="/community/leaderboards/top" class="link">Leaderboards</a></li>                    <li class="item"><a href="/community/issue-council" class="link">Issue Council</a></li>                    <li class="item"><a href="https://forums.robertsspaceindustries.com" class="link">Forums Archive</a></li>                            </ul>
       </div>
       
       <div class="col utilites">
@@ -4916,6 +5097,7 @@
           <li class="item"><a href="/tos/20" class="link">Terms of Services</a></li>
           <li class="item"><a href="/privacy" class="link">Privacy Policy</a></li>
           <li class="item"><a href="/eula" class="link">EULA</a></li>
+          <li class="item"><a href="/dmca" class="link">DMCA</a></li>
         </ul>
       </div>
 
@@ -6491,6 +6673,10 @@
 </script>
 
     </div>
+    
+     
+
+      
   
 
-<script style="display: none;" aria-hidden="true" type="application/x-lastpass" id="hiddenlpsubmitdiv"></script><script>try{(function() { for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){ var lastpass_f = document.forms[lastpass_iter]; if(typeof(lastpass_f.lpsubmitorig2)=="undefined"){ lastpass_f.lpsubmitorig2 = lastpass_f.submit; if (typeof(lastpass_f.lpsubmitorig2)=='object'){ continue;}lastpass_f.submit = function(){ var form=this; var customEvent = document.createEvent("Event"); customEvent.initEvent("lpCustomEvent", true, true); var d = document.getElementById("hiddenlpsubmitdiv"); if (d) {for(var i = 0; i < document.forms.length; i++){ if(document.forms[i]==form){ if (typeof(d.innerText) != 'undefined') { d.innerText=i.toString(); } else { d.textContent=i.toString(); } } } d.dispatchEvent(customEvent); }form.lpsubmitorig2(); } } }})()}catch(e){}</script></body>
+</body></html>
